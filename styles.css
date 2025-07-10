@@ -1,5 +1,7 @@
 body { font-family: Arial, Helvetica, sans-serif;}
+
 table, th, td { border:1px solid black; }
+
 .responseYes {
     background-color: green;
     color:  white;
@@ -17,10 +19,14 @@ table, th, td { border:1px solid black; }
     color:  black
 }
 
-.order {
+.rightJustifiedText {
     text-align: right;
 }
 
 .centeredText {
     text-align: center;
+}
+
+.leftJustifiedText {
+    text-align:  left;
 }
