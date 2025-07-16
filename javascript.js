@@ -164,6 +164,15 @@ const txt = `
             <method>Kurt</method>            
         </rsvp>
         <rsvp>
+            <last>Petry</last>
+            <first>Kathy</first>
+            <nee></nee>
+            <confirmation>yes</confirmation>
+            <guests>1</guests>
+            <comments>guests?</comments>
+            <method>Debbie</method>            
+        </rsvp>
+        <rsvp>
             <last>Snell</last>
             <first>Laura</first>
             <nee></nee>
@@ -221,7 +230,20 @@ const txt = `
 </xml>
 `;
 
-//to do:  add comment field (in XML) for questions
+// fetch('https://drive.google.com/file/d/157XCYHaAL_ePyxjsq_MuvoAmYeny3xJD/view')
+//   .then(response => {
+//     if (!response.ok) {
+//       throw new Error(`HTTP error! status: ${response.status}`);
+//     }
+//     return response.text(); // Use .json() for JSON files
+//   })
+//   .then(data => {
+//     console.log(data); // Process the file content
+//   })
+//   .catch(error => {
+//     console.error('Error fetching the file:', error);
+//   });
+
 
 const xmlDocument = new DOMParser().parseFromString(txt, "text/xml");
 
@@ -265,8 +287,8 @@ for(const rsvp of rsvps) {
 
     tbl.innerHTML +=
         `
-        <tr class="rightJustifiedText">
-            <td>${i}</td>
+        <tr>
+            <td class="rightJustifiedText">${i}</td>
             <td>${last}</td>
             <td>${first}</td>
             <td>${nee}</td>
