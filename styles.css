@@ -25,6 +25,11 @@ aside {
     color: black;
 }
 
+.demon {
+    width: 1%;
+    float: right;
+}
+
 table {
     border-collapse: collapse;
 }
