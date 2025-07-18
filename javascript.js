@@ -60,7 +60,7 @@ const txt = `
             <first>Matt</first>
             <nee></nee>
             <confirmation>yes</confirmation>
-            <guests>1</guests>
+            <guests></guests>
             <comments></comments>
             <method>Classmates.com</method>            
         </rsvp>
@@ -73,6 +73,15 @@ const txt = `
             <comments>guest?</comments>
             <method>André</method>            
         </rsvp>
+        <rsvp>
+            <last>Emm</last>
+            <first>Dave</first>
+            <nee></nee>
+            <confirmation>maybe</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Kurt</method>            
+        </rsvp>        
         <rsvp>
             <last>Everett</last>
             <first>Wesley</first>
@@ -147,11 +156,20 @@ const txt = `
         </rsvp>
         <rsvp>
             <last>Mozena</last>
+            <first>Jack</first>
+            <nee></nee>
+            <confirmation>yes</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Classmates.com</method>            
+        </rsvp>        
+        <rsvp>
+            <last>Mozena</last>
             <first>Patty</first>
             <nee>Krause</nee>
             <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>Jack?</comments>
+            <guests></guests>
+            <comments></comments>
             <method>Classmates.com</method>            
         </rsvp>
         <rsvp>
@@ -164,6 +182,15 @@ const txt = `
             <method>Kurt</method>            
         </rsvp>
         <rsvp>
+            <last>Pattridge</last>
+            <first>Matt</first>
+            <nee></nee>
+            <confirmation>maybe</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Kurt</method>
+        </rsvp>        
+        <rsvp>
             <last>Petry</last>
             <first>Kathy</first>
             <nee></nee>
@@ -172,6 +199,15 @@ const txt = `
             <comments>guests?</comments>
             <method>Debbie</method>            
         </rsvp>
+        <rsvp>
+            <last>Shih</last>
+            <first>Dwight</first>
+            <nee></nee>
+            <confirmation>maybe</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Kurt</method>            
+        </rsvp>        
         <rsvp>
             <last>Snell</last>
             <first>Laura</first>
@@ -200,6 +236,15 @@ const txt = `
             <method>Classmates.com</method>            
         </rsvp>
         <rsvp>
+            <last>Tubbs</last>
+            <first>Rob</first>
+            <nee></nee>
+            <confirmation>maybe</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Kurt</method>            
+        </rsvp>        
+        <rsvp>
             <last>van Meulebrouck</last>
             <first>André</first>
             <nee></nee>
@@ -213,10 +258,19 @@ const txt = `
             <first>Rob</first>
             <nee></nee>
             <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>Sherry?</comments>
+            <guests></guests>
+            <comments></comments>
             <method>Classmates.com</method>            
         </rsvp>
+        <rsvp>
+            <last>Vogel</last>
+            <first>Sherry</first>
+            <nee>Helbig</nee>
+            <confirmation>yes</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Kurt</method>            
+        </rsvp>        
         <rsvp>
             <last>Walter</last>
             <first>Dan</first>
@@ -225,7 +279,16 @@ const txt = `
             <guests></guests>
             <comments></comments>
             <method>Classmates.com</method>            
-        </rsvp>                           
+        </rsvp>
+        <rsvp>
+            <last>Wheeler</last>
+            <first>Wayne</first>
+            <nee></nee>
+            <confirmation>maybe</confirmation>
+            <guests></guests>
+            <comments></comments>
+            <method>Kurt</method>            
+        </rsvp>                    
     </rsvps>
 </xml>
 `;
