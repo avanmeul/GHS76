@@ -189,15 +189,6 @@ const txt = `
             <guests></guests>
             <comments></comments>
             <method>Kurt</method>
-        </rsvp>        
-        <rsvp>
-            <last>Petry</last>
-            <first>Kathy</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guests?</comments>
-            <method>Debbie</method>            
         </rsvp>
         <rsvp>
             <last>Shih</last>
@@ -288,7 +279,16 @@ const txt = `
             <guests></guests>
             <comments></comments>
             <method>Kurt</method>            
-        </rsvp>                    
+        </rsvp>
+        <rsvp>
+            <last>Wyant</last>
+            <first>Kathy</first>
+            <nee>Petry</nee>
+            <confirmation>yes</confirmation>
+            <guests>1</guests>
+            <comments></comments>
+            <method>Debbie</method>            
+        </rsvp>                          
     </rsvps>
 </xml>
 `;
