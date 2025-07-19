@@ -116,3 +116,7 @@ th {
     margin-left: 20px;
     vertical-align: middle; /* why isn't this working? */
 }
+
+.clsGreen {
+    color:  green;
+}
