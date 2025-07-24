@@ -26,9 +26,9 @@ aside {
 }
 
 aside.asiMascot {
-    width: 40%;
-    min-width: 150px;
-    max-width: 200px; 
+    /* width: 40%; */
+    min-width: 200px;
+    max-width: 300px; 
 }
 
 table {
@@ -107,16 +107,33 @@ th {
     width:  200px;
 }
 
+.clsMascotTitle {
+    text-align:  center
+}
+
 .ghsInfo {
     display: flex;
     flex-direction: row;
+    justify-content: left;
 }
 
 .ghsInfoText {
     margin-left: 20px;
-    vertical-align: middle; /* why isn't this working? */
 }
 
 .clsGreen {
     color:  green;
+}
+
+.clsImage {
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 223px;
+    /* height:  252px; */
+}
+
+.clsMascot {
+    width:  252px;
+    height: 252px;
 }

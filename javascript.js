@@ -1,5 +1,5 @@
-const txt = `
-<xml>
+const txt =
+`<xml>
     <rsvps>
         <rsvp>
             <last>Baumgardner</last>
@@ -307,6 +307,8 @@ const txt = `
 //     console.error('Error fetching the file:', error);
 //   });
 
+const txtXmlArea = document.getElementById("idXmlRSVPs");
+txtXmlArea.innerHTML = txt;
 
 const xmlDocument = new DOMParser().parseFromString(txt, "text/xml");
 
