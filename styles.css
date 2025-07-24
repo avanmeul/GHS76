@@ -137,3 +137,9 @@ th {
     width:  252px;
     height: 252px;
 }
+
+.idRsvpButtons {
+    display:  flex;
+    flex-direction: row;
+    justify-content: left;
+}

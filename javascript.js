@@ -1,4 +1,6 @@
-const txt =
+/*jshint esversion: 6 */
+
+const txtXml =
 `<xml>
     <rsvps>
         <rsvp>
@@ -293,6 +295,14 @@ const txt =
 </xml>
 `;
 
+function funInitPage() {
+    const txtXmlArea = document.getElementById("idXmlRSVPs");
+    txtXmlArea.innerHTML = txtXml;
+    populateRSVPs();
+    const txtXmlUpdate = document.getElementById("idXmlRSVPsUpdated")
+    txtXmlUpdate.innerHTML = "table populated";    
+}
+
 // fetch('https://drive.google.com/file/d/157XCYHaAL_ePyxjsq_MuvoAmYeny3xJD/view')
 //   .then(response => {
 //     if (!response.ok) {
@@ -307,67 +317,78 @@ const txt =
 //     console.error('Error fetching the file:', error);
 //   });
 
-const txtXmlArea = document.getElementById("idXmlRSVPs");
-txtXmlArea.innerHTML = txt;
+function populateRSVPs() {
 
-const xmlDocument = new DOMParser().parseFromString(txt, "text/xml");
+    const txtXmlArea = document.getElementById("idXmlRSVPs");
+    const xmlDocument = new DOMParser().parseFromString(txtXmlArea.value, "text/xml");
+    const rsvps = xmlDocument.querySelectorAll("rsvp");
+    const tbl = document.getElementById("tblRSVPs");
+    tbl.innerHTML = "";
 
-const rsvps = xmlDocument.querySelectorAll("rsvp");
-// const rsvpsSorted = rsvps.sort((a, b) => a.last.localeCompare(b.last));
-const tbl = document.getElementById("tblTest");
+    //sort the items first (to do)
 
-//sort the items first (to do)
+    let i = 0;
+    let yes = 0;
+    let totalGuests = 0;
+    let totalMaybes = 0;
+    let totalNos = 0;
+    for(const rsvp of rsvps) {
+        const last = rsvp.querySelector("last").textContent;
+        const first = rsvp.querySelector("first").textContent;
+        const nee = rsvp.querySelector("nee").textContent;
+        const confirmation = rsvp.querySelector("confirmation").textContent;
+        const guests = rsvp.querySelector("guests").textContent;
+        const comments = rsvp.querySelector("comments").textContent;
+        const method = rsvp.querySelector("method").textContent;
+        let responseClass = "no";
 
-let i = 0;
-let yes = 0;
-let totalGuests = 0;
-let totalMaybes = 0;
-let totalNos = 0;
-for(const rsvp of rsvps) {
-    const last = rsvp.querySelector("last").textContent;
-    const first = rsvp.querySelector("first").textContent;
-    const nee = rsvp.querySelector("nee").textContent;
-    const confirmation = rsvp.querySelector("confirmation").textContent;
-    const guests = rsvp.querySelector("guests").textContent;
-    const comments = rsvp.querySelector("comments").textContent;
-    const method = rsvp.querySelector("method").textContent;
-    let responseClass = "no";
+        switch (confirmation) {
+            case "yes":
+                yes += 1;
+                responseClass = "responseYes";
+                break;
+            case "maybe":
+                totalMaybes += 1;
+                responseClass = "responseMaybe";
+                break;
+            case "no":
+                totalNos += 1;
+                responseClass = "responseNo";
+                break; }
 
-    switch (confirmation) {
-        case "yes":
-            yes += 1;
-            responseClass = "responseYes";
-            break;
-        case "maybe":
-            totalMaybes += 1;
-            responseClass = "responseMaybe";
-            break;
-        case "no":
-            totalNos += 1;
-            responseClass = "responseNo";
-            break; }
+        i += 1;
+        totalGuests += Number(guests);
 
-    i += 1;
-    totalGuests += Number(guests);
-
-    tbl.innerHTML +=
-        `
-        <tr>
-            <td class="rightJustifiedText">${i}</td>
-            <td>${last}</td>
-            <td>${first}</td>
-            <td>${nee}</td>
-            <td class="${responseClass}">${confirmation}</td>
-            <td class="centeredText">${guests}</td>
-            <td>${comments}</td>
-            <td>${method}</td>
-        </tr>
-        `        
+        tbl.innerHTML +=
+            `
+            <tr>
+                <td class="rightJustifiedText">${i}</td>
+                <td>${last}</td>
+                <td>${first}</td>
+                <td>${nee}</td>
+                <td class="${responseClass}">${confirmation}</td>
+                <td class="centeredText">${guests}</td>
+                <td>${comments}</td>
+                <td>${method}</td>
+            </tr>
+            `
+        ;     
+    }
+    document.getElementById("spnYes").innerHTML = yes;
+    document.getElementById("spnGuests").innerHTML = totalGuests;
+    document.getElementById("spnMaybes").innerHTML = totalMaybes;
+    document.getElementById("spnNos").innerHTML = totalNos;
+    document.getElementById("spnAttendees").innerHTML = yes + totalGuests;
+    document.getElementById("spnPossible").innerHTML = yes + totalGuests + totalMaybes;
 }
 
-document.getElementById("spnYes").innerHTML = yes;
-document.getElementById("spnGuests").innerHTML = totalGuests;
-document.getElementById("spnMaybes").innerHTML = totalMaybes;
-document.getElementById("spnNos").innerHTML = totalNos;
-document.getElementById("spnAttendees").innerHTML = yes + totalGuests;
-document.getElementById("spnPossible").innerHTML = yes + totalGuests + totalMaybes;
+function jsRSVPsRefresh() {
+    populateRSVPs();
+    const xmlRSVPsUpdated = document.getElementById("idXmlRSVPsUpdated");
+    xmlRSVPsUpdated.innerHTML = "table updated";
+}
+
+function jsRSVPsCopyToClipboard() {
+    const xmlRSVPsUpdated = document.getElementById("idXmlRSVPsUpdated");
+    xmlRSVPsUpdated.innerHTML = "not implemented yet";
+}

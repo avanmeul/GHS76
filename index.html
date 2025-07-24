@@ -1,9 +1,20 @@
-<!DOCTYPE html>
 <!--
-to do:
-1) add sections "FAQ", "funny stories"
-2) add resources table, add GHS alumni + Facebook + us + google drive + Classmates.com
+release notes
+date:  24 Jul 25 Th
+1) RSVP table now allows XML updates.
+2) Javascript validator added.
 -->
+
+<!--
+to do (not necessarily in order of importance):
+1) add sections "FAQ", "funny stories", "mascot demonology"
+2) add resources table, add GHS alumni + Facebook + us + google drive + Classmates.com
+3) add button to RSVP section to allow re-rendering the RSVP table via button click
+4) figure out how to specify sorting function for custom sorts
+5) try reading xml from xml file
+-->
+
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -19,7 +30,7 @@ to do:
         <!-- <script src="https://apis.google.com/js/api.js"></script> -->
     </head>
 
-    <body>
+    <body onload="funInitPage();">
 
         <header>
 
@@ -48,11 +59,6 @@ to do:
             <div class="ghsInfo">
                 <div>
                     <h2>Table of Contents</h2>
-                    <!-- <aside class="demon">
-                        <picture>
-                            <img src="images/favicon.png" alt="GHS '76 AI generated mascot">
-                        </picture>
-                    </aside> -->
                     <nav>
                         <ol><li><a href="#secAboutGHS">About Golden High School</a></li>
                             <li><a href="#secReunion50">GHS '76, 50 year Reunion</a></li>
@@ -233,16 +239,22 @@ to do:
                             <th>RSVP method</th>
                         </tr>
                     </thead>
-                    <tbody id="tblTest">
+                    <tbody id="tblRSVPs">
                     </tbody>
                 </table>
 
             </div>
 
-            <p>Below is the XML used for the above table for XML-savvy stakeholders to edit.                               
-            </p>
+            <p>Below is the XML used for the above table for XML-savvy stakeholders to edit.</p>
 
             <textarea id="idXmlRSVPs">testing text area</textarea>
+
+            <div id="idRsvpButtons">
+                <button onclick="jsRSVPsRefresh()">refresh</button>
+                <button onclick="jsRSVPsCopyToClipboard()">copy to clipboard</button>
+            </div>
+
+            <textarea id="idXmlRSVPsUpdated">response will go here</textarea>
 
             <h3>Venues</h3>
 
@@ -722,11 +734,14 @@ to do:
 
             <p>Here are the validators used:</p>
 
-            <ol>
-                <li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
-                <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
-                <li><a href="https://www.w3schools.com/xml/xml_validator.asp" target="_blank">XML validator</a></li>
-            </ol>
+            <nav>
+                <ol>
+                    <li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
+                    <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
+                    <li><a href="https://www.w3schools.com/xml/xml_validator.asp" target="_blank">XML validator</a></li>
+                    <li><a href="https://www.site24x7.com/tools/javascript-validator.html" target="_blank">Javascript validator</a></li>
+                </ol>
+            </nav>  
 
             <p>Soli Deo gloria</p>
             
