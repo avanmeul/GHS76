@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-const txtXml =
+const txtXml = //to do:  get this from the text area on the HTML file and remove this from the Javascript file
 `<xml>
     <rsvps>
         <rsvp>
@@ -300,7 +300,8 @@ function funInitPage() {
     txtXmlArea.innerHTML = txtXml;
     populateRSVPs();
     const txtXmlUpdate = document.getElementById("idXmlRSVPsUpdated")
-    txtXmlUpdate.innerHTML = "table populated";    
+    txtXmlUpdate.innerHTML = "table populated";
+    // populateClassmates();
 }
 
 // fetch('https://drive.google.com/file/d/157XCYHaAL_ePyxjsq_MuvoAmYeny3xJD/view')
@@ -390,5 +391,42 @@ function jsRSVPsRefresh() {
 
 function jsRSVPsCopyToClipboard() {
     const xmlRSVPsUpdated = document.getElementById("idXmlRSVPsUpdated");
-    xmlRSVPsUpdated.innerHTML = "not implemented yet";
+    xmlRSVPsUpdated.innerHTML = "not implemented yet; do ctl-a (to select all), then ctl-c (to copy)";
 }
+
+function populateClassmates() {
+
+    const txtXMLclassmates = document.getElementById("txtClassmatesXML");
+    const tblClassmates = document.getElementById("tblClassmates");
+    const xmlDocument = new DOMParser().parseFromString(txtXMLclassmates.value, "text/xml");
+    const classmates = xmlDocument.querySelectorAll("classmate");
+    tblClassmates.innerHTML = "";
+    for (const classmate of classmates) {
+        const key = classmate.querySelector("key");
+        const last = classmate.querySelector("last");
+        const first = classmate.querySelector("first");
+        const middle = classmate.querySelector("middle");
+        const short = classmate.querySelector("short");
+        const prefix = classmate.querySelector("prefix");
+        const suffix = classmate.querySelector("suffix");
+        const title = classmate.querySelector("title");
+        const nee = classmate.querySelector("nee");
+        const reachable = classmate.querySelector("reachable");
+        const comment = classmate.querySelector("comment");
+        tblClassmates.innerHTML += `
+            <tr>
+                <td class="rightJustifiedText">${(key) ? key.textContent : ""}</td>
+                <td>${(last) ? last.textContent : ""}</td>
+                <td>${(first) ? first.textContent : ""}</td>
+                <td>${(middle) ? middle.textContent : ""}</td>
+                <td>${(short) ? short.textContent : ""}</td>
+                <td>${(prefix) ? prefix.textContent : ""}</td>
+                <td>${(suffix) ? suffix.textContent : ""}</td>
+                <td>${(title) ? title.textContent : ""}</td>
+                <td>${(nee) ? nee.textContent : ""}</td>
+                <td>${(reachable) ? (reachable.textContent === "1" ? "yes" : "no") : "no"}</td>
+                <td>${(comment) ? comment.textContent : ""}</td>
+        `
+    }
+
+ }

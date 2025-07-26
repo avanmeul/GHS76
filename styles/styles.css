@@ -63,11 +63,11 @@ th {
     float: right;
 }
 
-.clsRSVPs {
+.clsScollableTable {
     width:  100%;
 }
 
-.scrollableTable {
+.scrollableTable { /* rename this */
     width: 800px;
     height:  200px;
     overflow-y: auto;
