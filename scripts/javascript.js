@@ -1,307 +1,11 @@
 /*jshint esversion: 6 */
 
-const txtXml = //to do:  get this from the text area on the HTML file and remove this from the Javascript file
-`<xml>
-    <rsvps>
-        <rsvp>
-            <last>Baumgardner</last>
-            <first>Vicky</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Classmates.com</method>
-        </rsvp>
-        <rsvp>
-            <last>Beck</last>
-            <first>Shawn</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>2</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Beegles</last>
-            <first>Gail</first>
-            <nee>Schulz</nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Cameron</last>
-            <first>Susan</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>2</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Dalton</last>
-            <first>Debbie</first>
-            <nee>Davis</nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guest?</comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Doty</last>
-            <first>William</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Dugan</last>
-            <first>Matt</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Dunnewald</last>
-            <first>Pete</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guest?</comments>
-            <method>André</method>            
-        </rsvp>
-        <rsvp>
-            <last>Emm</last>
-            <first>Dave</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Everett</last>
-            <first>Wesley</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Hansen-Aran</last>
-            <first>Debbie</first>
-            <nee>Smyth</nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Hansford</last>
-            <first>George</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Hrouda</last>
-            <first>Kathy</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Kroeger</last>
-            <first>Kevin</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Leger</last>
-            <first>David</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Moncrieff</last>
-            <first>Kathleen</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Morris</last>
-            <first>William</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Mozena</last>
-            <first>Jack</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Mozena</last>
-            <first>Patty</first>
-            <nee>Krause</nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Papenfus</last>
-            <first>Kurt</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>
-        <rsvp>
-            <last>Pattridge</last>
-            <first>Matt</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>
-        </rsvp>
-        <rsvp>
-            <last>Petry</last>
-            <first>Kathy</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Debbie</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Shih</last>
-            <first>Dwight</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Snell</last>
-            <first>Laura</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Stewart</last>
-            <first>Mary</first>
-            <nee>Webster</nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guest?</comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Strawn</last>
-            <first>Kim</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Tubbs</last>
-            <first>Rob</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>van Meulebrouck</last>
-            <first>André</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>wife</comments>
-            <method>Classmates.com</method>            
-        </rsvp>                                                          
-        <rsvp>
-            <last>Vogel</last>
-            <first>Rob</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Vogel</last>
-            <first>Sherry</first>
-            <nee>Helbig</nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Walter</last>
-            <first>Dan</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Wheeler</last>
-            <first>Wayne</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>                        
-    </rsvps>
-</xml>
-`;
-
 function funInitPage() {
     const txtXmlArea = document.getElementById("idXmlRSVPs");
-    txtXmlArea.innerHTML = txtXml;
     populateRSVPs();
-    const txtXmlUpdate = document.getElementById("idXmlRSVPsUpdated")
+    const txtXmlUpdate = document.getElementById("idXmlRSVPsUpdated");
     txtXmlUpdate.innerHTML = "table populated";
-    // populateClassmates();
+    populateClassmates();
 }
 
 // fetch('https://drive.google.com/file/d/157XCYHaAL_ePyxjsq_MuvoAmYeny3xJD/view')
@@ -400,6 +104,7 @@ function populateClassmates() {
     const tblClassmates = document.getElementById("tblClassmates");
     const xmlDocument = new DOMParser().parseFromString(txtXMLclassmates.value, "text/xml");
     const classmates = xmlDocument.querySelectorAll("classmate");
+    let innerHTML = "";
     tblClassmates.innerHTML = "";
     for (const classmate of classmates) {
         const key = classmate.querySelector("key");
@@ -413,8 +118,8 @@ function populateClassmates() {
         const nee = classmate.querySelector("nee");
         const reachable = classmate.querySelector("reachable");
         const comment = classmate.querySelector("comment");
-        tblClassmates.innerHTML += `
-            <tr>
+        innerHTML +=
+            `<tr>
                 <td class="rightJustifiedText">${(key) ? key.textContent : ""}</td>
                 <td>${(last) ? last.textContent : ""}</td>
                 <td>${(first) ? first.textContent : ""}</td>
@@ -426,7 +131,7 @@ function populateClassmates() {
                 <td>${(nee) ? nee.textContent : ""}</td>
                 <td>${(reachable) ? (reachable.textContent === "1" ? "yes" : "no") : "no"}</td>
                 <td>${(comment) ? comment.textContent : ""}</td>
-        `
+            </tr>`;
     }
-
+    tblClassmates.innerHTML = innerHTML;
  }
