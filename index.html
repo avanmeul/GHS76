@@ -49,7 +49,7 @@ to do (not necessarily in order of importance):
         </header>
 
         <section id="secToC">
-            <!--to do:  aside does not scale correctly when the browser is minimized-->
+            <!--to do:  aside does not scale correctly when the browser is minimized, but this only happens with Norton browser-->
             <aside class="asiMascot">
                 <h2>sneak peek</h2>
                 <p>Kurt has provided an image showing the GHS mascot during our time.</p>
@@ -71,10 +71,14 @@ to do (not necessarily in order of importance):
                         </ol>
                     </nav>
                 </div>
-                <div class="clsImage">
+				<figure>
+					<img class="clsMascot" src="images/favicon.png" alt="GHS '76 AI generated mascot">
+					<figcaption>AI (<a href="https://gemini.google.com/app" target="_blank">Gemini</a>) generated class mascot.</figcaption>
+				</figure>
+                <!-- <div class="clsImage">
                     <img class="clsMascot" src="images/favicon.png" alt="GHS '76 AI generated mascot">
                     <p class="clsMascotTitle">AI generated class mascot.</p>
-                </div>
+                </div> -->
                 <!-- <div class="clsImage">
                     <img class="clsMascot" src="images/ghsMascot.png" alt="GHS '76 actual mascot">
                     <p>The mascot as it looked in our day.  Photo courtesy of Kurt.
@@ -91,13 +95,14 @@ to do (not necessarily in order of importance):
         <section id="secAboutGHS">
 
             <h2>About Golden High School</h2>
-
-            <!-- <a href="https://drive.google.com/file/d/1NiCqCgCtO5zFqmI12Hm4YUjaISikIAMO/view">text of google drive file</a> -->
-
             <div class="ghsInfo">
-                <div>
-                    <img src="images/GHScurrentCampus.png" alt="The modern day GHS campus.">
-                </div>
+				<figure>
+                    <img src="images/GHScurrentCampus.png" alt="Modern day GHS campus.">
+					<figcaption>GHS campus today.  
+						Photo by <a href="https://www.thebluebook.com/iProView/265958/nunn-construction/general-contractors//construction-projects/golden-high-school-297469/" 
+						target="_blank">Nunn Construction</a>.
+					</figcaption>
+				</figure>
                 <div class="ghsInfoText">
                     <p>
                         <em>Left</em>:  What GHS currently looks like.
@@ -250,7 +255,7 @@ to do (not necessarily in order of importance):
                 <summary>XML RSVP data</summary>
 
                 <p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
-
+<!--to do:  make xml sparse-->
                 <textarea id="idXmlRSVPs">
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>					
 <xml>
@@ -648,8 +653,8 @@ to do (not necessarily in order of importance):
             <p>You can do ctl-f in your browser to search for anyone you like, and the table (and/or XML) will scroll to the first hit.</p>
             <p></p>
 
-            <div class="scrollableTable">
-                <table class="clsScrollableTable">
+            <div class="scrollableTable2 id="divClassmates">
+                <table class="clsScrollableTable2">
                     <thead>
                         <tr>
                             <th>key</th>

@@ -58,18 +58,27 @@ th {
     color: white;
 }
 
-.demon {
-    width: 1%;
-    float: right;
+figcaption {
+    text-align: center;
+}
+
+.divClassmates {
+    width: 100%;
 }
 
 .clsScollableTable {
-    width:  100%;
+    width: 100%;
 }
 
 .scrollableTable { /* rename this */
     width: 800px;
-    height:  200px;
+    height: 200px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.scrollableTable2 { /* rename this */
+    height: 200px;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
@@ -105,10 +114,6 @@ th {
 
 .clsComments { /* why isn't this working? */
     width:  200px;
-}
-
-.clsMascotTitle {
-    text-align:  center
 }
 
 .ghsInfo {
