@@ -3,8 +3,8 @@
 function funInitPage() {
     const txtXmlArea = document.getElementById("idXmlRSVPs");
     populateRSVPs();
-    const txtXmlUpdate = document.getElementById("idXmlRSVPsUpdated");
-    txtXmlUpdate.innerHTML = "table populated";
+    const txtXmlTranscript = document.getElementById("idXmlRSVPsTranscript");
+    txtXmlTranscript.innerHTML = "table populated";
     populateClassmates();
 }
 
@@ -26,6 +26,21 @@ function populateRSVPs() {
 
     const txtXmlArea = document.getElementById("idXmlRSVPs");
     const xmlDocument = new DOMParser().parseFromString(txtXmlArea.value, "text/xml");
+    const txtXmlParsed = document.getElementById("idXmlRSVPsParsed");
+    const serializer = new XMLSerializer();
+    //must use value, innerHTML doesn't work
+    txtXmlParsed.value = serializer.serializeToString(xmlDocument); 
+    //check for errors
+    const errors = xmlDocument.querySelector("parsererror");
+    console.log("errors = " + errors);
+    if(errors) {
+        console.log("got into errors if statement");
+        const txtTranscript = document.getElementById("idXmlRSVPsTranscript");
+        txtTranscript.innerHTML = "table not updated due to parse errors";
+        
+        return;
+    }
+
     const rsvps = xmlDocument.querySelectorAll("rsvp");
     const tbl = document.getElementById("tblRSVPs");
     tbl.innerHTML = "";
@@ -85,17 +100,24 @@ function populateRSVPs() {
     document.getElementById("spnNos").innerHTML = totalNos;
     document.getElementById("spnAttendees").innerHTML = yes + totalGuests;
     document.getElementById("spnPossible").innerHTML = yes + totalGuests + totalMaybes;
+    const txtTranscript = document.getElementById("idXmlRSVPsTranscript");
+    txtTranscript.innerHTML = "table populated";
 }
 
 function jsRSVPsRefresh() {
     populateRSVPs();
-    const xmlRSVPsUpdated = document.getElementById("idXmlRSVPsUpdated");
-    xmlRSVPsUpdated.innerHTML = "table updated";
 }
 
 function jsRSVPsCopyToClipboard() {
-    const xmlRSVPsUpdated = document.getElementById("idXmlRSVPsUpdated");
+    const xmlRSVPsUpdated = document.getElementById("idXmlRSVPsTranscript");
     xmlRSVPsUpdated.innerHTML = "not implemented yet; do ctl-a (to select all), then ctl-c (to copy)";
+}
+
+function jsRSVPsClearXML() {
+    const txtXml = document.getElementById("idXmlRSVPsParsed");
+    txtXml.innerHTML = "";
+    const txtTranscript = document.getElementById("idXmlRSVPsTranscript");
+    txtTranscript.innerHTML = "xml response area cleared";
 }
 
 function populateClassmates() {
@@ -105,7 +127,6 @@ function populateClassmates() {
     const xmlDocument = new DOMParser().parseFromString(txtXMLclassmates.value, "text/xml");
     const classmates = xmlDocument.querySelectorAll("classmate");
     let innerHTML = "";
-    tblClassmates.innerHTML = "";
     for (const classmate of classmates) {
         const key = classmate.querySelector("key");
         const last = classmate.querySelector("last");

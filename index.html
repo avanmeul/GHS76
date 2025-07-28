@@ -1,8 +1,9 @@
 <!--
 release notes
-date:  26 Jul 25 Saturday
-1) added classmates table and XML data section
-2) removed XML RSVP data from script into HTML
+date:  28 Jul 25 Monday
+1) added error trapping to XML section of RSVPs
+2) added mascot section
+3) updated reachable (etc.) data in XML and spreadsheet
 -->
 
 <!--
@@ -26,7 +27,6 @@ to do (not necessarily in order of importance):
         <title>GHS '76</title>
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="styles/styles.css">
-        <!-- <script src="https://apis.google.com/js/api.js"></script> -->
     </head>
 
     <body onload="funInitPage();">
@@ -51,9 +51,9 @@ to do (not necessarily in order of importance):
         <section id="secToC">
             <!--to do:  aside does not scale correctly when the browser is minimized, but this only happens with Norton browser-->
             <aside class="asiMascot">
-                <h2>sneak peek</h2>
-                <p>Kurt has provided an image showing the GHS mascot during our time.</p>
-                <p>It will be posted soon.</p>
+                <h2>FYI</h2>
+                <p>The GHS demon mascot has undergone many changes.</p>
+                <p>See section <a href="secMascot">Mascot</a> to see what it looked like in our day.</p>
             </aside>
             <div class="ghsInfo">
                 <div>
@@ -64,9 +64,9 @@ to do (not necessarily in order of importance):
                             <li><a href="#secContacts">Contacts</a></li>
                             <li><a href="#secAlumni">Alumni Resources</a></li>
                             <li><a href="#secDeceased">Deceased Classmates</a></li>
-                            <li><a href="#secStatistics">Statistics about our class</a>  (geeky?!?)</li>                        
+                            <li><a href="#secStatistics">Statistics about our class</a>  (geeky?!?)</li>
+							<li><a href="#secMascot">Mascot</a></li>                      
                             <li><a href="#secMusic">Music</a></li>
-                            <!--mascot-->
                             <li><a href="#secWebsite">About this Website</a></li>
                         </ol>
                     </nav>
@@ -228,9 +228,8 @@ to do (not necessarily in order of importance):
                 <span id="spnPossible"></span>).
             </p>
 
-            <div class="scrollableTable">
-
-                <table class="clsScrollableTable">
+            <div class="divScrollable">
+                <table class="tblScrollable">
                     <thead>
                         <tr>
                             <th class="rightJustifiedText">#</th>
@@ -555,9 +554,13 @@ to do (not necessarily in order of importance):
                 <div id="idRsvpButtons">
                     <button onclick="jsRSVPsRefresh()">refresh</button>
                     <button onclick="jsRSVPsCopyToClipboard()">copy to clipboard</button>
+					<button onclick="jsRSVPsClearXML()">clear XML</button>
                 </div>
 
-                <textarea id="idXmlRSVPsUpdated">response will go here</textarea>
+				<p>transcript</p>
+                <textarea id="idXmlRSVPsTranscript">response will go here</textarea>
+				<p>parsed xml</p>
+                <textarea id="idXmlRSVPsParsed">response will go here</textarea>
 
             </details>
 
@@ -653,8 +656,8 @@ to do (not necessarily in order of importance):
             <p>You can do ctl-f in your browser to search for anyone you like, and the table (and/or XML) will scroll to the first hit.</p>
             <p></p>
 
-            <div class="scrollableTable2 id="divClassmates">
-                <table class="clsScrollableTable2">
+            <div class="divScrollable">
+                <table class="tblScrollable">
                     <thead>
                         <tr>
                             <th>key</th>
@@ -810,6 +813,7 @@ to do (not necessarily in order of importance):
 		<first>Louis</first>
 		<short>Rick</short>
 		<title>II</title>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>21</key>
@@ -1529,6 +1533,7 @@ to do (not necessarily in order of importance):
 		<last>Edelen</last>
 		<first>Gary</first>
 		<middle>D.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>138</key>
@@ -1855,6 +1860,8 @@ to do (not necessarily in order of importance):
 		<last>Hageman</last>
 		<first>Edward</first>
 		<middle>J.</middle>
+		<short>Eddy</short>
+		<reachable>1</reachable>		
 	</classmate>
 	<classmate>
 		<key>191</key>
@@ -3402,6 +3409,7 @@ to do (not necessarily in order of importance):
 		<key>443</key>
 		<last>Shih</last>
 		<first>Dwight</first>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>444</key>
@@ -3899,7 +3907,8 @@ to do (not necessarily in order of importance):
 		<last>Wheeler</last>
 		<first>David</first>
 		<middle>M.</middle>
-		<short>Wheels</short>
+		<short>Dave</short>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>524</key>
@@ -4254,6 +4263,48 @@ to do (not necessarily in order of importance):
             <a href="#secToC">go back to Table of Contents</a>
 
         </section>
+
+		<section id="secMascot">
+
+			<h2>Mascot</h2>
+
+			<p>The mascot has undergone many transformations over the years.</p>
+
+			<p>The history of the demon mascot is described in an <a href="https://www.goldentoday.com/where-do-little-demons-come-from/" target="_blank">
+				article that appeared in "Golden Today"</a>.
+			</p>
+
+			<p>The original drawing (1963) of "Demon Dan" can be seen in the 
+				<a href="https://www.goldenhighalumni.org/gallery" target="_blank">Golden High Alumni gallery</a>.
+			</p>
+
+			<div class="ghsInfo">
+				<figure>
+					<img src="images/ghsMascot.png" alt="GHS '76 mascot">
+					<figcaption class="figLeftJustified">Mascot photo courtesy of Kurt.</figcaption>
+				</figure>
+				<div class="divJustifyCenter">
+					<p>This is what the mascot looked like during our days.</p>
+					<p>The demon on the left is affectionately known as "Demon Dan".</p>
+				</div>
+			</div>
+			
+			<div class="ghsInfo">
+				<figure>
+					<img src="images/joyfulDemon.png" alt="joyful demon">
+					<figcaption class="figLeftJustified">AI (<a href="https://gemini.google.com/app" target="_blank">Gemini</a>) generated image.</figcaption>
+				</figure>
+				<div class=divJustifyCenter">
+					<p>Some people think the demon mascot is too dark and sinister.</p>
+					<p>As long as the mascot is fair game to undergo transformations, here is a joyful mascot.</p>
+				</div>
+			</div>
+
+			<p>It would be interesting to hear what fellow classmates think of the GHS mascot!</p>
+
+			<a href="#secToC">go back to Table of Contents</a>
+
+		</section>
 
         <section id="secMusic">
 
