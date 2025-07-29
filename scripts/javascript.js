@@ -32,12 +32,9 @@ function populateRSVPs() {
     txtXmlParsed.value = serializer.serializeToString(xmlDocument); 
     //check for errors
     const errors = xmlDocument.querySelector("parsererror");
-    console.log("errors = " + errors);
     if(errors) {
-        console.log("got into errors if statement");
         const txtTranscript = document.getElementById("idXmlRSVPsTranscript");
         txtTranscript.innerHTML = "table not updated due to parse errors";
-        
         return;
     }
 
