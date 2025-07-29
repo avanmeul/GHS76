@@ -49,6 +49,7 @@ function populateRSVPs() {
     let totalGuests = 0;
     let totalMaybes = 0;
     let totalNos = 0;
+    rows = [];
     for(const rsvp of rsvps) {
         const last = rsvp.querySelector("last").textContent;
         const first = rsvp.querySelector("first").textContent;
@@ -75,10 +76,8 @@ function populateRSVPs() {
 
         i += 1;
         totalGuests += Number(guests);
-
-        tbl.innerHTML +=
-            `
-            <tr>
+        const nextRow = 
+           `<tr>
                 <td class="rightJustifiedText">${i}</td>
                 <td>${last}</td>
                 <td>${first}</td>
@@ -87,10 +86,10 @@ function populateRSVPs() {
                 <td class="centeredText">${guests}</td>
                 <td>${comments}</td>
                 <td>${method}</td>
-            </tr>
-            `
-        ;     
+            </tr>`;
+        rows.push(nextRow);    
     }
+    tbl.innerHTML = rows.join('');
     document.getElementById("spnYes").innerHTML = yes;
     document.getElementById("spnGuests").innerHTML = totalGuests;
     document.getElementById("spnMaybes").innerHTML = totalMaybes;
@@ -118,12 +117,11 @@ function jsRSVPsClearXML() {
 }
 
 function populateClassmates() {
-
     const txtXMLclassmates = document.getElementById("txtClassmatesXML");
     const tblClassmates = document.getElementById("tblClassmates");
     const xmlDocument = new DOMParser().parseFromString(txtXMLclassmates.value, "text/xml");
     const classmates = xmlDocument.querySelectorAll("classmate");
-    let innerHTML = "";
+    let rows = [];
     for (const classmate of classmates) {
         const key = classmate.querySelector("key");
         const last = classmate.querySelector("last");
@@ -136,9 +134,10 @@ function populateClassmates() {
         const nee = classmate.querySelector("nee");
         const reachable = classmate.querySelector("reachable");
         const comment = classmate.querySelector("comment");
-        innerHTML +=
+        const nextRow = 
             `<tr>
                 <td class="rightJustifiedText">${(key) ? key.textContent : ""}</td>
+                <td>${(nee) ? nee.textContent : ""}</td>
                 <td>${(last) ? last.textContent : ""}</td>
                 <td>${(first) ? first.textContent : ""}</td>
                 <td>${(middle) ? middle.textContent : ""}</td>
@@ -146,10 +145,10 @@ function populateClassmates() {
                 <td>${(prefix) ? prefix.textContent : ""}</td>
                 <td>${(suffix) ? suffix.textContent : ""}</td>
                 <td>${(title) ? title.textContent : ""}</td>
-                <td>${(nee) ? nee.textContent : ""}</td>
                 <td>${(reachable) ? (reachable.textContent === "1" ? "yes" : "no") : "no"}</td>
                 <td>${(comment) ? comment.textContent : ""}</td>
             </tr>`;
+        rows.push(nextRow);
     }
-    tblClassmates.innerHTML = innerHTML;
+    tblClassmates.innerHTML = rows.join('');
  }
