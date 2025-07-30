@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/* jshint esversion: 6 */
 
 function funInitPage() {
     const txtXmlArea = document.getElementById("idXmlRSVPs");
@@ -7,6 +7,8 @@ function funInitPage() {
     txtXmlTranscript.innerHTML = "table populated";
     populateClassmates();
 }
+
+//the following might be useful for Google Drive API
 
 // fetch('https://drive.google.com/file/d/157XCYHaAL_ePyxjsq_MuvoAmYeny3xJD/view')
 //   .then(response => {
@@ -140,19 +142,32 @@ function populateClassmates() {
         const nee = classmate.querySelector("nee");
         const reachable = classmate.querySelector("reachable");
         const comment = classmate.querySelector("comment");
+        const reach = reachable ? reachable.textContent: "";
+        let reachText = null;
+        let reachableClass = null;
+        switch(reach) {
+            case "1":
+                reachableClass = "responseYes";
+                reachText = "yes";
+                break;
+            default:
+                reachableClass = "responseNo";
+                reachText = "no";
+                break;
+        }
         const nextRow = 
             `<tr>
                 <td class="rightJustifiedText">${(key) ? key.textContent : ""}</td>
-                <td>${(nee) ? nee.textContent : ""}</td>
-                <td>${(last) ? last.textContent : ""}</td>
-                <td>${(first) ? first.textContent : ""}</td>
-                <td>${(middle) ? middle.textContent : ""}</td>
-                <td>${(short) ? short.textContent : ""}</td>
-                <td>${(prefix) ? prefix.textContent : ""}</td>
-                <td>${(suffix) ? suffix.textContent : ""}</td>
-                <td>${(title) ? title.textContent : ""}</td>
-                <td>${(reachable) ? (reachable.textContent === "1" ? "yes" : "no") : "no"}</td>
-                <td>${(comment) ? comment.textContent : ""}</td>
+                <td>${nee ? nee.textContent : ""}</td>
+                <td>${last ? last.textContent : ""}</td>
+                <td>${first ? first.textContent : ""}</td>
+                <td>${middle ? middle.textContent : ""}</td>
+                <td>${short ? short.textContent : ""}</td>
+                <td>${prefix ? prefix.textContent : ""}</td>
+                <td>${suffix ? suffix.textContent : ""}</td>
+                <td>${title ? title.textContent : ""}</td>
+                <td class="${reachableClass}">${reachText}</td>
+                <td>${comment ? comment.textContent : ""}</td>
             </tr>`;
         rows.unshift(nextRow);
     }

@@ -93,13 +93,14 @@ figcaption {
 
 .responseMaybe {
     background-color: yellow;
-    color:  black;
+    color: black;
     text-align: center;
 }
 
 .responseNo {
     background-color: red;
-    color: black
+    color: white;
+    text-align: center;
 }
 
 .rightJustifiedText {
