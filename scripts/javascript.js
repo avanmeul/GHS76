@@ -51,23 +51,29 @@ function populateRSVPs() {
     let totalNos = 0;
     rows = [];
     for(const rsvp of rsvps) {
-        const last = rsvp.querySelector("last").textContent;
-        const first = rsvp.querySelector("first").textContent;
-        const nee = rsvp.querySelector("nee").textContent;
-        const confirmation = rsvp.querySelector("confirmation").textContent;
-        const guests = rsvp.querySelector("guests").textContent;
-        const comments = rsvp.querySelector("comments").textContent;
-        const method = rsvp.querySelector("method").textContent;
+        const last = rsvp.querySelector("last");
+        const first = rsvp.querySelector("first");
+        const nee = rsvp.querySelector("nee");
+        let confirmation = rsvp.querySelector("confirmation");
+        let guests = rsvp.querySelector("guests");
+        const comments = rsvp.querySelector("comments");
+        const method = rsvp.querySelector("method");
         let responseClass = "no";
 
+        confirmation = confirmation ? confirmation.textContent : "";
+        guests = guests ? guests.textContent : "";
+
+        //maybes can't have guests right now
         switch (confirmation) {
             case "yes":
                 yes += 1;
                 responseClass = "responseYes";
+                totalGuests += Number(guests); 
                 break;
             case "maybe":
                 totalMaybes += 1;
                 responseClass = "responseMaybe";
+                guests = "";
                 break;
             case "no":
                 totalNos += 1;
@@ -75,21 +81,21 @@ function populateRSVPs() {
                 break; }
 
         i += 1;
-        totalGuests += Number(guests);
+        
         const nextRow = 
            `<tr>
                 <td class="rightJustifiedText">${i}</td>
-                <td>${last}</td>
-                <td>${first}</td>
-                <td>${nee}</td>
+                <td>${last ? last.textContent : ""}</td>
+                <td>${first ? first.textContent : ""}</td>
+                <td>${nee ? nee.textContent : ""}</td>
                 <td class="${responseClass}">${confirmation}</td>
                 <td class="centeredText">${guests}</td>
-                <td>${comments}</td>
-                <td>${method}</td>
+                <td>${comments ? comments.textContent : ""}</td>
+                <td>${method ? method.textContent : ""}</td>
             </tr>`;
-        rows.push(nextRow);    
+        rows.unshift(nextRow); //unshift = cons
     }
-    tbl.innerHTML = rows.join('');
+    tbl.innerHTML = rows.reverse().join('');
     document.getElementById("spnYes").innerHTML = yes;
     document.getElementById("spnGuests").innerHTML = totalGuests;
     document.getElementById("spnMaybes").innerHTML = totalMaybes;
@@ -148,7 +154,7 @@ function populateClassmates() {
                 <td>${(reachable) ? (reachable.textContent === "1" ? "yes" : "no") : "no"}</td>
                 <td>${(comment) ? comment.textContent : ""}</td>
             </tr>`;
-        rows.push(nextRow);
+        rows.unshift(nextRow);
     }
-    tblClassmates.innerHTML = rows.join('');
+    tblClassmates.innerHTML = rows.reverse().join(''); //rows.join('');
  }

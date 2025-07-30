@@ -1,10 +1,14 @@
 <!--
 release notes
-date:  29 Jul 25 Tuesday
-1) key now based on last (maiden) + first + middle
-2) Excel classmate data freshly exported
-3) RSVP and classmates tables now use arrays + push + join instead of string appending
-4) modified songs section
+date:  30 July 2025 Wednesday
+1) RSVP XML data is now sparse
+2) RSVPs:  added maybe, née; maybes can't have guests (ignore XML)
+3) changed push to unshift (= Scheme cons; faster than pushing)
+4) added universal styling rule (commented out)
+5) added float clear (for mascot aside)
+6) added download attribute for Excel export mapping file (not working yet)
+7) added colors to RSVP counts
+8) asides now have specific styling
 -->
 
 <!--
@@ -13,7 +17,6 @@ to do (not necessarily in order of importance):
 2) add resources table, add GHS alumni + Facebook + us + google drive + Classmates.com
 3) figure out how to specify sorting function for custom sorts
 4) try reading xml from xml file
-5) check parsed XML for parse errors, relay in transcript
 -->
 
 <!DOCTYPE html>
@@ -50,9 +53,8 @@ to do (not necessarily in order of importance):
         </header>
 
         <section id="secToC">
-            <!--to do:  aside does not scale correctly when the browser is minimized, but this only happens with Norton browser-->
             <aside class="asiMascot">
-                <h2>FYI</h2>
+                <h2>Mascot History</h2>
                 <p>The GHS demon mascot has undergone many changes.</p>
                 <p>See section <a href="#secMascot">Mascot</a> to see what it looked like in our day.</p>
             </aside>
@@ -76,24 +78,10 @@ to do (not necessarily in order of importance):
 					<img class="clsMascot" src="images/favicon.png" alt="GHS '76 AI generated mascot">
 					<figcaption>AI (<a href="https://gemini.google.com/app" target="_blank">Gemini</a>) generated class mascot.</figcaption>
 				</figure>
-                <!-- <div class="clsImage">
-                    <img class="clsMascot" src="images/favicon.png" alt="GHS '76 AI generated mascot">
-                    <p class="clsMascotTitle">AI generated class mascot.</p>
-                </div> -->
-                <!-- <div class="clsImage">
-                    <img class="clsMascot" src="images/ghsMascot.png" alt="GHS '76 actual mascot">
-                    <p>The mascot as it looked in our day.  Photo courtesy of Kurt.
-                    </p>
-                </div> -->
-                <!-- <div class="clsImage">
-                    <img class="clsMascot" src="images/joyfulDemon.png" alt="GHS '76 AI joyful mascot">
-                    <p>AI generated mascot for those that think the demon mascot is too dark/sinister.
-                    </p>
-                </div> -->
             </div>
         </section>
 
-        <section id="secAboutGHS">
+        <section id="secAboutGHS" class="floatClear">
 
             <h2>About Golden High School</h2>
             <div class="ghsInfo">
@@ -198,8 +186,8 @@ to do (not necessarily in order of importance):
             <p>Please RSVP so we can determine the number of people to plan for.</p>
             <p></p>
 
-            <aside>
-                <p><em>Save the dates!</em><p>
+            <aside class="asiDates">
+                <h2>Save the dates!</h2>
                 <p><strong>28, 29 August 2026</strong></p>
             </aside>
 
@@ -216,17 +204,17 @@ to do (not necessarily in order of importance):
             <p>Please RSVP even if you don't plan to attend so that we know you were at least notified of the event.</p>
             <p>Hope to see you there!</p>
 
-            <h3>RSVPs</h3>
+            <h3 class="floatClear">RSVPs</h3>
 
             <p>Below are classmates that have RSVPed.</p>
 
             <p>So far, we have 
-                <span id="spnYes"></span> yes responses, 
-                <span id="spnGuests"></span> guests, 
-                <span id="spnMaybes"></span> maybes, and 
-                <span id="spnNos"></span> nos; making a total of 
-                <span id="spnAttendees"></span> attendees (possibly 
-                <span id="spnPossible"></span>).
+                <span id="spnYes" class="colorGreen"></span> yes responses, 
+                <span id="spnGuests" class="colorGreen"></span> guests, 
+                <span id="spnMaybes" class="colorYellow"></span> maybes, and 
+                <span id="spnNos" class="colorRed"></span> nos; making a total of 
+                <span id="spnAttendees" class="colorGreen"></span> attendees (possibly 
+                <span id="spnPossible" class="colorYellow"></span>).
             </p>
 
             <div class="divScrollable">
@@ -255,301 +243,229 @@ to do (not necessarily in order of importance):
                 <summary>XML RSVP data</summary>
 
                 <p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
-<!--to do:  make xml sparse-->
                 <textarea id="idXmlRSVPs">
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>					
-<xml>
-    <rsvps>
-        <rsvp>
-            <last>Baumgardner</last>
-            <first>Vicky</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Classmates.com</method>
-        </rsvp>
-        <rsvp>
-            <last>Beck</last>
-            <first>Shawn</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>2</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Beegles</last>
-            <first>Gail</first>
-            <nee>Schulz</nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Cameron</last>
-            <first>Susan</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>2</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Dalton</last>
-            <first>Debbie</first>
-            <nee>Davis</nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guest?</comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Doty</last>
-            <first>William</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Dugan</last>
-            <first>Matt</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Dunnewald</last>
-            <first>Pete</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guest?</comments>
-            <method>André</method>            
-        </rsvp>
-        <rsvp>
-            <last>Emm</last>
-            <first>Dave</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Everett</last>
-            <first>Wesley</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Hansen-Aran</last>
-            <first>Debbie</first>
-            <nee>Smyth</nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Hansford</last>
-            <first>George</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Hrouda</last>
-            <first>Kathy</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Kroeger</last>
-            <first>Kevin</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Leger</last>
-            <first>David</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Moncrieff</last>
-            <first>Kathleen</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Morris</last>
-            <first>William</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Mozena</last>
-            <first>Jack</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Mozena</last>
-            <first>Patty</first>
-            <nee>Krause</nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Papenfus</last>
-            <first>Kurt</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>
-        <rsvp>
-            <last>Pattridge</last>
-            <first>Matt</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>
-        </rsvp>
-        <rsvp>
-            <last>Petry</last>
-            <first>Kathy</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Debbie</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Shih</last>
-            <first>Dwight</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Snell</last>
-            <first>Laura</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Stewart</last>
-            <first>Mary</first>
-            <nee>Webster</nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>guest?</comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Strawn</last>
-            <first>Kim</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Tubbs</last>
-            <first>Rob</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>van Meulebrouck</last>
-            <first>André</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests>1</guests>
-            <comments>wife</comments>
-            <method>Classmates.com</method>            
-        </rsvp>                                                          
-        <rsvp>
-            <last>Vogel</last>
-            <first>Rob</first>
-            <nee></nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Vogel</last>
-            <first>Sherry</first>
-            <nee>Helbig</nee>
-            <confirmation>yes</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>        
-        <rsvp>
-            <last>Walter</last>
-            <first>Dan</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Classmates.com</method>            
-        </rsvp>
-        <rsvp>
-            <last>Wheeler</last>
-            <first>Wayne</first>
-            <nee></nee>
-            <confirmation>maybe</confirmation>
-            <guests></guests>
-            <comments></comments>
-            <method>Kurt</method>            
-        </rsvp>                        
-    </rsvps>
-</xml>
+<rsvps>
+	<rsvp>
+		<last>Baumgardner</last>
+		<first>Vicky</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<method>Classmates.com</method>
+	</rsvp>
+	<rsvp>
+		<last>Beck</last>
+		<first>Shawn</first>
+		<confirmation>yes</confirmation>
+		<guests>2</guests>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Beegles</last>
+		<first>Gail</first>
+		<nee>Schulz</nee>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<method>Classmates.com</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Cameron</last>
+		<first>Susan</first>
+		<nee>Raymer</nee>
+		<confirmation>yes</confirmation>
+		<guests>2</guests>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Dalton</last>
+		<first>Debbie</first>
+		<nee>Davis</nee>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<comments>guest?</comments>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Doty</last>
+		<first>William</first>
+		<confirmation>maybe</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Dugan</last>
+		<first>Matt</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Dunnewald</last>
+		<first>Pete</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<comments>guest?</comments>
+		<method>André</method>            
+	</rsvp>
+	<rsvp>
+		<last>Emm</last>
+		<first>Dave</first>
+		<confirmation>maybe</confirmation>
+		<method>Kurt</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Everett</last>
+		<first>Wesley</first>
+		<confirmation>maybe</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Hansen-Aran</last>
+		<first>Debbie</first>
+		<nee>Smyth</nee>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Hansford</last>
+		<first>George</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Herman</last>
+		<first>Luke</first>
+		<confirmation>maybe</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>		
+	<rsvp>
+		<last>Hrouda</last>
+		<first>Kathy</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Kroeger</last>
+		<first>Kevin</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Leger</last>
+		<first>David</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Moncrieff</last>
+		<first>Kathleen</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Morris</last>
+		<first>William</first>
+		<confirmation>maybe</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Mozena</last>
+		<first>Jack</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Mozena</last>
+		<first>Patty</first>
+		<nee>Krause</nee>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Papenfus</last>
+		<first>Kurt</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<method>Kurt</method>            
+	</rsvp>
+	<rsvp>
+		<last>Pattridge</last>
+		<first>Matt</first>
+		<confirmation>maybe</confirmation>
+		<method>Kurt</method>
+	</rsvp>
+	<rsvp>
+		<last>Petry</last>
+		<first>Kathy</first>
+		<confirmation>yes</confirmation>
+		<method>Debbie</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Shih</last>
+		<first>Dwight</first>
+		<confirmation>maybe</confirmation>
+		<method>Kurt</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Snell</last>
+		<first>Laura</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Stewart</last>
+		<first>Mary</first>
+		<nee>Webster</nee>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<comments>guest?</comments>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Strawn</last>
+		<first>Kim</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Tubbs</last>
+		<first>Rob</first>
+		<confirmation>maybe</confirmation>
+		<method>Kurt</method>            
+	</rsvp>        
+	<rsvp>
+		<last>van Meulebrouck</last>
+		<first>André</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<comments>wife</comments>
+		<method>Classmates.com</method>            
+	</rsvp>                                                          
+	<rsvp>
+		<last>Vogel</last>
+		<first>Rob</first>
+		<confirmation>yes</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Vogel</last>
+		<first>Sherry</first>
+		<nee>Helbig</nee>
+		<confirmation>yes</confirmation>
+		<method>Kurt</method>            
+	</rsvp>        
+	<rsvp>
+		<last>Walter</last>
+		<first>Dan</first>
+		<confirmation>maybe</confirmation>
+		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Wheeler</last>
+		<first>Wayne</first>
+		<confirmation>maybe</confirmation>
+		<method>Kurt</method>            
+	</rsvp>                        
+</rsvps>
 				</textarea>
 
                 <div id="idRsvpButtons">
@@ -691,7 +607,7 @@ to do (not necessarily in order of importance):
 
                 <textarea id="txtClassmatesXML">
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<classmates>
 	<classmate>
 		<key>1</key>
 		<last>Adams</last>
@@ -4041,8 +3957,12 @@ to do (not necessarily in order of importance):
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
-</xml>					
+</classmates>				
 				</textarea>
+
+				<!-- <br>
+
+				<a href="xml/classmatesMapping.xml" download="classmatesMapping.xml">Download XML mapping file for exporting from Excel</a> -->
 
             </details>
 
@@ -4219,7 +4139,6 @@ to do (not necessarily in order of importance):
                         <td>number of classmates cited in GHS '76 yearbook</td>
                         <td>this excludes people that dropped out or finished elsewhere; the discrepancy with the number of people in our class seems inexplicably large</td>
                     </tr>
-                    <!--add statistic about how many don't have pictures is yearbook-->
                     <tr>
                         <td class="rightJustifiedText">5</td>
                         <td>classmates in last alumni directory</td>
