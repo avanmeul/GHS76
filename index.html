@@ -1,25 +1,17 @@
 <!--
 release notes
-date:  30 July 2025 Wednesday
-1) RSVP XML data is now sparse
-2) RSVPs:  added maybe, née; maybes can't have guests (ignore XML)
-3) changed push to unshift (= Scheme cons; faster than pushing)
-4) added universal styling rule (commented out)
-5) added float clear (for mascot aside)
-6) added download attribute for Excel export mapping file (not working yet)
-7) added colors to RSVP counts
-8) asides now have specific styling
-9) song section modifications (more songs, ul element for song name)
-10) classmate reachable column now colored
-11) responseClass (CSS) changes
+date:  2 August 2025 Saturday
+1) calendar for "save the dates" aside
+2) added "Us and Them" (Pink Floyd)
 -->
 
 <!--
 to do (not necessarily in order of importance):
-1) add sections "FAQ", "funny stories", "mascot demonology"
+1) add sections "FAQ", "funny stories"
 2) add resources table, add GHS alumni + Facebook + us + google drive + Classmates.com
 3) figure out how to specify sorting function for custom sorts
 4) try reading xml from xml file
+5) sort by confirmation, RSVP method
 -->
 
 <!DOCTYPE html>
@@ -189,9 +181,80 @@ to do (not necessarily in order of importance):
             <p>Please RSVP so we can determine the number of people to plan for.</p>
             <p></p>
 
-            <aside class="asiDates">
+            <aside class="aside">
                 <h2>Save the dates!</h2>
-                <p><strong>28, 29 August 2026</strong></p>
+				<table class="calendar">
+                    <thead>
+                        <tr>
+                            <th colspan="7" class="monthStyle">August 2026</th>
+                        </tr>
+                        <tr>
+                            <th class="calText">Sun</th>
+                            <th class="calText">Mon</th>
+                            <th class="calText">Tue</th>
+                            <th class="calText">Wed</th>
+                            <th class="calText">Thu</th>
+                            <th class="calText">Fri</th>
+                            <th class="calText">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="calText">1</td>
+                        </tr>
+                        <tr>
+                            <td class="calText">2</td>
+                            <td class="calText">3</td>
+                            <td class="calText">4</td>
+                            <td class="calText">5</td>
+                            <td class="calText">6</td>
+                            <td class="calText">7</td>
+                            <td class="calText">8</td>
+                        </tr>
+                        <tr>
+                            <td class="calText">9</td>
+                            <td class="calText">10</td>
+                            <td class="calText">11</td>
+                            <td class="calText">12</td>
+                            <td class="calText">13</td>
+                            <td class="calText">14</td>
+                            <td class="calText">15</td>
+                        </tr>  
+                        <tr>
+                            <td class="calText">16</td>
+                            <td class="calText">17</td>
+                            <td class="calText">18</td>
+                            <td class="calText">19</td>
+                            <td class="calText">20</td>
+                            <td class="calText">21</td>
+                            <td class="calText">22</td>
+                        </tr>
+                        <tr>
+                            <td class="calText">23</td>
+                            <td class="calText">24</td>
+                            <td class="calText">25</td>
+                            <td class="calText">26</td>
+                            <td class="calText">27</td>
+                            <td class="markDate">28</td>
+                            <td class="markDate">29</td>
+                        </tr>
+                        <tr>
+                            <td class="calText">30</td>
+                            <td class="calText">31</td>
+                            <td class="calText"></td>
+                            <td class="calText"></td>
+                            <td class="calText"></td>
+                            <td class="calText"></td>
+                            <td class="calText"></td>
+                        </tr>                                                                                            
+                    </tbody>
+                </table>
             </aside>
 
             <p>There are two ways to RSVP:</p>
@@ -4273,7 +4336,7 @@ to do (not necessarily in order of importance):
 							<td><a href="https://www.youtube.com/watch?v=ekoHxB4idmg&list=RDekoHxB4idmg&start_radio=1&pp=ygUTZGF5IGJ5IGRheSBnb2RzcGVsbKAHAQ%3D%3D"
 								target="_blank">Day by Day</a></td>
 							<td>Stephen Schwartz and John-Michael Tebelak from the musical "Godspell"</td>
-							<td>1971, released 1972, reprised 1973 (film version)</td>
+							<td>1971, released 1972, film version 1973</td>
 							<td>Moving.  Uplifting.  A classic.</td>
 						</tr>
 						<tr>
@@ -4291,7 +4354,7 @@ to do (not necessarily in order of importance):
 								</ul>							
 							</td>
 							<td>Seals and Crofts</td>
-							<td>released 1972, live performances subsequent years</td>
+							<td>released 1972, subsequent live performances</td>
 							<td>Anthemic classic; uplifting, harmonious, evocative.</td>
 						</tr>
 						<tr>
@@ -4299,20 +4362,21 @@ to do (not necessarily in order of importance):
 								<p>Ashes Are Burning</p>
 								<ul>
 									<li>
-										<a href="https://www.youtube.com/watch?v=BG5VgmSuzPU&list=RDBG5VgmSuzPU&start_radio=1&t=488s" 
-											target="_blank">Live at Carnegie Hall</a>
+										<a href="https://www.youtube.com/watch?v=SykBbwU3JwY&list=RDSykBbwU3JwY&start_radio=1" 
+											target="_blank">live in studio</a> (1974 rare)
 									</li>
 									<li>
-										<a href="https://www.youtube.com/watch?v=SykBbwU3JwY&list=RDSykBbwU3JwY&start_radio=1" 
-											target="_blank">studio performance</a> (1975)
-									</li>									
+										<a href="https://www.youtube.com/watch?v=BG5VgmSuzPU&list=RDBG5VgmSuzPU&start_radio=1&t=488s" 
+											target="_blank">Live at Carnegie Hall</a> (June 1976)
+									</li>								
 								</ul>
 							</td>
 							<td>
 								<a href="https://en.wikipedia.org/wiki/Renaissance_(band)" target="_blank">Renaissance (band)</a>
 							</td>
-							<td>10 October 1973</td>
-							<td>Learned of this after high school.  Wow!</td>
+							<td>10 October 1973, best: "Live at Carnegie Hall"</td>
+							<td>Learned of this after high school.  Wow!  Hypnotic, mesmerizing.  Great lyrics.  
+								Example:  "Your sins you won't remember, and all you'll find there is love.".</td>
 						</tr>                   
 						<tr>
 							<td><a href="https://www.youtube.com/watch?v=RLTJ95kj9ng&list=RDRLTJ95kj9ng&start_radio=1&pp=ygUYbG92ZSdzIHRoZW1lIGJhcnJ5IHdoaXRloAcB"
@@ -4320,7 +4384,7 @@ to do (not necessarily in order of importance):
 							</td>
 							<td>Barry White (Love Unlimited Orchestra)</td>
 							<td>December 1973</td>
-							<td>Beautiful!  Anthemic.  Stands the test of time.</td>
+							<td>Beautiful, anthemic, timeless.</td>
 						</tr>
 						<tr>
 							<td><a href="https://www.youtube.com/watch?v=amo6xFDuTqU&list=RDamo6xFDuTqU&start_radio=1&pp=ygUIYmx1ZWJpcmSgBwE%3D"
@@ -4328,7 +4392,7 @@ to do (not necessarily in order of importance):
 							</td>
 							<td>Paul McCartney and Wings</td>
 							<td>1973</td>
-							<td>Great music!  Well done.</td>
+							<td>Ebullient.  Pedagogical (explains <em>Rhythm Box</em>).</td>
 						</tr>
 						<tr>
 							<td><a href="https://www.youtube.com/watch?v=4MpPGb_apD8&list=RD4MpPGb_apD8&start_radio=1&pp=ygUWY29tZSBhbmQgZ2V0IHlvdXIgbG92ZaAHAQ%3D%3D"
@@ -4350,7 +4414,30 @@ to do (not necessarily in order of importance):
 							</td>
 							<td>February 1974</td>
 							<td>Ethereal, uplifting.</td>
-						</tr>						
+						</tr>
+						<tr>
+							<td>
+								<p>Us and Them</p>
+								<ul>
+									<li>
+										<a 
+											href="https://www.youtube.com/watch?v=Ia3lhy8yUOY&list=RDIa3lhy8yUOY&start_radio=1"
+											title="Us and Them (with lyrics)"
+											target="_blank">studio with lyrics
+										</a>
+									</li>
+									<li>
+										<a 
+											href="https://www.youtube.com/watch?v=vGkcablXNHM&list=RDvGkcablXNHM&start_radio=1"
+											title="Us and Them (solo piano)"
+											target="_blank">solo piano with sheet music</a>
+									</li>								
+								</ul>
+							</td>
+							<td>Pink Floyd</td>
+							<td>recorded 1 June 1972 - 9 January 1973, released 4 February 1974</td>
+							<td>Trenchant political polemic in the style of an exquisite ballad.</td>
+						</tr>					
 						<tr>
 							<td><a href="https://www.youtube.com/watch?v=UfZWp-hGCdA&list=RDUfZWp-hGCdA&start_radio=1"
 								target="_blank">Rikki Don't Lose that Number</a>
@@ -4363,7 +4450,7 @@ to do (not necessarily in order of importance):
 							<td><a href="https://www.youtube.com/watch?v=wj23_nDFSfE" target="_blank">The Hustle</a></td>
 							<td>Van McCoy</td>
 							<td>1975</td>
-							<td>Upbeat and perfect for dancing.</td>
+							<td>Upbeat.  Great dancing.  Superb choreography.</td>
 						</tr>
 						<tr>
 							<td>
@@ -4401,18 +4488,21 @@ to do (not necessarily in order of importance):
 						</tr>
 						<tr>
 							<td>
-								<p>
-									<a  
-										href="https://www.youtube.com/watch?v=tm6tjQrH3BA&list=RDtm6tjQrH3BA&start_radio=1&pp=ygUQbGVvbmFyZCBvbGQgZGF5c6AHAQ%3D%3D"
-										target="_blank">Old Days
-									</a>
-									(Leonard, drummer)
+								<p>Old Days</p>
+								<ul>
+									<li><a href="https://www.youtube.com/watch?v=tm6tjQrH3BA&list=RDtm6tjQrH3BA&start_radio=1&pp=ygUQbGVvbmFyZCBvbGQgZGF5c6AHAQ%3D%3D"
+										target="_blank">Leonard, drummer</a> backdrop:  Leonid and Friends
+									</li>
+									<li><a href="https://www.youtube.com/watch?v=tRw4kRnay0g&list=RDtRw4kRnay0g&start_radio=1"
+										target="_blank">Leonid and Friends</a>
+									</li>
+								</ul>
 							</td>
 							<td>
-								Chicago
+								Chicago cover
 							</td>
 							<td>24 March 1975</td>
-							<td>In memory of (deceased drummer) classmate Brad Byers.</td>
+							<td>Nostalgic and upbeat. Drummer version in memory of deceased drummer and classmate Brad Byers.</td>
 						</tr>
 						<tr>
 							<td>

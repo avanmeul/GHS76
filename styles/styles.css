@@ -28,7 +28,10 @@ aside {
     font-size: medium;
     font-weight: 700;
     background-color: lightblue;
-    color: red;
+    color: black;
+    border: 1px solid white;
+    border-collapse: collapse;
+    justify-content: center;
 }
 
 aside.asiMascot {
@@ -36,9 +39,29 @@ aside.asiMascot {
     justify-content: center;
 }
 
-aside.asiDates {
-    width: 190px;
-    justify-content: center;
+/* styling for the calendar is hosed:  figure it out some day */
+
+.calendar {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    color: black;
+}
+
+.calText {
+    text-align: center;
+    width: 30px;
+}
+
+.monthStyle {
+    text-align: center;
+}
+
+.markDate {
+    background-color: green;
+    color: white;
+    text-align: center;
 }
 
 table {
@@ -76,7 +99,7 @@ figcaption {
 }
 
 .divScrollable {
-    height: 200px;
+    height: 250px;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
