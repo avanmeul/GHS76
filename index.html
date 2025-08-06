@@ -4,6 +4,8 @@ date:  6 August 2025 Wednesday
 1) Added tel: to anchor element for Mary.
 2) Updates to "Past Reunions" section.
 3) Added song (So Sad)
+4) Fixed bug in tel: (can't have space in telephone number).
+5) Got rid of CSS style makrDate, using existing class.
 -->
 
 <!--
@@ -243,11 +245,11 @@ to do (not necessarily in order of importance):
                             <td class="calText">25</td>
                             <td class="calText">26</td>
                             <td class="calText">27</td>
-                            <td class="markDate">28</td>
-                            <td class="markDate">29</td>
+                            <td class="responseYes">28</td>
+                            <td class="responseYes">29</td>
                         </tr>
                         <tr>
-                            <td class="calText">30</td>
+                            <td class="responseMaybe">30</td>
                             <td class="calText">31</td>
                             <td class="calText"></td>
                             <td class="calText"></td>
@@ -611,7 +613,7 @@ to do (not necessarily in order of importance):
                     <tr>
                         <td>Mary Stewart</td>
                         <td>phone</td>
-                        <td><a href="tel:(303) 378-3690">(303) 378-3690</a></td>
+                        <td><a href="tel:(303)378-3690">(303) 378-3690</a></td>
                     </tr>
                     <tr>
                         <td>André van Meulebrouck</td>
@@ -4349,7 +4351,7 @@ to do (not necessarily in order of importance):
 				article that appeared in "Golden Today"</a>.
 			</p>
 
-			<p>The original drawing (1963) of "Demon Dan" can be seen in the 
+			<p>The original drawing (1963) of <em>Demon Dan</em> can be seen in the 
 				<a href="https://www.goldenhighalumni.org/gallery" target="_blank">Golden High Alumni gallery</a>.
 			</p>
 
@@ -4360,7 +4362,7 @@ to do (not necessarily in order of importance):
 				</figure>
 				<div class="divJustifyCenter">
 					<p>This is what the mascot looked like during our days.</p>
-					<p>The demon on the right is affectionately known as "Demon Dan".</p>
+					<p>The demon on the right is affectionately known as <em>Demon Dan</em>.</p>
 				</div>
 			</div>
 			
@@ -4410,7 +4412,17 @@ to do (not necessarily in order of importance):
 
 			<div class="divScrollable">
 
-				<!--So Sad, Why can't we be friends, Wildfire, midnight at the oasis, The Rain Song, Hello it's me, Quiet Afternoon, Summertime, Summer Madness.-->
+				<!--
+					Could we start again please, 
+					Why can't we be friends, 
+					Wildfire, 
+					midnight at the oasis, 
+					The Rain Song, 
+					Hello it's me, 
+					Quiet Afternoon, 
+					ummertime, 
+					Summer Madness.
+				-->
 
 				<table class="tblScrollable">
 					<thead>
