@@ -139,7 +139,7 @@ function populateClassmates() {
         const prefix = classmate.querySelector("prefix");
         const suffix = classmate.querySelector("suffix");
         const title = classmate.querySelector("title");
-        const nee = classmate.querySelector("nee");
+        const newLast = classmate.querySelector("newLast");
         const reachable = classmate.querySelector("reachable");
         const comment = classmate.querySelector("comment");
         const reach = reachable ? reachable.textContent: "";
@@ -158,8 +158,8 @@ function populateClassmates() {
         const nextRow = 
             `<tr>
                 <td class="rightJustifiedText">${(key) ? key.textContent : ""}</td>
-                <td>${nee ? nee.textContent : ""}</td>
                 <td>${last ? last.textContent : ""}</td>
+                <td>${newLast ? newLast.textContent : ""}</td>
                 <td>${first ? first.textContent : ""}</td>
                 <td>${middle ? middle.textContent : ""}</td>
                 <td>${short ? short.textContent : ""}</td>

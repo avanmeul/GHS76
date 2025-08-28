@@ -29,95 +29,77 @@
 	</classmate>
 	<classmate>
 		<key>5</key>
-		<last>Alexander</last>
-		<first>Frank</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>6</key>
-		<last>Allen</last>
-		<first>Carlos</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>7</key>
 		<last>Allen</last>
 		<first>Cheryl</first>
 		<middle>A</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>8</key>
+		<key>6</key>
 		<last>Allen</last>
 		<first>Michael</first>
 		<middle>S.</middle>
 		<short>Mike</short>
 	</classmate>
 	<classmate>
-		<key>9</key>
+		<key>7</key>
 		<last>Alshanfari</last>
 		<first>Salim</first>
 	</classmate>
 	<classmate>
-		<key>10</key>
+		<key>8</key>
 		<last>Anderson</last>
 		<first>Toby</first>
 	</classmate>
 	<classmate>
-		<key>11</key>
+		<key>9</key>
 		<last>Androes</last>
 		<first>Connie</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>12</key>
+		<key>10</key>
 		<last>Ankerich</last>
 		<first>Alex</first>
 	</classmate>
 	<classmate>
-		<key>13</key>
+		<key>11</key>
 		<last>Aragon</last>
 		<first>John</first>
 		<middle>P.</middle>
 	</classmate>
 	<classmate>
-		<key>14</key>
+		<key>12</key>
 		<last>Arteburn</last>
 		<first>Lynnet</first>
 	</classmate>
 	<classmate>
-		<key>15</key>
+		<key>13</key>
 		<last>Artemis</last>
 		<first>Stephen</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>16</key>
-		<last>Austin</last>
-		<first>Rebecca</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>17</key>
+		<key>14</key>
 		<last>Baaske</last>
 		<first>Edmund</first>
 		<middle>U.</middle>
 	</classmate>
 	<classmate>
-		<key>18</key>
+		<key>15</key>
 		<last>Baird</last>
 		<first>Byron</first>
 		<middle>K.</middle>
 		<short>Kent</short>
 	</classmate>
 	<classmate>
-		<key>19</key>
+		<key>16</key>
 		<last>Bakke</last>
 		<first>Richard</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>20</key>
+		<key>17</key>
 		<last>Baldessari</last>
 		<first>Louis</first>
 		<short>Rick</short>
@@ -125,171 +107,165 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>21</key>
+		<key>18</key>
 		<last>Barbour</last>
 		<first>John</first>
 		<short>Charles</short>
 		<title>Ph.D.</title>
 	</classmate>
 	<classmate>
-		<key>22</key>
+		<key>19</key>
 		<last>Barnes</last>
 		<first>Brooks</first>
 		<middle>K.</middle>
 	</classmate>
 	<classmate>
-		<key>23</key>
+		<key>20</key>
 		<last>Barnhill</last>
 		<first>Stephen</first>
 		<middle>T.</middle>
 		<short>Steve</short>
 	</classmate>
 	<classmate>
-		<key>24</key>
+		<key>21</key>
 		<last>Batista</last>
 		<first>Fabio</first>
 		<middle>F.</middle>
 	</classmate>
 	<classmate>
-		<key>25</key>
+		<key>22</key>
 		<last>Baumgardner</last>
 		<first>Vicky</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>26</key>
+		<key>23</key>
 		<last>Beard</last>
 		<first>Bret</first>
 		<middle>W.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>27</key>
+		<key>24</key>
 		<last>Beattie</last>
 		<first>Julie</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>28</key>
+		<key>25</key>
 		<last>Beck</last>
 		<first>Shawn</first>
 		<middle>M.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>29</key>
+		<key>26</key>
 		<last>Behrendt</last>
 		<first>Michelle</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>30</key>
+		<key>27</key>
 		<last>Bennetts</last>
 		<first>Garnett</first>
 		<short>Gene</short>
 		<suffix>Jr.</suffix>
 	</classmate>
 	<classmate>
-		<key>31</key>
-		<last>Love</last>
+		<key>28</key>
+		<last>Benson</last>
 		<first>Debra</first>
 		<middle>A.</middle>
 		<short>Debbie</short>
 		<prefix>Mrs.</prefix>
-		<nee>Benson</nee>
 		<reachable>1</reachable>
-		<comment>died around 2021 due to lung problems/cancer</comment>
+		<comment>died around 2021 due to lung problems/cancer; yearbook spells "Bensen"</comment>
+		<newLast>Love</newLast>
 	</classmate>
 	<classmate>
-		<key>32</key>
+		<key>29</key>
 		<last>Bentley</last>
 		<first>Robert</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>33</key>
+		<key>30</key>
 		<last>Bequette</last>
 		<first>Kathryn</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>34</key>
+		<key>31</key>
 		<last>Bergquist</last>
 		<first>Roy</first>
 	</classmate>
 	<classmate>
-		<key>35</key>
+		<key>32</key>
 		<last>Berquist</last>
 		<first>Gail</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>36</key>
+		<key>33</key>
 		<last>Berry</last>
 		<first>Valerie</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>37</key>
+		<key>34</key>
 		<last>Bettinger</last>
 		<first>Thomas</first>
 		<middle>W.</middle>
 	</classmate>
 	<classmate>
-		<key>38</key>
+		<key>35</key>
 		<last>Betz</last>
 		<first>Cynthia</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>39</key>
+		<key>36</key>
 		<last>Bevan</last>
 		<first>Sara</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>40</key>
+		<key>37</key>
 		<last>Beveridge</last>
 		<first>Joy</first>
 	</classmate>
 	<classmate>
-		<key>41</key>
+		<key>38</key>
 		<last>Beyer</last>
 		<first>David</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>42</key>
+		<key>39</key>
 		<last>Bhattaharyya</last>
 		<first>Mita</first>
 	</classmate>
 	<classmate>
-		<key>43</key>
+		<key>40</key>
 		<last>Bicking</last>
 		<first>Sheila</first>
 		<middle>M.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>44</key>
+		<key>41</key>
 		<last>Bierhaus</last>
 		<first>Joy</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>45</key>
-		<last>Bohn</last>
-		<first>Sandi</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>46</key>
+		<key>42</key>
 		<last>Boileau</last>
 		<first>Joan</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>47</key>
+		<key>43</key>
 		<last>Booth</last>
 		<first>Timothy</first>
 		<middle>J.</middle>
@@ -297,190 +273,189 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>48</key>
+		<key>44</key>
 		<last>Bouchard</last>
 		<first>Tami</first>
 	</classmate>
 	<classmate>
-		<key>49</key>
+		<key>45</key>
 		<last>Boyer</last>
 		<first>Stephen</first>
 		<middle>G.</middle>
 	</classmate>
 	<classmate>
-		<key>50</key>
+		<key>46</key>
 		<last>Boyle</last>
 		<first>Barbara</first>
 		<reachable>1</reachable>
+		<newLast>Morris</newLast>
 	</classmate>
 	<classmate>
-		<key>51</key>
+		<key>47</key>
 		<last>Branch</last>
 		<first>David</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>52</key>
+		<key>48</key>
 		<last>Braning</last>
 		<first>Donna</first>
 	</classmate>
 	<classmate>
-		<key>53</key>
+		<key>49</key>
 		<last>Brenneis</last>
 		<first>Cathleen</first>
 	</classmate>
 	<classmate>
-		<key>54</key>
+		<key>50</key>
 		<last>Brown</last>
 		<first>Dale</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>55</key>
-		<last>Brown</last>
-		<first>David</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>56</key>
+		<key>51</key>
 		<last>Brown</last>
 		<first>Marvin</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>57</key>
+		<key>52</key>
 		<last>Brown</last>
 		<first>Rebecca</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>58</key>
+		<key>53</key>
 		<last>Brown</last>
 		<first>Thomas</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>59</key>
+		<key>54</key>
 		<last>Bruning</last>
 		<first>James</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>60</key>
+		<key>55</key>
 		<last>Brunner</last>
 		<first>Kerry</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>61</key>
+		<key>56</key>
 		<last>Bullard</last>
 		<first>Debra</first>
 	</classmate>
 	<classmate>
-		<key>62</key>
+		<key>57</key>
 		<last>Burger</last>
 		<first>Patricia</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>63</key>
+		<key>58</key>
 		<last>Burke</last>
 		<first>Jeri</first>
+		<middle>C.</middle>
 		<reachable>1</reachable>
+		<newLast>Howell</newLast>
 	</classmate>
 	<classmate>
-		<key>64</key>
+		<key>59</key>
 		<last>Burke</last>
 		<first>Joni</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>65</key>
+		<key>60</key>
 		<last>Burke</last>
 		<first>Mark</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>66</key>
+		<key>61</key>
 		<last>Burnett</last>
 		<first>Jill</first>
 		<reachable>1</reachable>
+		<newLast>Lee</newLast>
 	</classmate>
 	<classmate>
-		<key>67</key>
+		<key>62</key>
 		<last>Busley</last>
 		<first>Marc</first>
 	</classmate>
 	<classmate>
-		<key>68</key>
+		<key>63</key>
 		<last>Byers</last>
 		<first>Brad</first>
 		<reachable>1</reachable>
 		<comment>started with us, finished at Evergreen; 2021 obituary [ "https://www.legacy.com/us/obituaries/bouldercityreview/name/bradley-byers-obituary?id=7801701" ]</comment>
 	</classmate>
 	<classmate>
-		<key>69</key>
+		<key>64</key>
 		<last>Campbell</last>
 		<first>Timothy</first>
 	</classmate>
 	<classmate>
-		<key>70</key>
+		<key>65</key>
 		<last>Carlson</last>
 		<first>Kirsten</first>
 	</classmate>
 	<classmate>
-		<key>71</key>
+		<key>66</key>
 		<last>Carlson</last>
 		<first>Scott</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>72</key>
+		<key>67</key>
 		<last>Carpenter</last>
 		<first>Susan</first>
 		<reachable>1</reachable>
+		<newLast>Senecal</newLast>
 	</classmate>
 	<classmate>
-		<key>73</key>
+		<key>68</key>
 		<last>Carr</last>
 		<first>Daniel</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>74</key>
+		<key>69</key>
 		<last>Carr</last>
 		<first>Martha</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>75</key>
+		<key>70</key>
 		<last>Carstensen</last>
 		<first>Janet</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>76</key>
+		<key>71</key>
 		<last>Carter</last>
 		<first>Karen</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>77</key>
+		<key>72</key>
 		<last>Cary</last>
 		<first>Janet</first>
 		<middle>F.</middle>
 	</classmate>
 	<classmate>
-		<key>78</key>
+		<key>73</key>
 		<last>Cashin</last>
 		<first>Rachel</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>79</key>
+		<key>74</key>
 		<last>Caskey</last>
 		<first>Daniel</first>
 		<middle>W.</middle>
@@ -488,106 +463,96 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>80</key>
+		<key>75</key>
 		<last>Cathetman</last>
 		<first>Audrey</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>81</key>
+		<key>76</key>
 		<last>Cechini</last>
 		<first>Cynthia</first>
 	</classmate>
 	<classmate>
-		<key>82</key>
+		<key>77</key>
 		<last>Channon</last>
 		<first>Douglas</first>
 	</classmate>
 	<classmate>
-		<key>83</key>
+		<key>78</key>
 		<last>Chesnut</last>
 		<first>Michelle</first>
 	</classmate>
 	<classmate>
-		<key>84</key>
+		<key>79</key>
 		<last>Christensen</last>
 		<first>Janet</first>
 	</classmate>
 	<classmate>
-		<key>85</key>
-		<last>Church</last>
-		<first>Dwight</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>86</key>
+		<key>80</key>
 		<last>Cink</last>
 		<first>Rita</first>
 		<reachable>1</reachable>
+		<newLast>Soper</newLast>
 	</classmate>
 	<classmate>
-		<key>87</key>
+		<key>81</key>
 		<last>Clausen</last>
 		<first>Bret</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>88</key>
-		<last>Cleland</last>
-		<first>Bradley</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>89</key>
+		<key>82</key>
 		<last>Coldwell</last>
 		<first>Bonita</first>
+		<short>Bonnie</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>90</key>
+		<key>83</key>
 		<last>Cole</last>
 		<first>Jd</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>91</key>
+		<key>84</key>
 		<last>Collins</last>
 		<first>Daniel</first>
 	</classmate>
 	<classmate>
-		<key>92</key>
+		<key>85</key>
 		<last>Comer</last>
 		<first>Lori</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>93</key>
+		<key>86</key>
 		<last>Connor</last>
 		<first>Wendy</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>94</key>
-		<last>Cook - Warnke</last>
+		<key>87</key>
+		<last>Cook</last>
 		<first>Brenda</first>
 		<middle>M.</middle>
-		<nee>Cook</nee>
 		<reachable>1</reachable>
+		<newLast>Cook - Warnke</newLast>
 	</classmate>
 	<classmate>
-		<key>95</key>
+		<key>88</key>
 		<last>Cooley</last>
 		<first>James</first>
 	</classmate>
 	<classmate>
-		<key>96</key>
+		<key>89</key>
 		<last>Coomes</last>
 		<first>Sharon</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>97</key>
+		<key>90</key>
 		<last>Cooper</last>
 		<first>Alfred</first>
 		<middle>P.</middle>
@@ -596,70 +561,58 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>98</key>
+		<key>91</key>
 		<last>Coronado</last>
 		<first>Roberta</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>99</key>
+		<key>92</key>
 		<last>Coughlin</last>
 		<first>Eileen</first>
 	</classmate>
 	<classmate>
-		<key>100</key>
+		<key>93</key>
 		<last>Councilman</last>
 		<first>Timothy</first>
 	</classmate>
 	<classmate>
-		<key>101</key>
+		<key>94</key>
 		<last>Cowan</last>
 		<first>Nancy</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>102</key>
+		<key>95</key>
 		<last>Cox</last>
 		<first>Diane</first>
 	</classmate>
 	<classmate>
-		<key>103</key>
-		<last>Cribbs</last>
-		<first>John</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>104</key>
-		<last>Cunningham</last>
-		<first>Roseanne</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>105</key>
+		<key>96</key>
 		<last>Curley</last>
 		<first>Thomas</first>
 		<middle>W.</middle>
 	</classmate>
 	<classmate>
-		<key>106</key>
+		<key>97</key>
 		<last>Curry</last>
 		<first>Jody</first>
 	</classmate>
 	<classmate>
-		<key>107</key>
+		<key>98</key>
 		<last>Daly</last>
 		<first>Mark</first>
 		<middle>S.</middle>
 	</classmate>
 	<classmate>
-		<key>108</key>
+		<key>99</key>
 		<last>Darrigrand</last>
 		<first>Ann</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>109</key>
+		<key>100</key>
 		<last>Davis</last>
 		<first>Arthur</first>
 		<short>Art</short>
@@ -667,121 +620,122 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>110</key>
-		<last>Dalton</last>
+		<key>101</key>
+		<last>Davis</last>
 		<first>Debbie</first>
 		<middle>J.</middle>
 		<prefix>Mrs.</prefix>
-		<nee>Davis</nee>
 		<reachable>1</reachable>
 		<comment>organizer (3rd added), no info in 1998 alumni directory</comment>
+		<newLast>Dalton</newLast>
 	</classmate>
 	<classmate>
-		<key>111</key>
+		<key>102</key>
 		<last>Davis</last>
 		<first>Jimmy</first>
 	</classmate>
 	<classmate>
-		<key>112</key>
+		<key>103</key>
 		<last>Davison</last>
 		<first>Arlyn</first>
 	</classmate>
 	<classmate>
-		<key>113</key>
+		<key>104</key>
 		<last>De Long</last>
 		<first>Allen</first>
 	</classmate>
 	<classmate>
-		<key>114</key>
+		<key>105</key>
 		<last>De Maria</last>
 		<first>Donna</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>115</key>
+		<key>106</key>
 		<last>De Muth</last>
 		<first>Cydney</first>
 		<middle>B.</middle>
 	</classmate>
 	<classmate>
-		<key>116</key>
+		<key>107</key>
 		<last>Derouin</last>
 		<first>Jeffery</first>
 	</classmate>
 	<classmate>
-		<key>117</key>
+		<key>108</key>
 		<last>Disney</last>
 		<first>Marvin</first>
 		<middle>E.</middle>
 		<short>Marv</short>
 	</classmate>
 	<classmate>
-		<key>118</key>
+		<key>109</key>
 		<last>Dodson</last>
 		<first>Donna</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>119</key>
+		<key>110</key>
 		<last>Dolloff</last>
 		<first>Meredith</first>
 		<short>Mimi</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>120</key>
+		<key>111</key>
 		<last>Doren</last>
 		<first>Lia</first>
 		<middle>K.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>121</key>
-		<last>Wheeler</last>
+		<key>112</key>
+		<last>Dotsch</last>
 		<first>Mary</first>
 		<middle>Jo</middle>
-		<nee>Dotsch</nee>
+		<newLast>Wheeler</newLast>
 	</classmate>
 	<classmate>
-		<key>122</key>
+		<key>113</key>
 		<last>Doty</last>
 		<first>William</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>123</key>
+		<key>114</key>
 		<last>Douglass</last>
 		<first>Kirk</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>124</key>
+		<key>115</key>
 		<last>Downing</last>
 		<first>Dan</first>
 		<middle>W.</middle>
 	</classmate>
 	<classmate>
-		<key>125</key>
+		<key>116</key>
 		<last>Drake</last>
 		<first>Cheryl</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>126</key>
+		<key>117</key>
 		<last>Drews</last>
 		<first>Jeannie</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>127</key>
+		<key>118</key>
 		<last>Dugan</last>
 		<first>Matthew</first>
 		<middle>T.</middle>
+		<short>Matt</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>128</key>
+		<key>119</key>
 		<last>Dugger</last>
 		<first>Cynthia</first>
 		<middle>L.</middle>
@@ -789,68 +743,68 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>129</key>
+		<key>120</key>
 		<last>Dunnewald</last>
 		<first>Peter</first>
 		<short>Pete</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>130</key>
+		<key>121</key>
 		<last>Eagen</last>
 		<first>Rick</first>
 	</classmate>
 	<classmate>
-		<key>131</key>
+		<key>122</key>
 		<last>Ealy</last>
 		<first>John</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>132</key>
+		<key>123</key>
 		<last>Eason</last>
 		<first>Charles</first>
 		<middle>R.</middle>
 		<suffix>Jr.</suffix>
 	</classmate>
 	<classmate>
-		<key>133</key>
+		<key>124</key>
 		<last>Ebbesen</last>
 		<first>Lisa</first>
 	</classmate>
 	<classmate>
-		<key>134</key>
+		<key>125</key>
 		<last>Eckelberg</last>
 		<first>Bart</first>
 		<middle>K.</middle>
 	</classmate>
 	<classmate>
-		<key>135</key>
+		<key>126</key>
 		<last>Eckley</last>
 		<first>Edward</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>136</key>
+		<key>127</key>
 		<last>Edelen</last>
 		<first>Gary</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>137</key>
+		<key>128</key>
 		<last>Elbrader</last>
 		<first>Roger</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>138</key>
+		<key>129</key>
 		<last>Ellis</last>
 		<first>Susan</first>
 		<middle>K.</middle>
 	</classmate>
 	<classmate>
-		<key>139</key>
+		<key>130</key>
 		<last>Emanuel</last>
 		<first>Patrick</first>
 		<middle>J.</middle>
@@ -858,14 +812,13 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>140</key>
+		<key>131</key>
 		<last>Emily</last>
 		<first>Anthony</first>
-		<short>Tony</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>141</key>
+		<key>132</key>
 		<last>Emm</last>
 		<first>David</first>
 		<middle>W.</middle>
@@ -873,7 +826,7 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>142</key>
+		<key>133</key>
 		<last>Englert</last>
 		<first>Anthony</first>
 		<middle>M.</middle>
@@ -881,13 +834,13 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>143</key>
+		<key>134</key>
 		<last>Erbach</last>
 		<first>Jenny</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>144</key>
+		<key>135</key>
 		<last>Everett</last>
 		<first>Wesley</first>
 		<middle>D.</middle>
@@ -895,77 +848,70 @@
 		<comment>one profile is maybe, one still invited</comment>
 	</classmate>
 	<classmate>
-		<key>145</key>
+		<key>136</key>
 		<last>Fallert</last>
 		<first>Mitchell</first>
 	</classmate>
 	<classmate>
-		<key>146</key>
+		<key>137</key>
 		<last>Fankhanel</last>
 		<first>Thomas</first>
 	</classmate>
 	<classmate>
-		<key>147</key>
+		<key>138</key>
 		<last>Fanning</last>
 		<first>Kim</first>
 		<middle>K.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>148</key>
+		<key>139</key>
 		<last>Feld</last>
 		<first>Jeffrey</first>
 	</classmate>
 	<classmate>
-		<key>149</key>
+		<key>140</key>
 		<last>Felix</last>
 		<first>Debbie</first>
 	</classmate>
 	<classmate>
-		<key>150</key>
+		<key>141</key>
 		<last>Felton</last>
 		<first>Scott</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>151</key>
+		<key>142</key>
 		<last>Ferguson</last>
 		<first>Gary</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>152</key>
-		<last>Fgggs</last>
-		<first>Eric</first>
-		<reachable>1</reachable>
-		<comment>correct spelling?</comment>
-	</classmate>
-	<classmate>
-		<key>153</key>
+		<key>143</key>
 		<last>Fisk</last>
 		<first>Robert</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>154</key>
+		<key>144</key>
 		<last>Foster</last>
 		<first>Paul</first>
 	</classmate>
 	<classmate>
-		<key>155</key>
+		<key>145</key>
 		<last>Fowler</last>
 		<first>Irene</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>156</key>
+		<key>146</key>
 		<last>Francis</last>
 		<first>Darlene</first>
 		<middle>S.</middle>
 	</classmate>
 	<classmate>
-		<key>157</key>
+		<key>147</key>
 		<last>Franson</last>
 		<first>Susan</first>
 		<middle>R.</middle>
@@ -973,191 +919,187 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>158</key>
+		<key>148</key>
 		<last>Frederick</last>
 		<first>Charles</first>
 		<middle>E.</middle>
 		<suffix>Jr.</suffix>
 	</classmate>
 	<classmate>
-		<key>159</key>
+		<key>149</key>
 		<last>Freels</last>
 		<first>Laurie</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>160</key>
+		<key>150</key>
 		<last>Frick</last>
 		<first>Julie</first>
 	</classmate>
 	<classmate>
-		<key>161</key>
+		<key>151</key>
 		<last>Fritz</last>
 		<first>William</first>
 		<short>Bill</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>162</key>
+		<key>152</key>
 		<last>Furuli</last>
 		<first>Joe</first>
 	</classmate>
 	<classmate>
-		<key>163</key>
+		<key>153</key>
 		<last>Gabriella</last>
 		<first>Vickie</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>164</key>
+		<key>154</key>
 		<last>Gaines</last>
 		<first>Michael</first>
 		<middle>Otis</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>165</key>
+		<key>155</key>
 		<last>Gallagher</last>
 		<first>Mary</first>
 		<middle>Lee</middle>
 	</classmate>
 	<classmate>
-		<key>166</key>
+		<key>156</key>
 		<last>Gallegos</last>
 		<first>Hazel</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>167</key>
+		<key>157</key>
 		<last>Galloway</last>
 		<first>Tonya</first>
 		<reachable>1</reachable>
+		<newLast>Riley</newLast>
 	</classmate>
 	<classmate>
-		<key>168</key>
+		<key>158</key>
 		<last>Gambold</last>
 		<first>Victoria</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>169</key>
+		<key>159</key>
 		<last>Garcia</last>
 		<first>Guillermo</first>
 	</classmate>
 	<classmate>
-		<key>170</key>
+		<key>160</key>
 		<last>Garrett</last>
 		<first>Michelle</first>
 	</classmate>
 	<classmate>
-		<key>171</key>
+		<key>161</key>
 		<last>Gates</last>
 		<first>Mark</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>172</key>
+		<key>162</key>
 		<last>Germann</last>
 		<first>Greg</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>173</key>
+		<key>163</key>
 		<last>Gidley</last>
 		<first>Loretta</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>174</key>
+		<key>164</key>
 		<last>Gilbertson</last>
 		<first>Richard</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>175</key>
+		<key>165</key>
 		<last>Goedert</last>
 		<first>Bambi</first>
+		<newLast>Hansen</newLast>
 	</classmate>
 	<classmate>
-		<key>176</key>
+		<key>166</key>
 		<last>Goodwin</last>
 		<first>Gerald</first>
 		<short>Gerry</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>177</key>
+		<key>167</key>
 		<last>Goodwin</last>
 		<first>Sandra</first>
 	</classmate>
 	<classmate>
-		<key>178</key>
+		<key>168</key>
 		<last>Gordon</last>
 		<first>Gregory</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>179</key>
-		<last>Greenwalt</last>
-		<first>David</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>180</key>
+		<key>169</key>
 		<last>Gregory</last>
 		<first>Peter</first>
 		<middle>S.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>181</key>
+		<key>170</key>
 		<last>Gribble</last>
 		<first>Judith</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>182</key>
+		<key>171</key>
 		<last>Grillos</last>
 		<first>Michael</first>
 	</classmate>
 	<classmate>
-		<key>183</key>
+		<key>172</key>
 		<last>Grose</last>
 		<first>Kathryn</first>
 	</classmate>
 	<classmate>
-		<key>184</key>
+		<key>173</key>
 		<last>Hachen</last>
 		<first>Ardis</first>
 	</classmate>
 	<classmate>
-		<key>185</key>
+		<key>174</key>
 		<last>Hadlock</last>
 		<first>Rose</first>
 		<middle>M.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>186</key>
+		<key>175</key>
 		<last>Hadsell</last>
 		<first>Eric</first>
 		<middle>F.</middle>
 	</classmate>
 	<classmate>
-		<key>187</key>
+		<key>176</key>
 		<last>Hafer</last>
 		<first>Linda</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>188</key>
+		<key>177</key>
 		<last>Hafner</last>
 		<first>Jill</first>
 		<middle>F.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>189</key>
+		<key>178</key>
 		<last>Hageman</last>
 		<first>Edward</first>
 		<middle>J.</middle>
@@ -1165,87 +1107,81 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>190</key>
+		<key>179</key>
 		<last>Halcomb</last>
 		<first>George</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>191</key>
+		<key>180</key>
 		<last>Hallock</last>
 		<first>Darrell</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>192</key>
+		<key>181</key>
 		<last>Hannon</last>
 		<first>Jeanne</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>193</key>
+		<key>182</key>
 		<last>Hansen</last>
 		<first>Catherine</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>194</key>
+		<key>183</key>
 		<last>Hansen</last>
 		<first>Chad</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>195</key>
+		<key>184</key>
 		<last>Hansen</last>
 		<first>Karen</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>196</key>
+		<key>185</key>
 		<last>Hansford</last>
 		<first>George</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>197</key>
+		<key>186</key>
 		<last>Harman</last>
 		<first>Clinton</first>
 		<middle>L</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>198</key>
+		<key>187</key>
 		<last>Harms</last>
 		<first>Joseph</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>199</key>
+		<key>188</key>
 		<last>Harper</last>
 		<first>Chris</first>
 	</classmate>
 	<classmate>
-		<key>200</key>
+		<key>189</key>
 		<last>Harrington</last>
 		<first>Vernon</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>201</key>
-		<last>Harris</last>
-		<first>Ellen</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>202</key>
+		<key>190</key>
 		<last>Harrison</last>
 		<first>Charles</first>
 		<comment>Is this Richard Harrison?!?</comment>
 	</classmate>
 	<classmate>
-		<key>203</key>
+		<key>191</key>
 		<last>Harrison</last>
 		<first>Richard</first>
 		<short>Rick</short>
@@ -1253,224 +1189,220 @@
 		<comment>repeated last name in classmates.com profile</comment>
 	</classmate>
 	<classmate>
-		<key>204</key>
+		<key>192</key>
 		<last>Harvey</last>
 		<first>Donald</first>
 	</classmate>
 	<classmate>
-		<key>205</key>
+		<key>193</key>
 		<last>Harvey</last>
 		<first>Gary</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>206</key>
+		<key>194</key>
 		<last>Hasler</last>
 		<first>Steven</first>
 		<short>Steve</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>207</key>
+		<key>195</key>
 		<last>Hatchen</last>
 		<first>Ardis</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>208</key>
+		<key>196</key>
 		<last>Haynes</last>
 		<first>Donald</first>
 		<middle>L.</middle>
 		<short>Don</short>
 	</classmate>
 	<classmate>
-		<key>209</key>
+		<key>197</key>
 		<last>Heartso</last>
 		<first>Jon</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>210</key>
+		<key>198</key>
 		<last>Hebenstreit</last>
 		<first>Timothy</first>
 	</classmate>
 	<classmate>
-		<key>211</key>
+		<key>199</key>
 		<last>Hebert</last>
 		<first>Mary</first>
 		<middle>Beth</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>212</key>
+		<key>200</key>
 		<last>Hedlund</last>
 		<first>Debra</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>213</key>
+		<key>201</key>
 		<last>Heese</last>
 		<first>Kathleen</first>
 		<short>Kathy</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>214</key>
+		<key>202</key>
 		<last>Heimbegner</last>
 		<first>Eugene</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>215</key>
-		<last>Heinze</last>
-		<first>Liz</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>216</key>
+		<key>203</key>
 		<last>Helbig</last>
 		<first>Sherry</first>
+		<newLast>Vogel</newLast>
 	</classmate>
 	<classmate>
-		<key>217</key>
+		<key>204</key>
 		<last>Helms</last>
 		<first>Lesa</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>218</key>
+		<key>205</key>
 		<last>Hendzel</last>
 		<first>Dean</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>219</key>
+		<key>206</key>
 		<last>Hengameh</last>
 		<first>Omid</first>
 	</classmate>
 	<classmate>
-		<key>220</key>
+		<key>207</key>
 		<last>Hermann</last>
 		<first>Luke</first>
 		<middle>Irwin</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>221</key>
+		<key>208</key>
 		<last>Hernandez</last>
 		<first>Ben</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>222</key>
+		<key>209</key>
 		<last>Herr</last>
 		<first>Vincent</first>
 		<middle>C.</middle>
 		<short>Vince</short>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>223</key>
+		<key>210</key>
 		<last>Hessner</last>
 		<first>Eric</first>
 		<middle>T.</middle>
 	</classmate>
 	<classmate>
-		<key>224</key>
+		<key>211</key>
 		<last>Hickman</last>
 		<first>Larry</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>225</key>
+		<key>212</key>
 		<last>Hicks</last>
 		<first>Kenneth</first>
 		<short>Kenny</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>226</key>
+		<key>213</key>
 		<last>Higgins</last>
 		<first>Pam</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>227</key>
+		<key>214</key>
 		<last>Hightower</last>
 		<first>James</first>
 		<short>Jim</short>
 	</classmate>
 	<classmate>
-		<key>228</key>
+		<key>215</key>
 		<last>Hill</last>
 		<first>Steve</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>229</key>
+		<key>216</key>
 		<last>Hilton</last>
 		<first>Joanne</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>230</key>
+		<key>217</key>
 		<last>Hoefer</last>
 		<first>Sheri</first>
 		<middle>Ann</middle>
 	</classmate>
 	<classmate>
-		<key>231</key>
+		<key>218</key>
 		<last>Holsinger</last>
 		<first>George</first>
 		<middle>C.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>232</key>
+		<key>219</key>
 		<last>Hood</last>
 		<first>Helen</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>233</key>
+		<key>220</key>
 		<last>Hoover</last>
 		<first>Jeanie</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>234</key>
+		<key>221</key>
 		<last>Hopkins</last>
 		<first>Vanessa</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>235</key>
+		<key>222</key>
 		<last>Hopper</last>
 		<first>Joan</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>236</key>
+		<key>223</key>
 		<last>Horn</last>
 		<first>Robert</first>
 		<middle>C.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>237</key>
+		<key>224</key>
 		<last>Howbert</last>
 		<first>Bruce</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>238</key>
+		<key>225</key>
 		<last>Howell</last>
 		<first>Jack</first>
 		<middle>B.</middle>
 	</classmate>
 	<classmate>
-		<key>239</key>
+		<key>226</key>
 		<last>Hrouda</last>
 		<first>Kathryn</first>
 		<middle>M.</middle>
@@ -1478,19 +1410,13 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>240</key>
+		<key>227</key>
 		<last>Hudson</last>
 		<first>Sharlene</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>241</key>
-		<last>Huggins</last>
-		<first>Debi</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>242</key>
+		<key>228</key>
 		<last>Hughes</last>
 		<first>Steven</first>
 		<middle>R.</middle>
@@ -1498,804 +1424,794 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>243</key>
+		<key>229</key>
 		<last>Hull</last>
 		<first>Jerry</first>
 	</classmate>
 	<classmate>
-		<key>244</key>
+		<key>230</key>
 		<last>Hult</last>
 		<first>Kelly</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>245</key>
+		<key>231</key>
 		<last>Humphrey</last>
 		<first>Debbie</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>246</key>
+		<key>232</key>
 		<last>Huntley</last>
 		<first>James</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>247</key>
+		<key>233</key>
 		<last>Huntley</last>
 		<first>Jon</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>248</key>
+		<key>234</key>
 		<last>Huston</last>
 		<first>Dixie</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>249</key>
+		<key>235</key>
 		<last>Hutchins</last>
 		<first>James</first>
 		<middle>B.</middle>
 	</classmate>
 	<classmate>
-		<key>250</key>
+		<key>236</key>
 		<last>Hutchinson</last>
 		<first>Marcia</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>251</key>
+		<key>237</key>
 		<last>Inman</last>
 		<first>Deborah</first>
 	</classmate>
 	<classmate>
-		<key>252</key>
+		<key>238</key>
 		<last>Jackson</last>
 		<first>Cory</first>
 		<middle>F.</middle>
 	</classmate>
 	<classmate>
-		<key>253</key>
+		<key>239</key>
 		<last>Janssen</last>
 		<first>Lyn</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>254</key>
+		<key>240</key>
 		<last>Jeffrey</last>
 		<first>Moerene</first>
 	</classmate>
 	<classmate>
-		<key>255</key>
+		<key>241</key>
 		<last>Jelen</last>
 		<first>Madi</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>256</key>
+		<key>242</key>
 		<last>Jillson</last>
 		<first>Stacey</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>257</key>
+		<key>243</key>
 		<last>John</last>
 		<first>Forrest</first>
 		<middle>B.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>258</key>
+		<key>244</key>
 		<last>Johnson</last>
 		<first>Andrew</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>259</key>
+		<key>245</key>
 		<last>Johnson</last>
 		<first>James</first>
 		<middle>C.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>260</key>
+		<key>246</key>
 		<last>Johnson</last>
 		<first>James</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>261</key>
+		<key>247</key>
 		<last>Johnson</last>
 		<first>Marty</first>
 	</classmate>
 	<classmate>
-		<key>262</key>
+		<key>248</key>
 		<last>Johnson</last>
 		<first>Ruth</first>
 	</classmate>
 	<classmate>
-		<key>263</key>
+		<key>249</key>
 		<last>Jones</last>
 		<first>Larry</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>264</key>
+		<key>250</key>
 		<last>Jones</last>
 		<first>Ronald</first>
 		<middle>H.</middle>
 	</classmate>
 	<classmate>
-		<key>265</key>
+		<key>251</key>
 		<last>Kauffman</last>
 		<first>Nancy</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>266</key>
+		<key>252</key>
 		<last>Keith</last>
 		<first>Kim</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>267</key>
+		<key>253</key>
 		<last>Keitzman</last>
 		<first>Wayne</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>268</key>
+		<key>254</key>
 		<last>Keller</last>
 		<first>John</first>
 		<middle>T.</middle>
 	</classmate>
 	<classmate>
-		<key>269</key>
+		<key>255</key>
 		<last>Kelley</last>
 		<first>Kenneth</first>
 	</classmate>
 	<classmate>
-		<key>270</key>
+		<key>256</key>
 		<last>Kimbley</last>
 		<first>Cheryl</first>
 		<reachable>1</reachable>
+		<newLast>DeLany</newLast>
 	</classmate>
 	<classmate>
-		<key>271</key>
+		<key>257</key>
 		<last>King</last>
 		<first>Dorothy</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>272</key>
+		<key>258</key>
 		<last>Kirkha</last>
 		<first>Tammie</first>
 		<reachable>1</reachable>
+		<newLast>Kirkham</newLast>
 	</classmate>
 	<classmate>
-		<key>273</key>
+		<key>259</key>
 		<last>Kleemola</last>
 		<first>John</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>274</key>
+		<key>260</key>
 		<last>Knedler</last>
 		<first>Ann</first>
 	</classmate>
 	<classmate>
-		<key>275</key>
+		<key>261</key>
 		<last>Koch</last>
 		<first>Loren</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>276</key>
+		<key>262</key>
 		<last>Kochevar</last>
 		<first>Randi</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>277</key>
-		<last>Mozena</last>
+		<key>263</key>
+		<last>Krause</last>
 		<first>Patricia</first>
 		<short>Patty</short>
 		<prefix>Mrs.</prefix>
-		<nee>Krause</nee>
 		<reachable>1</reachable>
+		<newLast>Mozena</newLast>
 	</classmate>
 	<classmate>
-		<key>278</key>
+		<key>264</key>
 		<last>Kroeger</last>
 		<first>Kevin</first>
 		<middle>M.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>279</key>
+		<key>265</key>
 		<last>Kubistek</last>
 		<first>Richard</first>
+		<comment>contact soon</comment>
 	</classmate>
 	<classmate>
-		<key>280</key>
+		<key>266</key>
 		<last>La Bate</last>
 		<first>Anthony</first>
 		<middle>N.</middle>
 	</classmate>
 	<classmate>
-		<key>281</key>
+		<key>267</key>
+		<last>La Bate</last>
+		<first>Anthony</first>
+		<middle>N.</middle>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<key>268</key>
 		<last>La Crosse</last>
 		<first>Janice</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>282</key>
+		<key>269</key>
 		<last>La Fehr</last>
 		<first>Stephen</first>
 		<middle>T.</middle>
 	</classmate>
 	<classmate>
-		<key>283</key>
-		<last>LaBate</last>
-		<first>Anthony</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>284</key>
+		<key>270</key>
 		<last>Lamed</last>
 		<first>Patricia</first>
 	</classmate>
 	<classmate>
-		<key>285</key>
+		<key>271</key>
 		<last>Lancaster</last>
 		<first>Ginger</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>286</key>
+		<key>272</key>
 		<last>Lang</last>
 		<first>David</first>
 		<middle>S.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>287</key>
+		<key>273</key>
 		<last>Lee</last>
 		<first>Matt</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>288</key>
-		<last>Lee</last>
-		<first>Skip</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>289</key>
+		<key>274</key>
 		<last>Lee</last>
 		<first>Terri</first>
 	</classmate>
 	<classmate>
-		<key>290</key>
+		<key>275</key>
 		<last>Leger</last>
 		<first>David</first>
 		<middle>C.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>291</key>
+		<key>276</key>
 		<last>Lemon</last>
 		<first>Richard</first>
 	</classmate>
 	<classmate>
-		<key>292</key>
+		<key>277</key>
 		<last>Lensgraf</last>
 		<first>Kimbra</first>
 	</classmate>
 	<classmate>
-		<key>293</key>
+		<key>278</key>
 		<last>Lewis</last>
 		<first>Cathy</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>294</key>
+		<key>279</key>
 		<last>Libra</last>
 		<first>William</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>295</key>
+		<key>280</key>
 		<last>Lilke</last>
 		<first>Julie</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>296</key>
+		<key>281</key>
 		<last>Lindeman</last>
 		<first>Cary</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>297</key>
+		<key>282</key>
 		<last>Linder</last>
 		<first>Michael</first>
 	</classmate>
 	<classmate>
-		<key>298</key>
+		<key>283</key>
 		<last>Luft</last>
 		<first>Julaine</first>
 		<short>Jill</short>
 	</classmate>
 	<classmate>
-		<key>299</key>
+		<key>284</key>
 		<last>Lund</last>
 		<first>Peter</first>
 		<middle>G.</middle>
 	</classmate>
 	<classmate>
-		<key>300</key>
+		<key>285</key>
 		<last>Lundgren</last>
 		<first>Robert</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>301</key>
+		<key>286</key>
 		<last>Lytle</last>
 		<first>Lori</first>
 		<reachable>1</reachable>
+		<newLast>Hansen</newLast>
 	</classmate>
 	<classmate>
-		<key>302</key>
+		<key>287</key>
 		<last>Macey</last>
 		<first>Brian</first>
 	</classmate>
 	<classmate>
-		<key>303</key>
+		<key>288</key>
 		<last>Magee</last>
 		<first>Chris</first>
 	</classmate>
 	<classmate>
-		<key>304</key>
+		<key>289</key>
 		<last>Malmgren</last>
 		<first>Lori</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>305</key>
+		<key>290</key>
 		<last>Malnati</last>
 		<first>Ann</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>306</key>
+		<key>291</key>
 		<last>Mango</last>
 		<first>Lisa</first>
 	</classmate>
 	<classmate>
-		<key>307</key>
+		<key>292</key>
 		<last>Maples</last>
 		<first>Ken</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>308</key>
+		<key>293</key>
 		<last>Marken</last>
 		<first>Van</first>
 		<middle>R.</middle>
 		<short>Visor</short>
 	</classmate>
 	<classmate>
-		<key>309</key>
-		<last>Marnell</last>
-		<first>Karen</first>
-	</classmate>
-	<classmate>
-		<key>310</key>
+		<key>294</key>
 		<last>Martinez</last>
 		<first>Marvin</first>
 		<middle>G.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>311</key>
+		<key>295</key>
 		<last>Martinez</last>
 		<first>Murray</first>
 		<middle>Arnold</middle>
 		<short>Arnold</short>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
-		<key>312</key>
+		<key>296</key>
 		<last>Masker</last>
 		<first>Bruce</first>
 		<middle>I.</middle>
 	</classmate>
 	<classmate>
-		<key>313</key>
+		<key>297</key>
 		<last>Massey</last>
 		<first>Natalie</first>
 	</classmate>
 	<classmate>
-		<key>314</key>
+		<key>298</key>
 		<last>Mathisen</last>
 		<first>Mary</first>
 		<middle>Beth</middle>
 		<reachable>1</reachable>
+		<newLast>Wills</newLast>
 	</classmate>
 	<classmate>
-		<key>315</key>
+		<key>299</key>
 		<last>Matlock</last>
 		<first>Mary</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>316</key>
+		<key>300</key>
 		<last>Mc Laughlin</last>
 		<first>Ronald</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>317</key>
+		<key>301</key>
 		<last>McDonald</last>
 		<first>Bradley</first>
 	</classmate>
 	<classmate>
-		<key>318</key>
+		<key>302</key>
 		<last>McDougal</last>
 		<first>Ann</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>319</key>
+		<key>303</key>
 		<last>McIntosh</last>
 		<first>Marilyn</first>
 	</classmate>
 	<classmate>
-		<key>320</key>
+		<key>304</key>
 		<last>McNeil</last>
 		<first>Michelle</first>
 	</classmate>
 	<classmate>
-		<key>321</key>
+		<key>305</key>
 		<last>McPhilimy</last>
 		<first>Cheryl</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>322</key>
+		<key>306</key>
 		<last>Meadows</last>
 		<first>Dave</first>
 	</classmate>
 	<classmate>
-		<key>323</key>
+		<key>307</key>
 		<last>Medlin</last>
 		<first>Donna</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>324</key>
+		<key>308</key>
 		<last>Meerdink</last>
 		<first>Anita</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>325</key>
+		<key>309</key>
 		<last>Mehring</last>
 		<first>Martha</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>326</key>
+		<key>310</key>
 		<last>Merrill</last>
 		<first>Cherie</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>327</key>
+		<key>311</key>
 		<last>Michal</last>
 		<first>Rodney</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>328</key>
+		<key>312</key>
 		<last>Middlemiss</last>
 		<first>Nancy</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>329</key>
+		<key>313</key>
 		<last>Miller</last>
 		<first>Anne</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>330</key>
+		<key>314</key>
 		<last>Miller</last>
 		<first>Dana</first>
 		<middle>E.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>331</key>
+		<key>315</key>
 		<last>Miller</last>
 		<first>Matthew</first>
 		<middle>W.</middle>
 	</classmate>
 	<classmate>
-		<key>332</key>
+		<key>316</key>
 		<last>Mills</last>
 		<first>Theresa</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>333</key>
+		<key>317</key>
 		<last>Miskell</last>
 		<first>Bradley</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>334</key>
+		<key>318</key>
 		<last>Moncrieff</last>
 		<first>Kathleen</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>335</key>
+		<key>319</key>
 		<last>Monson</last>
 		<first>David</first>
 		<middle>P.</middle>
 	</classmate>
 	<classmate>
-		<key>336</key>
+		<key>320</key>
 		<last>Moore</last>
 		<first>Nina</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>337</key>
+		<key>321</key>
 		<last>Moorehead</last>
 		<first>Margaret</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>338</key>
+		<key>322</key>
 		<last>Morgan</last>
 		<first>John</first>
 	</classmate>
 	<classmate>
-		<key>339</key>
+		<key>323</key>
 		<last>Morgan</last>
 		<first>Russell</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>340</key>
+		<key>324</key>
 		<last>Morgan</last>
 		<first>Scott</first>
 	</classmate>
 	<classmate>
-		<key>341</key>
+		<key>325</key>
 		<last>Morris</last>
 		<first>Phillip</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>342</key>
+		<key>326</key>
 		<last>Morris</last>
 		<first>William</first>
 		<middle>R.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>343</key>
+		<key>327</key>
 		<last>Morrison</last>
 		<first>Dorene</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>344</key>
+		<key>328</key>
 		<last>Moss</last>
 		<first>Monica</first>
 		<middle>M.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>345</key>
+		<key>329</key>
 		<last>Mossman</last>
 		<first>Christie</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>346</key>
+		<key>330</key>
 		<last>Mostek</last>
 		<first>Cynthia</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>347</key>
+		<key>331</key>
 		<last>Moyer</last>
 		<first>Nita</first>
 	</classmate>
 	<classmate>
-		<key>348</key>
+		<key>332</key>
 		<last>Mozena</last>
 		<first>Jack</first>
 		<middle>Alan</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>349</key>
+		<key>333</key>
 		<last>Mueller</last>
 		<first>Bruce</first>
 	</classmate>
 	<classmate>
-		<key>350</key>
+		<key>334</key>
 		<last>Murphy</last>
 		<first>Anne</first>
 		<middle>P.</middle>
 	</classmate>
 	<classmate>
-		<key>351</key>
+		<key>335</key>
 		<last>Murphy</last>
 		<first>Pamela</first>
 		<middle>S.</middle>
 	</classmate>
 	<classmate>
-		<key>352</key>
+		<key>336</key>
 		<last>Mutchler</last>
 		<first>Cynthia</first>
 		<short>Cindy</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>353</key>
+		<key>337</key>
 		<last>Naas</last>
 		<first>Phillip</first>
 	</classmate>
 	<classmate>
-		<key>354</key>
+		<key>338</key>
 		<last>Nanney</last>
 		<first>Jeff</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>355</key>
+		<key>339</key>
 		<last>Nelson</last>
 		<first>Elaine</first>
 		<middle>T.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>356</key>
+		<key>340</key>
 		<last>Nelson</last>
 		<first>Margaret</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>357</key>
+		<key>341</key>
 		<last>Nelson</last>
 		<first>Robert</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>358</key>
+		<key>342</key>
 		<last>Nelson</last>
 		<first>Scott</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>359</key>
+		<key>343</key>
 		<last>Nelson</last>
 		<first>Susan</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>360</key>
-		<last>Nester</last>
-		<first>Kevin</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>361</key>
-		<last>Moore</last>
+		<key>344</key>
+		<last>Newman</last>
 		<first>K.</first>
 		<middle>Ann</middle>
-		<nee>Newman</nee>
+		<newLast>Moore</newLast>
 	</classmate>
 	<classmate>
-		<key>362</key>
+		<key>345</key>
 		<last>Newsom</last>
 		<first>Bret</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>363</key>
+		<key>346</key>
 		<last>Niccoli</last>
 		<first>Dana</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>364</key>
+		<key>347</key>
 		<last>Nichols</last>
 		<first>Juanita</first>
 	</classmate>
 	<classmate>
-		<key>365</key>
+		<key>348</key>
 		<last>Nicolosi</last>
 		<first>Daniel</first>
 	</classmate>
 	<classmate>
-		<key>366</key>
+		<key>349</key>
 		<last>Nielson</last>
 		<first>Marvin</first>
 	</classmate>
 	<classmate>
-		<key>367</key>
+		<key>350</key>
 		<last>Nordin</last>
 		<first>Leslie</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>368</key>
+		<key>351</key>
 		<last>Nusz</last>
 		<first>Michael</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>369</key>
+		<key>352</key>
 		<last>Ogorman</last>
 		<first>John</first>
 	</classmate>
 	<classmate>
-		<key>370</key>
+		<key>353</key>
 		<last>Oliphant</last>
 		<first>Sue</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>371</key>
+		<key>354</key>
 		<last>O'Riley</last>
 		<first>Robert</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>372</key>
+		<key>355</key>
 		<last>Orr</last>
 		<first>Scott</first>
 		<middle>W.</middle>
 	</classmate>
 	<classmate>
-		<key>373</key>
+		<key>356</key>
 		<last>Osiecki</last>
 		<first>Larry</first>
 		<middle>S.</middle>
 	</classmate>
 	<classmate>
-		<key>374</key>
+		<key>357</key>
 		<last>Oslecki</last>
 		<first>Larry</first>
 	</classmate>
 	<classmate>
-		<key>375</key>
+		<key>358</key>
 		<last>Page</last>
 		<first>Michael</first>
 	</classmate>
 	<classmate>
-		<key>376</key>
+		<key>359</key>
 		<last>Papenfus</last>
 		<first>Kurt</first>
 		<middle>F.</middle>
@@ -2303,37 +2219,37 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>377</key>
+		<key>360</key>
 		<last>Paricio</last>
 		<first>Pamela</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>378</key>
+		<key>361</key>
 		<last>Park</last>
 		<first>Kathy</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>379</key>
+		<key>362</key>
 		<last>Park</last>
 		<first>Stephen</first>
 		<short>Steve</short>
 	</classmate>
 	<classmate>
-		<key>380</key>
+		<key>363</key>
 		<last>Parker</last>
 		<first>David</first>
 		<middle>G.</middle>
 	</classmate>
 	<classmate>
-		<key>381</key>
+		<key>364</key>
 		<last>Paschall</last>
 		<first>Barbara</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>382</key>
+		<key>365</key>
 		<last>Pattridge</last>
 		<first>Mark</first>
 		<middle>F.</middle>
@@ -2341,63 +2257,57 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>383</key>
-		<last>Paulsen</last>
-		<first>Louise</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>384</key>
+		<key>366</key>
 		<last>Paulson</last>
 		<first>John</first>
 	</classmate>
 	<classmate>
-		<key>385</key>
+		<key>367</key>
 		<last>Payne</last>
 		<first>Jeff</first>
 	</classmate>
 	<classmate>
-		<key>386</key>
+		<key>368</key>
 		<last>Payne</last>
 		<first>Thomas</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>387</key>
+		<key>369</key>
 		<last>Penn</last>
 		<first>Deborah</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>388</key>
+		<key>370</key>
 		<last>Perella</last>
 		<first>Rocco</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>389</key>
+		<key>371</key>
 		<last>Perkins</last>
 		<first>Jerry</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>390</key>
+		<key>372</key>
 		<last>Petersen</last>
 		<first>Elizabeth</first>
 	</classmate>
 	<classmate>
-		<key>391</key>
+		<key>373</key>
 		<last>Peterson</last>
 		<first>Geoffrey</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>392</key>
+		<key>374</key>
 		<last>Peterson</last>
 		<first>Miriam</first>
 	</classmate>
 	<classmate>
-		<key>393</key>
+		<key>375</key>
 		<last>Petry</last>
 		<first>Katherine</first>
 		<short>Kathy</short>
@@ -2405,68 +2315,56 @@
 		<comment>confirmed via email</comment>
 	</classmate>
 	<classmate>
-		<key>394</key>
+		<key>376</key>
 		<last>Phariss</last>
 		<first>Bruce</first>
 		<middle>W.</middle>
 		<title>M.D.</title>
 	</classmate>
 	<classmate>
-		<key>395</key>
+		<key>377</key>
 		<last>Phariss</last>
 		<first>Tracy</first>
 		<middle>V.</middle>
 	</classmate>
 	<classmate>
-		<key>396</key>
+		<key>378</key>
 		<last>Pierce</last>
 		<first>Brian</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>397</key>
+		<key>379</key>
 		<last>Pierce</last>
 		<first>Janice</first>
 	</classmate>
 	<classmate>
-		<key>398</key>
+		<key>380</key>
 		<last>Pierce</last>
 		<first>Steven</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>399</key>
-		<last>Pike</last>
-		<first>Debra</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>400</key>
-		<last>Plaisance</last>
-		<first>Denise</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>401</key>
+		<key>381</key>
 		<last>Potter</last>
 		<first>Dianne</first>
 		<middle>R.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>402</key>
+		<key>382</key>
 		<last>Poundstone</last>
 		<first>Randal</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>403</key>
+		<key>383</key>
 		<last>Press</last>
 		<first>Lisa</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>404</key>
+		<key>384</key>
 		<last>Protze</last>
 		<first>Ronald</first>
 		<middle>W.</middle>
@@ -2474,46 +2372,46 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>405</key>
+		<key>385</key>
 		<last>Purl</last>
 		<first>Janis</first>
 		<middle>K.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>406</key>
+		<key>386</key>
 		<last>Quinn</last>
 		<first>Susan</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>407</key>
+		<key>387</key>
 		<last>Rackay</last>
 		<first>Mark</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>408</key>
+		<key>388</key>
 		<last>Radcliffe</last>
 		<first>Andrew</first>
 	</classmate>
 	<classmate>
-		<key>409</key>
+		<key>389</key>
 		<last>Rand</last>
 		<first>Kevin</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>410</key>
-		<last>Cameron</last>
+		<key>390</key>
+		<last>Raymer</last>
 		<first>Susan</first>
 		<middle>R.</middle>
-		<nee>Raymer</nee>
 		<reachable>1</reachable>
+		<newLast>Cameron</newLast>
 	</classmate>
 	<classmate>
-		<key>411</key>
+		<key>391</key>
 		<last>Reher</last>
 		<first>Kenneth</first>
 		<middle>L.</middle>
@@ -2521,76 +2419,77 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>412</key>
+		<key>392</key>
 		<last>Remetes</last>
 		<first>Christopher</first>
 	</classmate>
 	<classmate>
-		<key>413</key>
+		<key>393</key>
 		<last>Retke</last>
 		<first>John</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>414</key>
+		<key>394</key>
 		<last>Reynolds</last>
 		<first>Jennifer</first>
 	</classmate>
 	<classmate>
-		<key>415</key>
+		<key>395</key>
 		<last>Richards</last>
 		<first>Deborah</first>
 	</classmate>
 	<classmate>
-		<key>416</key>
+		<key>396</key>
 		<last>Richardson</last>
 		<first>Bradford</first>
 		<short>Brad</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>417</key>
+		<key>397</key>
 		<last>Richey</last>
 		<first>Rick</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>418</key>
+		<key>398</key>
 		<last>Richter</last>
 		<first>Mark</first>
 	</classmate>
 	<classmate>
-		<key>419</key>
-		<last>Rife</last>
+		<key>399</key>
+		<last>Riffe</last>
 		<first>Muzzle</first>
 		<reachable>1</reachable>
+		<newLast>Creek Primitives</newLast>
 	</classmate>
 	<classmate>
-		<key>420</key>
+		<key>400</key>
 		<last>Riffe</last>
 		<first>Patricia</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>421</key>
+		<key>401</key>
 		<last>Ritchlin</last>
 		<first>Theresa</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>422</key>
+		<key>402</key>
 		<last>Rivero</last>
 		<first>Alicia</first>
 	</classmate>
 	<classmate>
-		<key>423</key>
+		<key>403</key>
 		<last>Rogers</last>
 		<first>Jim</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>424</key>
+		<key>404</key>
 		<last>Rowe</last>
 		<first>Victor</first>
 		<middle>Scott</middle>
@@ -2598,41 +2497,43 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>425</key>
+		<key>405</key>
 		<last>Rowland</last>
 		<first>Kennon</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>426</key>
+		<key>406</key>
 		<last>Rulon</last>
 		<first>Larry</first>
 	</classmate>
 	<classmate>
-		<key>427</key>
+		<key>407</key>
 		<last>Sahinen</last>
 		<first>Rose</first>
 		<middle>M.</middle>
 	</classmate>
 	<classmate>
-		<key>428</key>
+		<key>408</key>
 		<last>Same</last>
 		<first>Dana</first>
 		<reachable>1</reachable>
+		<newLast>Miller</newLast>
 	</classmate>
 	<classmate>
-		<key>429</key>
+		<key>409</key>
 		<last>Same</last>
 		<first>Joy</first>
 		<reachable>1</reachable>
+		<newLast>Beveridge</newLast>
 	</classmate>
 	<classmate>
-		<key>430</key>
+		<key>410</key>
 		<last>Sassell</last>
 		<first>Timothy</first>
 	</classmate>
 	<classmate>
-		<key>431</key>
+		<key>411</key>
 		<last>Schaefer</last>
 		<first>James</first>
 		<middle>L.</middle>
@@ -2640,168 +2541,143 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>432</key>
+		<key>412</key>
 		<last>Schroll</last>
 		<first>Kenneth</first>
 		<short>Ken</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>433</key>
+		<key>413</key>
 		<last>Schultz</last>
 		<first>Kenneth</first>
 	</classmate>
 	<classmate>
-		<key>434</key>
-		<last>Beegles</last>
+		<key>414</key>
+		<last>Schulz</last>
 		<first>Gail</first>
 		<middle>L.</middle>
-		<nee>Schulz</nee>
 		<reachable>1</reachable>
 		<comment>one profile is yes, one is invited</comment>
+		<newLast>Beegles</newLast>
 	</classmate>
 	<classmate>
-		<key>435</key>
+		<key>415</key>
 		<last>Schuster</last>
 		<first>Mark</first>
 		<middle>E.</middle>
 	</classmate>
 	<classmate>
-		<key>436</key>
-		<last>Schwarte</last>
-		<first>Heather</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>437</key>
+		<key>416</key>
 		<last>Scott</last>
 		<first>Lisa</first>
 	</classmate>
 	<classmate>
-		<key>438</key>
+		<key>417</key>
 		<last>Sennebogan</last>
 		<first>Edna</first>
 	</classmate>
 	<classmate>
-		<key>439</key>
+		<key>418</key>
 		<last>Shepard</last>
 		<first>Jan</first>
 	</classmate>
 	<classmate>
-		<key>440</key>
+		<key>419</key>
 		<last>Sherman</last>
 		<first>James</first>
 		<short>Jim</short>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>441</key>
+		<key>420</key>
 		<last>Shih</last>
 		<first>Dwight</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>442</key>
-		<last>Shimer</last>
-		<first>Ralph</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>443</key>
-		<last>Shride</last>
-		<first>Dave</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>444</key>
+		<key>421</key>
 		<last>Simonds</last>
 		<first>Fredereic</first>
 	</classmate>
 	<classmate>
-		<key>445</key>
+		<key>422</key>
 		<last>Simpkins</last>
 		<first>Kathy</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>446</key>
+		<key>423</key>
 		<last>Simpson</last>
 		<first>Elizabeth</first>
 		<middle>C.</middle>
 	</classmate>
 	<classmate>
-		<key>447</key>
+		<key>424</key>
 		<last>Simpson</last>
 		<first>Lisa</first>
 		<reachable>1</reachable>
 		<comment>Lisa = Elizabeth?</comment>
+		<newLast>Michalski</newLast>
 	</classmate>
 	<classmate>
-		<key>448</key>
+		<key>425</key>
 		<last>Skrok</last>
 		<first>Camille</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>449</key>
+		<key>426</key>
 		<last>Skulski</last>
 		<first>Tom</first>
 		<middle>O.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>450</key>
-		<last>Black</last>
+		<key>427</key>
+		<last>Slight</last>
 		<first>Delora</first>
 		<middle>L.</middle>
-		<nee>Slight</nee>
 		<reachable>1</reachable>
+		<newLast>Black</newLast>
 	</classmate>
 	<classmate>
-		<key>451</key>
+		<key>428</key>
 		<last>Smith</last>
 		<first>Bruce</first>
 		<middle>D.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>452</key>
-		<last>Smith</last>
-		<first>Gene</first>
-		<middle>H.</middle>
-		<reachable>1</reachable>
-		<comment>H. Gene Smith</comment>
-	</classmate>
-	<classmate>
-		<key>453</key>
+		<key>429</key>
 		<last>Smith</last>
 		<first>Kiley</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>454</key>
+		<key>430</key>
 		<last>Smith</last>
 		<first>Laurie</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>455</key>
+		<key>431</key>
 		<last>Smith</last>
 		<first>Rick</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>456</key>
-		<last>Hansen-Aran</last>
+		<key>432</key>
+		<last>Smyth</last>
 		<first>Debra</first>
 		<middle>K.</middle>
 		<short>Debbie</short>
-		<nee>Smyth</nee>
 		<reachable>1</reachable>
+		<newLast>Hansen-Aran</newLast>
 	</classmate>
 	<classmate>
-		<key>457</key>
+		<key>433</key>
 		<last>Sneed</last>
 		<first>Philip</first>
 		<middle>C.</middle>
@@ -2809,15 +2685,15 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>458</key>
-		<last>Snell-Stover</last>
+		<key>434</key>
+		<last>Snell</last>
 		<first>Beth</first>
 		<middle>M.</middle>
-		<nee>Snell</nee>
 		<reachable>1</reachable>
+		<newLast>Snell-Stover</newLast>
 	</classmate>
 	<classmate>
-		<key>459</key>
+		<key>435</key>
 		<last>Snell</last>
 		<first>Laura</first>
 		<middle>A.</middle>
@@ -2825,105 +2701,101 @@
 		<comment>one profile is yes, one is invited</comment>
 	</classmate>
 	<classmate>
-		<key>460</key>
+		<key>436</key>
 		<last>Snyder</last>
 		<first>Vickie</first>
 	</classmate>
 	<classmate>
-		<key>461</key>
+		<key>437</key>
 		<last>Sorvisto</last>
 		<first>Tammy</first>
 	</classmate>
 	<classmate>
-		<key>462</key>
+		<key>438</key>
 		<last>Sparks</last>
 		<first>Jackie</first>
 		<middle>L.</middle>
+		<reachable>1</reachable>
+		<comment>contact via Kurt</comment>
 	</classmate>
 	<classmate>
-		<key>463</key>
+		<key>439</key>
 		<last>Spicer</last>
 		<first>Lonnie</first>
 	</classmate>
 	<classmate>
-		<key>464</key>
+		<key>440</key>
 		<last>St. Clair</last>
 		<first>Adrienne</first>
 		<middle>C.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>465</key>
+		<key>441</key>
 		<last>Stanford</last>
 		<first>Kim</first>
 	</classmate>
 	<classmate>
-		<key>466</key>
+		<key>442</key>
 		<last>Steadman</last>
 		<first>Kirk</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>467</key>
+		<key>443</key>
 		<last>Steele</last>
 		<first>Kent</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>468</key>
+		<key>444</key>
 		<last>Stekr</last>
 		<first>David</first>
 		<middle>K.</middle>
 	</classmate>
 	<classmate>
-		<key>469</key>
+		<key>445</key>
 		<last>Stout</last>
 		<first>Sheryl</first>
 		<middle>D.</middle>
 	</classmate>
 	<classmate>
-		<key>470</key>
+		<key>446</key>
 		<last>Straley</last>
 		<first>Karen</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>471</key>
-		<last>Strawn</last>
-		<first>Kim</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>472</key>
+		<key>447</key>
 		<last>Strobel</last>
 		<first>Kraig</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>473</key>
+		<key>448</key>
 		<last>Strong</last>
 		<first>Danny</first>
 		<middle>B.</middle>
 	</classmate>
 	<classmate>
-		<key>474</key>
+		<key>449</key>
 		<last>Sundseth</last>
 		<first>Kathryn</first>
 	</classmate>
 	<classmate>
-		<key>475</key>
+		<key>450</key>
 		<last>Sutton</last>
 		<first>Richard</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>476</key>
+		<key>451</key>
 		<last>Swanson</last>
 		<first>James</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>477</key>
+		<key>452</key>
 		<last>Tanner</last>
 		<first>Randall</first>
 		<middle>R.</middle>
@@ -2931,61 +2803,65 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>478</key>
+		<key>453</key>
 		<last>Taylor</last>
 		<first>Roberta</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>479</key>
+		<key>454</key>
 		<last>Taylor</last>
 		<first>Susan</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>480</key>
+		<key>455</key>
 		<last>Tenny</last>
 		<first>Barbara</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>481</key>
+		<key>456</key>
 		<last>Theobald</last>
 		<first>Mary</first>
 		<middle>E.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>482</key>
+		<key>457</key>
 		<last>Thielsen</last>
 		<first>Pamela</first>
 		<reachable>1</reachable>
+		<newLast>Geer</newLast>
 	</classmate>
 	<classmate>
-		<key>483</key>
+		<key>458</key>
 		<last>Thirsk</last>
 		<first>Alice</first>
 	</classmate>
 	<classmate>
-		<key>484</key>
+		<key>459</key>
 		<last>Thoemke</last>
 		<first>Susan</first>
 	</classmate>
 	<classmate>
-		<key>485</key>
+		<key>460</key>
 		<last>Thomas</last>
 		<first>Bradford</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>486</key>
+		<key>461</key>
 		<last>Thompson</last>
 		<first>Karen</first>
+		<middle>Marnell</middle>
+		<reachable>1</reachable>
+		<newLast>Litsinger</newLast>
 	</classmate>
 	<classmate>
-		<key>487</key>
+		<key>462</key>
 		<last>Tibbetts</last>
 		<first>Stephen</first>
 		<middle>K.</middle>
@@ -2993,50 +2869,51 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>488</key>
+		<key>463</key>
 		<last>Tidwell</last>
 		<first>Cathy</first>
 		<middle>S.</middle>
 	</classmate>
 	<classmate>
-		<key>489</key>
+		<key>464</key>
 		<last>Tipps</last>
 		<first>Terri</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>490</key>
+		<key>465</key>
 		<last>Topping</last>
 		<first>Darlene</first>
 		<reachable>1</reachable>
+		<newLast>Corbett</newLast>
 	</classmate>
 	<classmate>
-		<key>491</key>
-		<last>Cheatum</last>
+		<key>466</key>
+		<last>Towle</last>
 		<first>Diana</first>
 		<middle>S.</middle>
-		<nee>Towle</nee>
+		<newLast>Cheatum</newLast>
 	</classmate>
 	<classmate>
-		<key>492</key>
+		<key>467</key>
 		<last>Towner</last>
 		<first>Ann</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>493</key>
+		<key>468</key>
 		<last>Trimbach</last>
 		<first>Sandra</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>494</key>
+		<key>469</key>
 		<last>Tripp</last>
 		<first>Karen</first>
 		<middle>K.</middle>
 	</classmate>
 	<classmate>
-		<key>495</key>
+		<key>470</key>
 		<last>Trowbridge</last>
 		<first>Michael</first>
 		<middle>M.</middle>
@@ -3044,7 +2921,7 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>496</key>
+		<key>471</key>
 		<last>Tubbs</last>
 		<first>Robert</first>
 		<middle>E.</middle>
@@ -3053,24 +2930,25 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>497</key>
+		<key>472</key>
 		<last>Tuggle</last>
 		<first>Donna</first>
 		<reachable>1</reachable>
+		<newLast>Miller</newLast>
 	</classmate>
 	<classmate>
-		<key>498</key>
+		<key>473</key>
 		<last>Tunner</last>
 		<first>Phil</first>
 	</classmate>
 	<classmate>
-		<key>499</key>
+		<key>474</key>
 		<last>Turley</last>
 		<first>Linda</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>500</key>
+		<key>475</key>
 		<last>van Meulebrouck</last>
 		<first>André</first>
 		<middle>M.</middle>
@@ -3078,33 +2956,33 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>501</key>
+		<key>476</key>
 		<last>VanDamme</last>
 		<first>Brian</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>502</key>
+		<key>477</key>
 		<last>Vaughn</last>
 		<first>Pamela</first>
 	</classmate>
 	<classmate>
-		<key>503</key>
+		<key>478</key>
 		<last>Vera</last>
 		<first>Guy</first>
 	</classmate>
 	<classmate>
-		<key>504</key>
+		<key>479</key>
 		<last>Vietti</last>
 		<first>Lawrence</first>
 	</classmate>
 	<classmate>
-		<key>505</key>
+		<key>480</key>
 		<last>Villachica</last>
 		<first>Steven</first>
 	</classmate>
 	<classmate>
-		<key>506</key>
+		<key>481</key>
 		<last>Vogel</last>
 		<first>Robert</first>
 		<middle>R.</middle>
@@ -3112,37 +2990,37 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>507</key>
+		<key>482</key>
 		<last>Vogt</last>
 		<first>Clay</first>
 		<middle>R.</middle>
 	</classmate>
 	<classmate>
-		<key>508</key>
+		<key>483</key>
 		<last>Vogt</last>
 		<first>Matt</first>
 	</classmate>
 	<classmate>
-		<key>509</key>
+		<key>484</key>
 		<last>Wagner</last>
 		<first>Cynthia</first>
 		<middle>L.</middle>
 	</classmate>
 	<classmate>
-		<key>510</key>
+		<key>485</key>
 		<last>Walter</last>
 		<first>Dan</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>511</key>
+		<key>486</key>
 		<last>Wamboldt</last>
 		<first>Jerry</first>
 		<middle>W.</middle>
 	</classmate>
 	<classmate>
-		<key>512</key>
+		<key>487</key>
 		<last>Wamboldt</last>
 		<first>Pamela</first>
 		<middle>J.</middle>
@@ -3150,74 +3028,74 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>513</key>
+		<key>488</key>
 		<last>Want</last>
 		<first>Robert</first>
 		<middle>E.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>514</key>
+		<key>489</key>
 		<last>Wareing</last>
 		<first>Bruce</first>
 	</classmate>
 	<classmate>
-		<key>515</key>
+		<key>490</key>
 		<last>Warling</last>
 		<first>Patricia</first>
 	</classmate>
 	<classmate>
-		<key>516</key>
+		<key>491</key>
 		<last>Waters</last>
 		<first>Patricia</first>
 	</classmate>
 	<classmate>
-		<key>517</key>
+		<key>492</key>
 		<last>Watts</last>
 		<first>Kathleen</first>
 		<middle>D.</middle>
 		<short>Kathy</short>
 	</classmate>
 	<classmate>
-		<key>518</key>
+		<key>493</key>
 		<last>Weber</last>
 		<first>Randy</first>
 		<middle>P.</middle>
 	</classmate>
 	<classmate>
-		<key>519</key>
+		<key>494</key>
 		<last>Weber</last>
 		<first>Robert</first>
 	</classmate>
 	<classmate>
-		<key>520</key>
-		<last>Stewart</last>
+		<key>495</key>
+		<last>Webster</last>
 		<first>Mary</first>
 		<middle>E.</middle>
 		<prefix>Mrs.</prefix>
-		<nee>Webster</nee>
 		<reachable>1</reachable>
 		<comment>was planner for 40th reunion, missing from 1998 alumni directory biographical section due to classmates.com bug</comment>
+		<newLast>Stewart</newLast>
 	</classmate>
 	<classmate>
-		<key>521</key>
+		<key>496</key>
 		<last>Wellensiek</last>
 		<first>Mark</first>
 	</classmate>
 	<classmate>
-		<key>522</key>
+		<key>497</key>
 		<last>West</last>
 		<first>Steven</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>523</key>
+		<key>498</key>
 		<last>Westerfield</last>
 		<first>Charlene</first>
 		<middle>A.</middle>
 	</classmate>
 	<classmate>
-		<key>524</key>
+		<key>499</key>
 		<last>Wheeler</last>
 		<first>David</first>
 		<middle>M.</middle>
@@ -3225,47 +3103,42 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>525</key>
+		<key>500</key>
 		<last>Wheeler</last>
 		<first>Wayne</first>
 	</classmate>
 	<classmate>
-		<key>526</key>
-		<last>Whitacre</last>
-		<first>Jenneane</first>
-		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>527</key>
+		<key>501</key>
 		<last>Whitnable</last>
 		<first>Steve</first>
 	</classmate>
 	<classmate>
-		<key>528</key>
+		<key>502</key>
 		<last>Wilcox</last>
 		<first>Mechelle</first>
 		<reachable>1</reachable>
+		<newLast>Moore</newLast>
 	</classmate>
 	<classmate>
-		<key>529</key>
+		<key>503</key>
 		<last>Willbanks</last>
 		<first>Raenell</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>530</key>
+		<key>504</key>
 		<last>Wilson</last>
 		<first>James</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>531</key>
+		<key>505</key>
 		<last>Winger</last>
 		<first>Nathan</first>
 		<middle>J.</middle>
 	</classmate>
 	<classmate>
-		<key>532</key>
+		<key>506</key>
 		<last>Witulski</last>
 		<first>Arthur</first>
 		<middle>F.</middle>
@@ -3273,80 +3146,228 @@
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>533</key>
+		<key>507</key>
 		<last>Woodhouse</last>
 		<first>Rosalind</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>534</key>
+		<key>508</key>
 		<last>Wrede</last>
 		<first>Bruce</first>
 	</classmate>
 	<classmate>
-		<key>535</key>
+		<key>509</key>
 		<last>Wright</last>
 		<first>Vanna</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>536</key>
+		<key>510</key>
 		<last>Yancey</last>
 		<first>Shaun</first>
 		<middle>P.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>537</key>
+		<key>511</key>
 		<last>Yanez</last>
 		<first>Gary</first>
 		<middle>V.</middle>
 	</classmate>
 	<classmate>
-		<key>538</key>
+		<key>512</key>
 		<last>Young</last>
 		<first>John</first>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>539</key>
+		<key>513</key>
 		<last>Young</last>
 		<first>Kathleen</first>
 		<middle>A.</middle>
 		<comment>incorrectly listed in seniors incognito</comment>
 	</classmate>
 	<classmate>
-		<key>540</key>
+		<key>514</key>
 		<last>Yurik</last>
 		<first>John</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
-		<key>541</key>
+		<key>515</key>
 		<last>Zachrison</last>
 		<first>Kim</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
+		<newLast>Strawn</newLast>
 	</classmate>
 	<classmate>
-		<key>542</key>
+		<key>516</key>
 		<last>Zahorchak</last>
 		<first>Catherine</first>
 		<short>Cathy</short>
 	</classmate>
 	<classmate>
-		<key>543</key>
+		<key>517</key>
 		<last>Zancanella</last>
 		<first>Robert</first>
 		<middle>A.</middle>
 		<short>Bob</short>
 	</classmate>
 	<classmate>
-		<key>544</key>
+		<key>518</key>
 		<last>Zinanti</last>
 		<first>Randy</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Alexander</last>
+		<first>Frank</first>
+		<reachable>1</reachable>
+		<comment>Northeastern HS</comment>
+	</classmate>
+	<classmate>
+		<last>Allen</last>
+		<first>Carlos</first>
+		<reachable>1</reachable>
+		<comment>Coronado HS</comment>
+	</classmate>
+	<classmate>
+		<last>Austin</last>
+		<first>Rebecca</first>
+		<reachable>1</reachable>
+		<newLast>Walvatne</newLast>
+	</classmate>
+	<classmate>
+		<last>Bennetts</last>
+		<first>Debra</first>
+		<short>Debbie</short>
+		<reachable>1</reachable>
+		<newLast>Pike</newLast>
+	</classmate>
+	<classmate>
+		<last>Bohn</last>
+		<first>Sandi</first>
+		<reachable>1</reachable>
+		<comment>Monte Vista HS</comment>
+	</classmate>
+	<classmate>
+		<last>Brown</last>
+		<first>David</first>
+		<reachable>1</reachable>
+		<comment>Northglenn HS</comment>
+	</classmate>
+	<classmate>
+		<last>Church</last>
+		<first>Dwight</first>
+		<reachable>1</reachable>
+		<comment>North HS</comment>
+	</classmate>
+	<classmate>
+		<last>Cleland</last>
+		<first>Bradley</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Cribbs</last>
+		<first>John</first>
+		<reachable>1</reachable>
+		<comment>Wheat Ridge HS</comment>
+	</classmate>
+	<classmate>
+		<last>Cunningham</last>
+		<first>Roseanne</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Doe</last>
+		<first>John</first>
+		<reachable>1</reachable>
+		<comment>probably bogus</comment>
+	</classmate>
+	<classmate>
+		<last>Fgggs</last>
+		<first>Eric</first>
+		<reachable>1</reachable>
+		<comment>Rogers HS</comment>
+		<newLast>Graalman</newLast>
+	</classmate>
+	<classmate>
+		<last>Greenwalt</last>
+		<first>David</first>
+		<reachable>1</reachable>
+		<comment>Lakewood HS</comment>
+	</classmate>
+	<classmate>
+		<last>Harris</last>
+		<first>Ellen</first>
+		<reachable>1</reachable>
+		<comment>can't find</comment>
+	</classmate>
+	<classmate>
+		<last>Heinze</last>
+		<first>Liz</first>
+		<reachable>1</reachable>
+		<comment>Central HS</comment>
+	</classmate>
+	<classmate>
+		<last>Huggins</last>
+		<first>Debi</first>
+		<reachable>1</reachable>
+		<comment>Lakewood Christian Academy</comment>
+		<newLast>Oster</newLast>
+	</classmate>
+	<classmate>
+		<last>Lee</last>
+		<first>Skip</first>
+		<reachable>1</reachable>
+		<comment>Granada Hills HS</comment>
+	</classmate>
+	<classmate>
+		<last>Nester</last>
+		<first>Kevin</first>
+		<reachable>1</reachable>
+		<comment>classmate?  Classmates.com says '73 - '77</comment>
+	</classmate>
+	<classmate>
+		<last>Paulsen</last>
+		<first>Louise</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Plaisance</last>
+		<first>Denise</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Schwarte</last>
+		<first>Heather</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Shimer</last>
+		<first>Ralph</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Shride</last>
+		<first>Dave</first>
+		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<last>Smith</last>
+		<first>Gene</first>
+		<middle>H.</middle>
+		<reachable>1</reachable>
+		<comment>H. Gene Smith</comment>
+	</classmate>
+	<classmate>
+		<last>Whitacre</last>
+		<first>Jenneane</first>
+		<reachable>1</reachable>
+		<newLast>Eslami</newLast>
 	</classmate>
 </xml>

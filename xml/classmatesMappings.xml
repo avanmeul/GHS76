@@ -9,20 +9,17 @@
         <prefix>Mister</prefix>
         <suffix>III</suffix>
         <title>M.D.</title>
-        <nee>Former</nee>
-		<reachable>0</reachable>
-        <comment>we are trying to reach this person</comment>
+		<reachable>1</reachable>
+        <comment>we have made contact</comment>
     </classmate>
     <classmate>
         <key>2</key>
-        <last>Columbus</last>
-        <first>Christopher</first>        
-        <middle>Middle</middle>
+        <last>Benson</last>
+        <newLast>Love</newLast>
+        <first>Debbie</first>        
+        <middle></middle>
         <short>Nickname</short>
-        <prefix>Mister</prefix>
-        <suffix>III</suffix>
-        <title>M.D.</title>
-        <nee>Former</nee>
+        <prefix>Mrs.</prefix>
 		<reachable>0</reachable>
         <comment>we are trying to reach this person</comment>
     </classmate>    
