@@ -1,10 +1,9 @@
 <!--
 release notes
-date:  28 August 2025 Thursday
-1) yearbook section:  updates to picture names due to key numbering changes
-2) classmates section:  renumbered keys after pruning out non-classmates
-3) additional resources section:  added classmates.com
-4) statistics section:  fixed number of classmates (518 after pruning)
+date:  29 August 2025 Friday
+1) yearbook section:  added more pictures
+2) CSS:  color changes; RSVP table diverging from classmates table to disambiguate, clarify, and enhance readability
+3) XML:  no more top level <xml> tags; these now reflect semantic use
 -->
 
 <!--
@@ -387,7 +386,14 @@ wish list (not necessarily in order of importance):
 		<first>Dave</first>
 		<confirmation>maybe</confirmation>
 		<method>Kurt</method>            
-	</rsvp>        
+	</rsvp>
+	<rsvp>
+		<last>Englert</last>
+		<first>Anthony</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<method>Debbie</method>            
+	</rsvp>	       
 	<rsvp>
 		<last>Everett</last>
 		<first>Wesley</first>
@@ -408,7 +414,7 @@ wish list (not necessarily in order of importance):
 		<method>Classmates.com</method>            
 	</rsvp>
 	<rsvp>
-		<last>Herman</last>
+		<last>Hermann</last>
 		<first>Luke</first>
 		<confirmation>maybe</confirmation>
 		<method>Classmates.com</method>            
@@ -706,7 +712,7 @@ wish list (not necessarily in order of importance):
 
                 <textarea id="txtClassmatesXML">
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<classmates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<classmate>
 		<key>1</key>
 		<last>Adams</last>
@@ -3930,7 +3936,7 @@ wish list (not necessarily in order of importance):
 		<middle>J.</middle>
 		<reachable>1</reachable>
 	</classmate>
-</xml>
+</classmates>
 			</textarea>
 
 				<!-- <br>
@@ -4399,7 +4405,77 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>Bettinger, Thomas</h4>
 							<img src="images/classmates/key034.png" alt="Bettinger, Thomas" title="Bettinger, Thomas">
+						</li>
+						<li>
+							<h4>Cook-Warnke (née Cook), Brenda</h4>
+							<img src="images/classmates/key087.png" alt="Cook-Warnke (née Cook), Brenda" title="Cook-Warnke (née Cook), Brenda" width="190" height="281">
+						</li>
+						<li>
+							<h4>Dalton (née Davis), Debbie</h4>
+							<img src="images/classmates/key101.png" alt="Dalton (née Davis), Debbie" title="Dalton (née Davis), Debbie" width="191" height="280">
+						</li>
+						<li>
+							<h4>Doty, William</h4>
+							<img src="images/classmates/key113.png" alt="Doty, William" title="Doty, William" width="192" height="280">
+						</li>
+						<li>
+							<h4>Dugan, Matthew</h4>
+							<img src="images/classmates/key118.png" alt="Dugan, Matthew" title="Doty, William" width="195" height="288">
+						</li>											
+						<li>
+							<h4>Dunnewald, Peter</h4>
+							<img src="images/classmates/key120.png" alt="Dunnewald, Peter" title="Dunnewald, Peter" width="192" height="288">
+						</li>
+						<li>
+							<h4>Emm, David</h4>
+							<img src="images/classmates/key132.png" alt="Emm, David" title="Emm, David" width="193" height="283">
+						</li>
+						<li>
+							<h4>Englert, Anthony</h4>
+							<img src="images/classmates/key133.png" alt="Englert, Anthony" title="Englert, Anthony" width="193" height="283">
 						</li>						
+						<li>
+							<h4>Everett, Wesley</h4>
+							<img src="images/classmates/key135.png" alt="Everett, Wesley" title="Everett, Wesley" width="192" height="280">
+						</li>
+						<li>
+							<h4>Hansford, George</h4>
+							<img src="images/classmates/key185.png" alt="Hansford, George" title="Hansford, George" width="192" height="284">
+						</li>
+						<li>
+							<h4>Hermann, Luke</h4>
+							<img src="images/classmates/key207.png" alt="Hermann, Luke" title="Hermann, Luke" width="196" height="282">
+						</li>																																							
+						<li>
+							<h4>Orr, Scott</h4>
+							<p>deceased</p>
+							<img src="images/classmates/key355.png" alt="Orr, Scott" title="Orr, Scott" width="189" height="281">
+						</li>
+						<li>
+							<h4>Papenfus, Kurt</h4>
+							<img src="images/classmates/key359.png" alt="Papenfus, Kurt" title="Papenfus, Kurt" width="192" height="281">
+						</li>						
+						<li>
+							<h4>Perella, Rocco</h4>
+							<p>deceased</p>
+							<img src="images/classmates/key370.png" alt="Perella, Rocco" title="Perella, Rocco" width="193" height="281">
+						</li>										
+						<li>
+							<h4>Petry, Katherine</h4>
+							<img src="images/classmates/key375.png" alt="Petry, Katherine" title="Petry, Katherine" width="192" height="282">
+						</li>						
+						<li>
+							<h4>Cameron (née Raymer), Susan</h4>
+							<img src="images/classmates/key390.png" alt="Cameron (née Raymer), Susan" title="Cameron (née Raymer), Susan">
+						</li>						
+						<li>
+							<h4>Beegles (née Schulz), Gail</h4>
+							<img src="images/classmates/key414.png" alt="Beegles (née Schulz), Gail" title="Beegles (née Schulz), Gail">
+						</li>							
+						<li>
+							<h4>Hansen-Aran (née Smyth), Debra</h4>
+							<img src="images/classmates/key432.png" alt="Hansen-Aran (née Smyth), Debra" title="Hansen-Aran (née Smyth), Debra">
+						</li>												
 						<li>
 							<h4>Litsinger (née Thompson), Karen</h4>
 							<img src="images/classmates/key461.png" alt="Litsinger (née Thompson), Karen" title="Litsinger (née Thompson), Karen">
@@ -4515,6 +4591,7 @@ wish list (not necessarily in order of importance):
 			<div class="divScrollable">
 
 				<!--
+					The Great Gig in the Sky (1973); great for a memorial
 					Could we start again please
 					Why can't we be friends
 					Wildfire

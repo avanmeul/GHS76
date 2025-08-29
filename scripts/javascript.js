@@ -69,17 +69,17 @@ function populateRSVPs() {
         switch (confirmation) {
             case "yes":
                 yes += 1;
-                responseClass = "responseYes";
+                responseClass = "colorGreen";
                 totalGuests += Number(guests); 
                 break;
             case "maybe":
                 totalMaybes += 1;
-                responseClass = "responseMaybe";
+                responseClass = "colorYellow";
                 guests = "";
                 break;
             case "no":
                 totalNos += 1;
-                responseClass = "responseNo";
+                responseClass = "colorRed";
                 break; }
 
         i += 1;

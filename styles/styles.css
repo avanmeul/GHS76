@@ -109,6 +109,10 @@ figcaption {
     text-align: center;
 }
 
+span {
+    padding: 10px;
+}
+
 .tblScrollable {
     width: 100%;
 }
@@ -124,8 +128,8 @@ figcaption {
 }
 
 .responseYes {
-    background-color: green;
-    color: white;
+    background-color: lightgreen;
+    color: black;
     text-align: center;    
 }
 
@@ -171,28 +175,25 @@ figcaption {
     color: green;
     font-weight: bold;
     font-style: italic;
-}
+    padding: 0; }
 
 .colorGreen {
     color:  white;
-    padding: 10px;
     background-color: green;
     font-weight: bold;
-}
+    text-align: center; }
 
 .colorYellow {
     color:  black;
-    padding: 10px;
     background-color: yellow;
     font-weight: bold;
-}
+    text-align: center; }
 
 .colorRed {
     color:  white;
-    padding: 10px;
     background-color: red;
     font-weight: bold;
-}
+    text-align: center; }
 
 .clsImage {
     display:  flex;
