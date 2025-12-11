@@ -3,6 +3,7 @@ release notes
 date:  10 December 2025 Tuesday
 1) added rsvp guest for Mary Beth Mathisen
 2) added Mary Beth Mathisen to Yearbook section
+3) removed xml meta statements before xml blocks
 -->
 
 <!--
@@ -307,8 +308,7 @@ wish list (not necessarily in order of importance):
                 <p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
                 <textarea id="idXmlRSVPs">
 <!--xml for rsvps-->
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>	
-<rsvps>
+<rsvps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<rsvp>
 		<last>Anderson</last>
 		<first>Toby</first>
@@ -761,7 +761,6 @@ wish list (not necessarily in order of importance):
 
                 <textarea id="txtClassmatesXML">
 <!--xml for classmates-->					
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <classmates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<classmate>
 		<key>1</key>
@@ -5337,7 +5336,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>10 November 2025 Monday.</p>
+			<p>10 December 2025 Wednesday.</p>
 
 			<h3>Acknowledgements</h3>
 
