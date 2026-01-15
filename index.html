@@ -1,8 +1,9 @@
 <!--
 release notes
-date:  12 January 2026 Monday
-1) added rsvps
-2) added to yearbook section
+date:  14 January 2026 Wednesday
+1) added sublevels to tabble of contents
+2) added better document navigation
+3) fixed error in yearbook section (comma where delimiter should be space)
 -->
 
 <!--
@@ -59,7 +60,12 @@ wish list (not necessarily in order of importance):
                     <h2>Table of Contents</h2>
                     <nav>
                         <ol><li><a href="#secAboutGHS">About Golden High School</a></li>
-                            <li><a href="#secReunion50">GHS '76, 50 year Reunion</a></li>
+                            <li><a href="#secReunion50">GHS '76, 50 year Reunion</a>
+								<ol type="a">
+									<li><a href="#secRSVPs">RSVPs</a></li>
+									<li><a href="#secVenues">Venues</a></li>
+								</ol>
+							</li>
                             <li><a href="#secContacts">Contacts</a></li>
                             <li><a href="#secAlumni">Alumni Resources</a></li>
                             <li><a href="#secDeceased">Deceased Classmates</a></li>
@@ -111,8 +117,14 @@ wish list (not necessarily in order of importance):
                     </p>
                 </div>
             </div>
-            <p></p>
-            <a href="#secToC">back to Table of Contents</a>
+			<p>go back to:</p>
+			<nav>
+				<ul>
+					<li><a href="#secAboutGHS">About Golden High Schooln</a> (current section)</li>
+					<li><a href="#secToC">Table of Contents</a></li>
+					<li><a href="#">Home</a></li>
+				</ul>
+			</nav>	
         </section>
 
         <section id="secReunion50">
@@ -266,46 +278,58 @@ wish list (not necessarily in order of importance):
             <p>Please RSVP even if you don't plan to attend so that we know you were at least notified of the event.</p>
             <p>Hope to see you there!</p>
 
-            <h3 class="floatClear">RSVPs</h3>
+			<p></p>
 
-            <p>Below are classmates that have RSVPed.</p>
+			<p>go back to:</p>
+			<nav>
+				<ul>
+					<li><a href="#secReunion50">GHS '76, 50 year reunion</a> (start of current section)</li>
+					<li><a href="#secToC">Table of Contents</a></li>
+					<li><a href="#">Home</a></li>
+				</ul>
+			</nav>
 
-            <p>So far, we have 
-                <span id="spnYes" class="colorGreen"></span> yes responses, 
-                <span id="spnGuests" class="colorGreen"></span> guests, 
-                <span id="spnMaybes" class="colorYellow"></span> maybes, and 
-                <span id="spnNos" class="colorRed"></span> nos; making a total of 
-                <span id="spnAttendees" class="colorGreen"></span> attendees (possibly 
-                <span id="spnPossible" class="colorYellow"></span>).
-            </p>
+			<section id="secRSVPs">
+				<h3 class="floatClear">RSVPs</h3>
 
-            <div class="divScrollable">
-                <table class="tblScrollable">
-                    <thead>
-                        <tr>
-                            <th class="rightJustifiedText">#</th>
-                            <th>last name</th>
-                            <th>first name</th>
-							<th>née</th>
-                            <th class="centeredText">confirmation</th>
-                            <th class="centeredText">guests</th>
-                            <th class="clsComments">comments</th>
-                            <th>RSVP method</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tblRSVPs">
-                    </tbody>
-                </table>
+				<p>Below are classmates that have RSVPed.</p>
 
-            </div>
+				<p>So far, we have 
+					<span id="spnYes" class="colorGreen"></span> yes responses, 
+					<span id="spnGuests" class="colorGreen"></span> guests, 
+					<span id="spnMaybes" class="colorYellow"></span> maybes, and 
+					<span id="spnNos" class="colorRed"></span> nos; making a total of 
+					<span id="spnAttendees" class="colorGreen"></span> attendees (possibly 
+					<span id="spnPossible" class="colorYellow"></span>).
+				</p>
 
-            <br>
+				<div class="divScrollable">
+					<table class="tblScrollable">
+						<thead>
+							<tr>
+								<th class="rightJustifiedText">#</th>
+								<th>last name</th>
+								<th>first name</th>
+								<th>née</th>
+								<th class="centeredText">confirmation</th>
+								<th class="centeredText">guests</th>
+								<th class="clsComments">comments</th>
+								<th>RSVP method</th>
+							</tr>
+						</thead>
+						<tbody id="tblRSVPs">
+						</tbody>
+					</table>
 
-            <details>
-                <summary>XML RSVP data</summary>
+				</div>
 
-                <p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
-                <textarea id="idXmlRSVPs">
+				<br>
+
+				<details>
+					<summary>XML RSVP data</summary>
+
+					<p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
+					<textarea id="idXmlRSVPs">
 <!--xml for rsvps-->
 <rsvps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<rsvp>
@@ -652,29 +676,54 @@ wish list (not necessarily in order of importance):
 		<method>Classmates.com</method>            
 	</rsvp>	                      
 </rsvps>
-				</textarea>
+					</textarea>
 
-                <div id="idRsvpButtons">
-                    <button onclick="jsRSVPsRefresh()">refresh</button>
-                    <button onclick="jsRSVPsCopyToClipboard()">copy to clipboard</button>
-					<button onclick="jsRSVPsClearXML()">clear XML</button>
-                </div>
+					<div id="idRsvpButtons">
+						<button onclick="jsRSVPsRefresh()">refresh</button>
+						<button onclick="jsRSVPsCopyToClipboard()">copy to clipboard</button>
+						<button onclick="jsRSVPsClearXML()">clear XML</button>
+					</div>
 
-				<p>transcript</p>
-                <textarea id="idXmlRSVPsTranscript">response will go here</textarea>
-				<p>parsed xml</p>
-                <textarea id="idXmlRSVPsParsed">response will go here</textarea>
+					<p>transcript</p>
+					<textarea id="idXmlRSVPsTranscript">response will go here</textarea>
+					<p>parsed xml</p>
+					<textarea id="idXmlRSVPsParsed">response will go here</textarea>
 
-            </details>
+				</details>
 
-            <h3>Venues</h3>
+				<p></p>
 
-            <p>The venue for dinner will be the <a href="https://thegoldenhotel.com/" target="_blank"> Golden Hotel</a>.</p>
-			<p>Contact Eliza (at the Golden Hotel) for rooms at a discounted rate if you'd like accommodations at the venue.</p>
+				<p>go back to:</p>
+				<nav>
+					<ul>
+						<li><a href="#secReunion50">GHS '76, 50 year reunion</a> (parent section)</li>
+						<li><a href="#secRSVPs">RSVPs</a> (current section)</li>
+						<li><a href="#secToC">Table of Contents</a></li>
+						<li><a href="#">Home</a></li>
+					</ul>
+				</nav>	
+			</section>
 
-			<p>The venue for Happy Hour (Meet and Greet) has not been finalized.  If you have any suggestions, let one of the organizers know.</p>
+			<section id="secVenues">
+				<h3>Venues</h3>
 
-            <a href="#secToC">back to Table of Contents</a>
+				<p>The venue for dinner will be the <a href="https://thegoldenhotel.com/" target="_blank"> Golden Hotel</a>.</p>
+				<p>Contact Eliza (at the Golden Hotel) for rooms at a discounted rate if you'd like accommodations at the venue.</p>
+
+				<p>The venue for Happy Hour (Meet and Greet) has not been finalized.  If you have any suggestions, let one of the organizers know.</p>
+
+				<p></p>
+
+				<p>go back to:</p>
+				<nav>
+					<ul>
+						<li><a href="#secReunion50">GHS '76, 50 year reunion</a> (parent section)</li>
+						<li><a href="#secVenues">Venues</a> (current section)</li>
+						<li><a href="#secToC">Table of Contents</a></li>
+						<li><a href="#">Home</a></li>
+					</ul>
+				</nav>	
+			</section>		
 
         </section>
 
@@ -723,7 +772,17 @@ wish list (not necessarily in order of importance):
 
             <p></p>
 
-            <a href="#secToC">back to Table of Contents</a>
+			<p>go back to:</p>
+			<nav>
+				<ul>
+					<li>
+						<a href="#secToC">Table of Contents</a>
+					</li>
+					<li>
+						<a href="#">Home</a>
+					</li>
+				</ul>
+			</nav>
 
         </section>
 
@@ -4456,7 +4515,7 @@ wish list (not necessarily in order of importance):
 						</li>
 						<li>
 							<h4>Beard, Bret</h4>
-							<img src="images/classmates/key023.png" alt="Beard, Bret", title="Beard, Bret">
+							<img src="images/classmates/key023.png" alt="Beard, Bret" title="Beard, Bret">
 						</li>
 						<li>
 							<h4>Beattie, Julie</h4>
@@ -5354,7 +5413,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>12 January 2026 Monday.</p>
+			<p>14 January 2026 Wednesday.</p>
 
 			<h3>Acknowledgements</h3>
 
