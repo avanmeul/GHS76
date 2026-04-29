@@ -172,4 +172,14 @@ function populateClassmates() {
         rows.unshift(nextRow);
     }
     tblClassmates.innerHTML = rows.reverse().join(''); //rows.join('');
+
+    //insert deceased totals into 2 places in the document
+    const tblDeceased = document.getElementById("tblDeceased");
+    const tdDeceased = document.getElementById("tdDeceasedTotal");
+    const spn = document.getElementById("spnDeceasedTotal");
+    const totalDeceased = tblDeceased.rows.length - 1;
+    
+    spn.textContent = totalDeceased;
+    tdDeceased.textContent = totalDeceased;
+
  }

@@ -205,6 +205,12 @@ span {
     font-weight: bold;
     text-align: center; }
 
+.colorBlack {
+    color:  white;
+    background-color: black;
+    font-weight: bold;
+    text-align: center; }    
+
 .clsImage {
     display:  flex;
     flex-direction: column;
