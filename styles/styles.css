@@ -237,3 +237,8 @@ span {
     flex-direction: row;
     justify-content: left;
 }
+
+.clsInvitation {
+    height:  650px;
+    width: 95%;
+}
