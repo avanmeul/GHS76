@@ -48,6 +48,7 @@ function populateRSVPs() {
 
     let i = 0;
     let yes = 0;
+    let paid = 0;
     let totalGuests = 0;
     let totalMaybes = 0;
     let totalNos = 0;
@@ -72,6 +73,12 @@ function populateRSVPs() {
                 responseClass = "colorGreen";
                 totalGuests += Number(guests); 
                 break;
+            case "paid":
+                yes += 1;
+                paid += 1 + Number(guests);
+                responseClass = "colorBlack";
+                totalGuests += Number(guests); 
+                break;                
             case "maybe":
                 totalMaybes += 1;
                 responseClass = "colorYellow";
@@ -99,6 +106,7 @@ function populateRSVPs() {
     }
     tbl.innerHTML = rows.reverse().join('');
     document.getElementById("spnYes").innerHTML = yes;
+    document.getElementById("spnPaid").innerHTML = paid;
     document.getElementById("spnGuests").innerHTML = totalGuests;
     document.getElementById("spnMaybes").innerHTML = totalMaybes;
     document.getElementById("spnNos").innerHTML = totalNos;
