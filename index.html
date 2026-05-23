@@ -1,8 +1,10 @@
 <!--
 release notes
 date:  22 May 2026 Friday
-1) added pictures to yearbook section
-2) added to deceased section and changed from table to ol
+1) added picture to yearbook section
+2) added to deceased section
+3) fixed errors and updated classmates table
+4) added RSVP (maybe)
 -->
 
 <!--
@@ -334,13 +336,13 @@ wish list (not necessarily in order of importance):
 			</section>
 			
 			<section id="secRSVPs">
+
 				<h3 class="floatClear">RSVPs</h3>
 
 				<p>Below are classmates that have RSVPed.</p>
 
 				<p>So far, we have 
 					<span id="spnYes" class="colorGreen"></span> yes responses,
-					<!-- <span id="spnPaid" class="colorBlack"></span> paid reservations, -->
 					<span id="spnGuests" class="colorGreen"></span> guests, 
 					<span id="spnMaybes" class="colorYellow"></span> maybes, and 
 					<span id="spnNos" class="colorRed"></span> nos; making a total of 
@@ -396,7 +398,6 @@ wish list (not necessarily in order of importance):
 		<confirmation>yes</confirmation>
 		<method>Kurt</method>
 	</rsvp>
-	<!-- Fábio Ferreira Batista -->
 	<rsvp>
 		<last>Batista</last>
 		<first>Fábio</first>
@@ -698,6 +699,13 @@ wish list (not necessarily in order of importance):
 		<confirmation>yes</confirmation>
 		<guests>1</guests>
 		<method>Classmates.com</method>            
+	</rsvp>
+	<rsvp>
+		<last>Mordja</last>
+		<nee>Moss</nee>
+		<first>Monica</first>
+		<confirmation>maybe</confirmation>
+		<method>André</method>
 	</rsvp>
 	<rsvp>
 		<last>Morris</last>
@@ -1467,7 +1475,7 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>65</key>
 		<last>Carlson</last>
-		<newlast>Marine</newlast>
+		<newLast>Marine</newLast>
 		<first>Kirsten</first>
 		<reachable>0</reachable>		
 	</classmate>
@@ -1694,11 +1702,11 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>101</key>
 		<last>Davis</last>
+		<newLast>Dalton</newLast>
 		<first>Debbie</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
 		<comment>organizer (3rd added)</comment>
-		<newLast>Dalton</newLast>
 	</classmate>
 	<classmate>
 		<key>102</key>
@@ -2948,7 +2956,7 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>302</key>
 		<last>McDougal</last>
-		<newlast>Eckman</newlast>
+		<newLast>Eckman</newLast>
 		<first>Ann</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
@@ -3109,6 +3117,7 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>328</key>
 		<last>Moss</last>
+		<newLast>Mordja</newLast>
 		<first>Monica</first>
 		<middle>M.</middle>
 		<reachable>1</reachable>
@@ -3207,9 +3216,9 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>344</key>
 		<last>Newman</last>
+		<newLast>Moore</newLast>
 		<first>K.</first>
 		<middle>Ann</middle>
-		<newLast>Moore</newLast>
 	</classmate>
 	<classmate>
 		<key>345</key>
@@ -3488,10 +3497,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>390</key>
 		<last>Raymer</last>
+		<newLast>Cameron</newLast>
 		<first>Susan</first>
 		<middle>R.</middle>
 		<reachable>1</reachable>
-		<newLast>Cameron</newLast>
 	</classmate>
 	<classmate>
 		<key>391</key>
@@ -4391,6 +4400,10 @@ wish list (not necessarily in order of importance):
 
 			<ol id="olDeceased" class="olScroll">
 				<li>
+					<h3>Akes, Reca</h3>
+					<p>Source:  Mordja (née Moss), Monica (via André).
+				</li>
+				<li>
 					<h3>Baaske, Edmund U.</h3>
 					<p>Died of Leukemia on 23 October 2023 at age 62.  
 							<a href="https://www.horancares.com/obituaries/edmundeddie-baaske" target="_blank">HORAN & McCONATY obituary</a>.
@@ -4754,8 +4767,9 @@ wish list (not necessarily in order of importance):
 							<img src="images/classmates/key003.png" alt="Ake, Richard" title="Ake, Richard" width="183" height="277">
 						</li>
 						<li>
-							<h4>Akes, Reca</h4>
+							<h4><span class="colorBlack">Akes, Reca</span></h4>
 							<img src="images/classmates/key004.png" alt="Akes, Reca" title="Akes, Reca" width="190" height="276">
+							<p>Deceased.</p>
 						</li>
 						<li>
 							<h4>Allen, Cheryl</h4>
@@ -5397,15 +5411,19 @@ wish list (not necessarily in order of importance):
 						</li>												
 						<li>
 							<h4>Moncrieff, Kathleen</h4>
-							<p>No senior picture; using junior picture.</p>
 							<div class="yrbThenNow">
 								<img src="images/classmates/key318.png" alt="Moncrieff, Kathleen" title="Moncrieff, Kathleen" width="163" height="204" class="yrbImg">
 								<img src="images/classmates/key318_now.png" alt="Moncrieff, Kathleen" title="Moncrieff, Kathleen" width="278" height="204" class="yrbImg">
 							</div>
+							<p>No senior picture; using junior picture.</p>
 						</li>
 						<li>
 							<h4>Morris, William</h4>
 							<img src="images/classmates/key326.png" alt="Morris, William" title="Morris, William" width="192" height="283">
+						</li>
+						<li>
+							<h4>Mordja (née Moss), Monica</h4>
+							<img src="images/classmates/key328.png" alt="Mordja (née Moss), Monica" title="Mordja (née Moss), Monica" width="197" height="281">
 						</li>
 						<li>
 							<h4>Houser (née Mossman), Christie</h4>
