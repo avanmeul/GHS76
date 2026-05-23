@@ -1,15 +1,12 @@
 <!--
 release notes
-date:  19 May 2026 Tuesday, 21 May 2026 Thursday
+date:  22 May 2026 Friday
 1) added pictures to yearbook section
-2) added to deceased section
-3) added date when new campus was built
-4) started reconciling classmates table with spreadsheet
+2) added to deceased section and changed from table to ol
 -->
 
 <!--
 wish list (not necessarily in order of importance):
--1) add started with us classmates (Tubbs, Moncrief)
 0) add deceased column to classmates table and xml
 1) add sections "FAQ", "funny stories"
 2) figure out how to specify sorting function for custom sorts
@@ -17,7 +14,6 @@ wish list (not necessarily in order of importance):
 4) sort by confirmation, RSVP method
 5) mention mod system and how our class was one of the last to have this
 6) reconcile reachable for RSVPs {yes, no, maybe} with spreadsheet, and make them -1 for deceased (to enable black coloring)
-7) update "aobut" section with year new courtyard was constructed
 -->
 
 <!DOCTYPE html>
@@ -2432,7 +2428,7 @@ wish list (not necessarily in order of importance):
 		<key>218</key>
 		<last>Holsinger</last>
 		<first>George</first>
-		<middle>C.</middle>
+		<middle>Curtis</middle>
 		<reachable>0</reachable>
 	</classmate>
 	<classmate>
@@ -2647,7 +2643,7 @@ wish list (not necessarily in order of importance):
 		<key>253</key>
 		<last>Kietzman</last>
 		<first>Wayne</first>
-		<middle>J.</middle>
+		<middle>Joseph</middle>
 		<reachable>0</reachable>
 	</classmate>
 	<classmate>
@@ -4389,226 +4385,165 @@ wish list (not necessarily in order of importance):
 
             <h2>Deceased</h2>
 
-            <p>Currently we have <span class="colorBlack" id="spnDeceasedTotal"></span> deceased classmates in the GHS '76 spreadsheet, but this number is probably too low (due to lack of contact with many classmates).</p>
+            <p>Currently we have <span class="colorBlack" id="spnDeceased"></span> deceased classmates in the GHS '76 spreadsheet, but this number is probably too low (due to lack of contact with many classmates).</p>
 
-			<!-- to do:  make deceased table into numbered list? -->
+            <p></p>
 
-            <table id="tblDeceased">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>last name</th>
-                        <th>first name</th>
-                        <th>middle name</th>
-                        <th>comment</th>
-                    </tr>
-                </thead>
-                <tbody>
-					<tr>
-						<td class="rightJustifiedText">1</td>
-						<td>Baaske</td>
-						<td>Edmund</td>
-						<td>U.</td>
-						<td>Died of Leukemia on 23 October 2023 at age 62.  
+			<ol id="olDeceased" class="olScroll">
+				<li>
+					<h3>Baaske, Edmund U.</h3>
+					<p>Died of Leukemia on 23 October 2023 at age 62.  
 							<a href="https://www.horancares.com/obituaries/edmundeddie-baaske" target="_blank">HORAN & McCONATY obituary</a>.
-							Source:  Clinton Harman (via André).
-						</td>
-
-					</tr>
-					<tr>
-                        <td class="rightJustifiedText">2</td>
-                        <td>Love, née Benson</td>
-                        <td>Debbie</td>
-                        <td>A.</td>
-                        <td>Died around 2021 due to lung problems/cancer.  Was an organizer for past reunions.  Source:  André.</td>
-                    </tr>
-					<tr>
-                        <td class="rightJustifiedText">3</td>
-                        <td>Boileau</td>
-                        <td>Joan</td>
-                        <td>C.</td>
-                        <td>Passed away June 26, 2022 in Salt Lake City, Utah.  
+					</p>
+					<p>Source:  Clinton Harman (via André).</p>
+				</li>
+				<li>
+					<h3>Love (née Benson), Debbie A.</h3>
+					<p>Died around 2021 due to lung problems/cancer.  Was an organizer for past reunions.</p>
+					<p>Source:  André.</p>
+				</li>
+				<li>
+					<h3>Blevins, Lori</h3>
+					<p>Started with our class, but didn't graduate with us.  Passed away from cancer 3-4 years ago (as of 2026).</p>
+					<p>Source:  Robert Tubbs (via André).</p>
+				</li>
+				<li>
+					<h3>Boileau, Joan C.</h3>
+					<p>Passed away June 26, 2022 in Salt Lake City, Utah.  
 							<a 
 								href="https://www.thielenfh.com/obituaries/obituary-listings?obId=40156125"
 								target="_blank">Thielen Obituary (2022)
-							</a>.
-							Source:  Cindy Betz (via Debbie).
-						</td>
-                    </tr>
-					<tr>
-						<td class="rightJustifiedText">4</td>
-						<td>Brunner</td>
-						<td>Kerry</td>
-						<td>Dean</td>
-						<td>Passed away May 23, 2014.
-							<a 
-								href="https://www.legacy.com/us/obituaries/coloradocommunitymedia/name/kerry-brunner-obituary?id=17085904"
-								target="_blank">Colorado Trust (2014)
-							</a>.
-							Source:  André.
-						</td>
-					</tr>
-                    <tr>
-                        <td class="rightJustifiedText">5</td>
-                        <td>Byers</td>
-                        <td>Bradley</td>
-                        <td>J.</td>
-                        <td>
-							Brad started at Golden, but graduated from Evergreen High School.
-							<a 	
-								href="https://www.legacy.com/us/obituaries/bouldercityreview/name/bradley-byers-obituary?id=7801701"
-								target="_blank">Boulder City Review Obituary (2021)
-							</a>.
-							Source:  André.						
-						</td>
-                    </tr>
-					<tr>
-						<td class="rightJustifiedText">6</td>
-                        <td>Marine, née Carlson</td>
-						<td>Kirsten</td>
-                        <td></td>
-                        <td>Passed away on Sunday, August 29th, 1999, in a terrible head on car collision.  Source:  Kevin Kroeger (via André).</td>
-					</tr>							
-					<tr>
-						<td class="rightJustifiedText">7</td>
-                        <td>Channon</td>
-                        <td>Douglas</td>
-                        <td></td>
-                        <td>Source:  1998 alumni directory.</td>
-					</tr>
-					<tr>
-						<td class="rightJustifiedText">8</td>
-                        <td>Cooley Senior</td>
-                        <td>James</td>
-                        <td></td>
-                        <td>
-							Passed away January 22, 2024.
-							<a 
-								href="https://www.legacy.com/us/obituaries/name/james-cooley-obituary?id=54322147" 
-								target="_blank">
-								Legacy Obituary, Golden, Colorado; February 8, 2024
-							</a>. 
-							Source:  André.</td>
-					</tr>					
-                    <tr>
-                        <td class="rightJustifiedText">9</td>
-                        <td>Holsinger</td>
-                        <td>George</td>
-                        <td>Curt</td>
-                        <td>Passed away April 3, 2025 in Mead, Colorado.
+							</a>.							
+					</p>
+					<p>Source:  Cindy Betz (via Debbie).</p>
+				</li>
+				<li>
+					<h3>Brunner, Kerry Dean</h3>
+					<p>
+						Passed away May 23, 2014.
+						<a 
+							href="https://www.legacy.com/us/obituaries/coloradocommunitymedia/name/kerry-brunner-obituary?id=17085904"
+							target="_blank">Colorado Trust (2014)
+						</a>.
+					</p>
+					<p>Source:  André.</p>
+				</li>
+				<li>
+					<h3>Byers, Bradley J.</h3>
+					<p>
+						Passed away on 20 February 2021 at age 62 in Boulder City, NV.  
+						<a 	
+							href="https://www.legacy.com/us/obituaries/bouldercityreview/name/bradley-byers-obituary?id=7801701"
+							target="_blank">Boulder City Review Obituary (2021)
+						</a>.
+						Brad stared at GHS, but graduated from Evergreen High School.
+					</p>
+					<p>Source:  André</p>
+				</li>
+				<li>
+					<h3>Marine (née Carlson), Kirsten</h3>
+					<p>Passed away on Sunday, August 29th, 1999, in a terrible head on car collision.</p>
+					<p>Source: Kevin Kroeger (via André).</p>
+				</li>
+				<li>
+					<h3>Channon, Douglas</h3>
+					<p>Source: 1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Cooley Senior, James</h3>
+					<p>
+						Passed away January 22, 2024. 
+						<a 
+							href="https://www.legacy.com/us/obituaries/name/james-cooley-obituary?id=54322147" 
+							target="_blank">
+							Legacy Obituary, Golden, Colorado; February 8, 2024
+						</a>.
+					</p>
+					<p>Source: André.</p>
+				</li>
+				<li>
+					<h3>Denning, Sheridan</h3>
+					<p>Passed away on 25 April 2025. Started with us, but didn't graduate with us.  Changed her name to Caitlin Allen.</p>
+					<p>Source:  Kathleen Moncrief (via post on Classmates.com).</p>
+				</li>
+				<li>
+					<h3>Holsinger, George Curtis</h3>
+					<p>Passed away April 3, 2025 in Mead, Colorado.
 							<a 
 								href="https://www.legacy.com/us/obituaries/name/george-holsinger-obituary?id=58126060"
 								target="_blank">
 								Legacy Obituary
 							</a>.
-							Source:  Cindy Betz (via Debbie).</td>
-                    </tr>					
-                    <tr>
-                        <td class="rightJustifiedText">10</td>
-                        <td>Kietzman</td>
-                        <td>Wayne</td>
-                        <td>Joseph</td>
-                        <td>Source:  1998 alumni directory.</td>
-                    </tr>
-                    <tr>
-                        <td class="rightJustifiedText">11</td>
-                        <td>Lamed</td>
-                        <td>Patricia</td>
-                        <td>J.</td>
-                        <td>Source:  1998 alumni directory.</td>
-                    </tr>
-					<tr>
-						<td class="rightJustifiedText">12</td>
-						<td>Lund</td>
-						<td>Peter</td>
-						<td>George</td>
-						<td>Passed away on July 26, 2008 at the age of 49 in Portland, OR.  Has family living in Steamboat.  
-							<a href="https://www.findagrave.com/memorial/148220050/peter-george-lund">Find a Grave:  Peter George Lunch</a>.  
-							Source:  Robert Tubbs (via André).</td>
-					</tr>
-                    <tr>
-                        <td class="rightJustifiedText">13</td>
-                        <td>McDonald</td>
-                        <td>Bradley</td>
-                        <td></td>
-                        <td>Source:  1998 alumni directory.</td>
-                    </tr>
-					<tr>
-						<td class="rightJustifiedText">14</td>
-						<td>Miller</td>
-						<td>Dana</td>
-						<td>E.</td>
-						<td>Died of a heart attack on 2 April 2016.  Source:  Kathleen Moncrieff (posting on Classmates.com).</td>
-					</tr>
-					<tr>
-						<td class="rightJustifiedText">15</td>
-						<td>Nordin</td>
-						<td>Leslie (a.k.a. Lee)</td>
-						<td>Marie</td>
-						<td>Obituary: <a href="https://www.guidingeyes.org/lee-nordin/">Guiding Eyes for the Blind (9 December, 2013).</a>  Source:  André.</td>
-					</tr>
-					<!-- <tr>
-						<td class="rightJustifiedText">13</td>
-                        <td>Miskell</td>
-                        <td>Bradley</td>
-                        <td>J.</td>
-                        <td>Passed away in the 80s.  Was an actor in New York.  Source:  Kathy Petry (via Kurt).</td>
-					</tr> -->
-                    <tr>
-                        <td class="rightJustifiedText">16</td>
-                        <td>Orr</td>
-                        <td>Scott</td>
-                        <td>W.</td>
-                        <td>Source:  1998 alumni directory.</td>
-                    </tr>
-                    <tr>
-                        <td class="rightJustifiedText">17</td>
-                        <td>Park</td>
-                        <td>Stephen</td>
-                        <td></td>
-                        <td>Source:  1998 alumni directory.</td>
-                    </tr>
-                    <tr>
-                        <td class="rightJustifiedText">18</td>
-                        <td>Perella</td>
-                        <td>Rocco</td>
-                        <td>R.</td>
-                        <td>Source:  1998 alumni directory.</td>
-                    </tr>
-                    <tr>
-                        <td class="rightJustifiedText">19</td>
-                        <td>Sherman</td>
-                        <td>James</td>
-                        <td>Luke Patrick</td>
-						<td>
-							<a href="https://www.denverpost.com/obituaries/james-luke-patrick-sherman-co/" target="_blank">Denver Post Obituary (2015)</a>. Source:  André.
-						</td>
-                    </tr>					
-                    <tr>
-                        <td class="rightJustifiedText">20</td>
-                        <td>Stekr</td>
-                        <td>David</td>
-                        <td>K.</td>
-                        <td>Dave Stekr died after being hit by a car in 1976 while working for CDOT (Colorado Department of Transportation).  Source:  Debbie.</td>
-                    </tr>
-					<tr>
-						<td class="rightJustifiedText">21</td>
-						<td>Strobel</td>
-						<td>Kraig</td>
-						<td>R.</td>
-						<td>Passed away 3 years ago (as of 2026).  Classmate Wayne Wheeler would have details.  Source:  Robert Tubbs (via André).</td>
-					</tr>
-					<tr>
-						<td class="rightJustifiedText">22</td>
-						<td>Wamboldt</td>
-						<td>Jerry</td>
-						<td>W.</td>
-						<td>Passed away 10 or 15 years ago (as of 2026).  Classmate and sister Pam would have details.  Source:  Robert Tubbs (via André).</td>
-					</tr>
-                </tbody>
-            </table>
+					</p>
+					<p>Source:  Cindy Betz (via Debbie).</p>
+				</li>
+				<li>
+					<h3>Kietzman, Wayne Joseph</h3>
+					<p>Source:  1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Lamed, Patricia J.</h3>
+					<p>Source:  1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Lund, Peter George</h3>
+					<p>
+						Passed away on July 26, 2008 at the age of 49 in Portland, OR.  Has family living in Steamboat.  
+						<a href="https://www.findagrave.com/memorial/148220050/peter-george-lund">Find a Grave:  Peter George Lund</a>. 
+					</p>
+					<p>Source:  Robert Tubbs (via André).</p>
+				</li>
+				<li>
+					<h3>McDonald, Bradley</h3>
+					<p>Source: 1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Miller, Dana E.</h3>
+					<p>Died of a heart attack on 2 April 2016.</p>
+					<p>Source:  Kathleen Moncrieff (via post on Classmates.com).</p>
+				</li>
+				<li>
+					<h3>Nordin, Leslie Marie (a.k.a. "Lee")</h3>
+					<p>Obituary: <a href="https://www.guidingeyes.org/lee-nordin/">Guiding Eyes for the Blind (9 December, 2013).</a></p>
+					<p>Source:  André.</p>
+				</li>
+				<li>
+					<h3>Orr, Scott W.</h3>
+					<p>Source:  1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Park, Stephen</h3>
+					<p>Source:  1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Perella, Rocco R.</h3>
+					<p>Source:  1998 alumni directory.</p>
+				</li>
+				<li>
+					<h3>Sherman, James Luke Patrick</h3>
+					<p>
+						<a href="https://www.denverpost.com/obituaries/james-luke-patrick-sherman-co/" target="_blank">Denver Post Obituary (2015)</a>.
+					</p>
+					<p>Source:  André.</p>
+				</li>
+				<li>
+					<h3>Stekr, David K.</h3>
+					<p>Dave Stekr died after being hit by a car in 1976 while working for CDOT (Colorado Department of Transportation).</p>
+					<p>Source: Debbie.</p>
+				</li>
+				<li>
+					<h3>Strobel, Kraig R.</h3>
+					<p>Passed away 3 years ago (as of 2026). Classmate Wayne Wheeler would have details.</p>
+					<p>Source: Robert Tubbs (via André).</p>
+				</li>
+				<li>
+					<h3>Wamboldt, Jerry W.</h3>
+					<p>Passed away 10 or 15 years ago (as of 2026). Classmate and sister Pam would have details.</p>
+					<p>Source: Robert Tubbs (via André).</p>
+				</li>
+			</ol>
 
-            <p></p>
+			<p></p>
 
             <a href="#secToC">go back to Table of Contents</a>
 
@@ -4651,7 +4586,7 @@ wish list (not necessarily in order of importance):
                     <tr>
                         <td class="rightJustifiedText">3</td>
                         <td>deceased</td>
-                        <td class="rightJustifiedText" id="tdDeceasedTotal">18</td>
+                        <td class="rightJustifiedText" id="tdDeceased"></td>
                         <td>number of classmates known to be deceased</td>
                         <td>this figure is probably too low due to lack of contact we have with many classmates
                         </td>
@@ -4978,10 +4913,16 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>Bicking, Sheila</h4>
 							<img src="images/classmates/key040.png" alt="Bicking, Sheila" title="Bicking, Sheila" width="194" height="294">
-						</li>						
+						</li>
 						<li>
 							<h4>Bierhaus, Joy</h4>
 							<img src="images/classmates/key041.png" alt="Bierhaus, Joy" title="Bierhaus, Joy" width="193" height="292">
+						</li>
+						<li>
+							<h4><span class="colorBlack">Blevins, Lori</span></h4>
+							<img src="images/classmates/key519.png" alt="Blevins, Lori" title="Blevins, Lori" width="153" height="192">
+							<p>Started with us, but didn't graduate with us.  Picture is from sophmore yearbook.</p>
+							<p>Passed away from cancer 3-4 years ago (as of 2026).</p>
 						</li>
 						<li>
 							<h4><span class="colorBlack">Boileau, Joan</span></h4>
@@ -5140,6 +5081,11 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>De Maria, Donna</h4>
 							<img src="images/classmates/key105.png" alt="De Maria, Donna" title="De Maria, Donna" width="192" height="279">
+						</li>
+						<li>
+							<h4><span class="colorBlack">Denning, Sheridan</span></h4>
+							<img src="images/classmates/key520.png" alt="Denning, Sheridan" title="Denning, Sheridan" width="153" height="192">
+							<p>Started with us, but didn't graduate with us.  Picture is from sophmore yearbook.  Changed her name to Caitlin Allen.  Passed away on 25 April 2025.</p>
 						</li>
 						<li>
 							<h4>Dodson, Donna</h4>
@@ -6095,7 +6041,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>21 May 2026 Thursday.</p>
+			<p>22 May 2026 Friday.</p>
 
 			<h3>Acknowledgements</h3>
 
