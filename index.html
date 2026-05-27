@@ -1,13 +1,8 @@
 <!--
 release notes
-date:  24 May 2026 Sunday
-1) updated reachable flag (Jim Hutchins)
-2) added websites in yearbook section (Jim Hutchins, André)
-3) added to classmates table (Lori Blevins, Sheridan Denning)
-date:  25 May 2026 Monday
-4) added picture (Dave Wheeler) to yearbook section
-5) added RSVPs (Bret Beard, Dave Wheeler)
-6) added deceased (Diana Cheatum (née Towle))
+date:  26 May 2026 Tuesday
+1) added RSVP (Steve Hill)
+2) added pictures (yearbook section)
 -->
 
 <!--
@@ -494,8 +489,6 @@ wish list (not necessarily in order of importance):
 		<first>Debbie</first>
 		<nee>Davis</nee>
 		<confirmation>yes</confirmation>
-		<guests>1</guests>
-		<comments>guest?</comments>
 		<method>Classmates.com</method>            
 	</rsvp>
 	<rsvp>
@@ -651,6 +644,13 @@ wish list (not necessarily in order of importance):
 		<confirmation>yes</confirmation>
 		<guests>1</guests>
 		<method>André</method>            
+	</rsvp>
+	<rsvp>
+		<last>Hill</last>
+		<first>Steve</first>
+		<confirmation>yes</confirmation>
+		<guests>1</guests>
+		<method>André</method>
 	</rsvp>
 	<rsvp>
 		<last>Horn</last>
@@ -1091,7 +1091,10 @@ wish list (not necessarily in order of importance):
                 <p>The following is the sparse XML data for all known classmates that is used to populate the HTML table above.</p>
                 <p>Sparse herein means that empty nodes are left out of the XML to make it smaller in size.</p>
 
-                <p>The key field was determined by sorting all classmates in Excel by last (maiden) + first + middle names, and then incrementing a one-based ordinal.</p>
+                <p>The key field was originally determined by sorting all classmates in Excel by last (maiden) + first + middle names, and then incrementing a one-based ordinal.</p>
+				<p>However, students were later reported to us that we didn't know about (i.e. students that started with us, but didn't graduate with us.</p>
+				<p>Hence, the key became a surrogate key; used to establish internal relationships within the program, but no represents alphabetical order.</p>
+				<p>To solve that problem, a new field was created called "key sort"; which establishes alphabetic order (and therefore is subject to change).</p>
 				<p>This data can be imported into Excel and many other applications that consume XML.</p>
 
                 <textarea id="txtClassmatesXML">
@@ -1103,7 +1106,7 @@ wish list (not necessarily in order of importance):
 		<first>Jeffrey</first>
 		<middle>C.</middle>
 		<short>Jeff</short>
-		<reachable>1</reachable>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>2</key>
@@ -1680,6 +1683,7 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>91</key>
 		<last>Coronado</last>
+		<newLast>Borene</newLast>
 		<first>Roberta</first>
 		<middle>J.</middle>
 		<reachable>1</reachable>
@@ -1802,7 +1806,7 @@ wish list (not necessarily in order of importance):
 		<last>Dolloff</last>
 		<first>Meredith</first>
 		<short>Mimi</short>
-		<reachable>1</reachable>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>111</key>
@@ -2463,7 +2467,7 @@ wish list (not necessarily in order of importance):
 		<last>Hill</last>
 		<first>Steve</first>
 		<middle>D.</middle>
-		<reachable>1</reachable>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>216</key>
@@ -4042,6 +4046,7 @@ wish list (not necessarily in order of importance):
 		<first>Diana</first>
 		<middle>S.</middle>
 		<newLast>Cheatum</newLast>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>468</key>
@@ -5158,6 +5163,13 @@ wish list (not necessarily in order of importance):
 							<p>picture not in Yearbook</p>
 						</li>
 						<li>
+							<h4>Shook (née Dolloff), Meredith</h4>
+							<div class="yrbThenNow">
+								<img src="images/classmates/key110.png" alt="Shook (née Dolloff), Meredith" title="Shook (née Dolloff), Meredith" width="195" height="283" class="yrbImg">
+								<img src="images/classmates/key110_now.png" alt="Shook (née Dolloff), Meredith (now)" title="Shook (née Dolloff), Meredith (now)" width="242" height="283" class="yrbImg">
+							</div>
+						</li>
+						<li>
 							<h4>Doren, Lia</h4>
 							<img src="images/classmates/key111.png" alt="Doren, Lia" title="Doren, Lia" width="201" height="287">
 						</li>																										
@@ -5321,6 +5333,10 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>Hessner, Eric</h4>
 							<p>picture not in Yearbook</p>
+						</li>
+						<li>
+							<h4>Hill, Steve</h4>
+							<img src="images/classmates/key215.png" alt="Hill, Steve" title="Hill, Steve" width="198" height="291">
 						</li>
 						<li>
 							<h4>Hoefer, Sheri</h4>
@@ -5630,7 +5646,7 @@ wish list (not necessarily in order of importance):
 							<img src="images/classmates/key462.png" alt="Litsinger (née Thompson), Karen" title="Litsinger (née Thompson), Karen" width="196" height="284">
 						</li>
 						<li>
-							<h4>Cheatum (née Towle), Diana</h4>
+							<h4><span class="colorBlack">Cheatum (née Towle), Diana</span></h4>
 							<img src="images/classmates/key467.png" alt="Cheatum (née Towle), Diana" title="Cheatum (née Towle), Diana" width="193" height="285">
 						</li>
 						<li>
@@ -5693,7 +5709,14 @@ wish list (not necessarily in order of importance):
 							<div class="yrbThenNow">
 								<img src="images/classmates/key510.png" alt="Yancey, Shaun" title="Yancey, Shaun" width="206" height="288" class="yrbImg">
 							</div>
-						</li>										
+						</li>
+						<li>
+							<h4>Yurik, John</h4>
+							<div class="yrbThenNow">
+								<img src="images/classmates/key514_now.png" alt="Yurik, John (now)" title="Yurik, John (now)" width="290" height="290" class="yrbImg">
+							</div>
+							<p>No picture in any yearbooks; now picture is from Classmates.com.</p>						
+						</li>									
 						<li>
 							<h4>Strawn (née Zachrison), Kim</h4>
 							<div class="yrbThenNow">
@@ -6150,7 +6173,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>25 May 2026 Monday.</p>
+			<p>26 May 2026 Tuesday.</p>
 
 			<h3>Acknowledgements</h3>
 
