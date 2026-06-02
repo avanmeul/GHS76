@@ -1,9 +1,11 @@
 <!--
 release notes
-date:  30 May 2026 Saturday.
-1) added 2 deceased
-2) added yearbook pictures
-3) minor corrections
+date:  2 June 2026 Tuesday.
+1) added RSVP
+2) added picture
+3) minor edits
+4) updated reachable and married names in classmates table
+5) added obituary link to a deceased classmate
 -->
 
 <!--
@@ -376,7 +378,7 @@ wish list (not necessarily in order of importance):
 
 					<p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
 					<textarea id="idXmlRSVPs">
-<!--xml for rsvps-->
+<!--xml for rsvps; sorted by current names; attributes = {last, nee, first, middle, confirmation, method, guests}-->
 <rsvps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<rsvp>
 		<last>Aiken</last>
@@ -385,6 +387,13 @@ wish list (not necessarily in order of importance):
 		<confirmation>no</confirmation>
 		<method>Classmates.com</method>
 	</rsvp>
+	<rsvp>
+		<last>Amelon</last>
+		<nee>Hebert</nee>
+		<first>Mary</first>
+		<middle>Beth</middle>
+		<confirmation>yes</confirmation>
+	</rsvp>	
 	<rsvp>
 		<last>Anderson</last>
 		<first>Toby</first>
@@ -1334,10 +1343,12 @@ wish list (not necessarily in order of importance):
 		<last>Bettinger</last>
 		<first>Thomas</first>
 		<middle>W.</middle>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>35</key>
 		<last>Betz</last>
+		<newLast>Hallen</newLast>
 		<first>Cynthia</first>
 		<middle>A.</middle>
 		<reachable>1</reachable>
@@ -1345,19 +1356,23 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>36</key>
 		<last>Bevan</last>
+		<newLast>Blanckaert</newLast>
 		<first>Sara</first>
 		<middle>L.</middle>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>37</key>
 		<last>Beveridge</last>
 		<first>Joy</first>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>38</key>
 		<last>Beyer</last>
 		<first>David</first>
 		<middle>M.</middle>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>39</key>
@@ -1367,9 +1382,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>40</key>
 		<last>Bicking</last>
+		<newLast>Hewitson</newLast>
 		<first>Sheila</first>
 		<middle>M.</middle>
-		<reachable>1</reachable>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>41</key>
@@ -2002,6 +2018,7 @@ wish list (not necessarily in order of importance):
 		<key>137</key>
 		<last>Fankhanel</last>
 		<first>Thomas</first>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>138</key>
@@ -2385,6 +2402,7 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>199</key>
 		<last>Hebert</last>
+		<newLast>Amelon</newLast>
 		<first>Mary</first>
 		<middle>Beth</middle>
 		<reachable>1</reachable>
@@ -2931,7 +2949,7 @@ wish list (not necessarily in order of importance):
 		<key>286</key>
 		<last>Lytle</last>
 		<first>Lori</first>
-		<reachable>1</reachable>
+		<reachable>0</reachable>
 		<newLast>Hansen</newLast>
 	</classmate>
 	<classmate>
@@ -3622,7 +3640,7 @@ wish list (not necessarily in order of importance):
 		<last>Richardson</last>
 		<first>Bradford</first>
 		<short>Brad</short>
-		<reachable>1</reachable>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>397</key>
@@ -4612,6 +4630,12 @@ wish list (not necessarily in order of importance):
 				</li>
 				<li>
 					<h3>Hansen (née Lytle), Lori</h3>
+					<p>13 February 1958 - 16 October 2021.  
+						<a 
+							href="https://www.dignitymemorial.com/obituaries/phoenix-az/lori-hansen-10406353?utm_source=facebook&utm_medium=referral&utm_campaign=share_obit&utm_content=obituary&fbclid=IwY2xjawSIEi5leHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEekS2qyMWlcqX010Bd3bcPaUHvCIrWd25pFAS8ztLU7QIcJ9XJSAhZOngXJ5g_aem_e8XlOhcTu7IsEKSeCznxuQ" 
+							target="_blank">Dignity Memorial Obituary:  Lori Rae Hansen
+						</a>.
+					</p>
 					<p>Source:  Kathleen Moncrieff (via André).</p>
 				</li>
 				<li>
@@ -4947,13 +4971,13 @@ wish list (not necessarily in order of importance):
 							<p>Deceased.</p>
 						</li>
 						<li>
-							<h4>Arteburn, Lynette</h4>
-							<p>picture not in Yearbook</p>
-						</li>
-						<li>
 							<h4>Artemis, Stephen</h4>
 							<img src="images/classmates/key013.png" alt="Artemis, Stephen" title="Artemis, Stephen" width="193" height="278">
 						</li>
+						<li>
+							<h4>Arterburn, Lynette</h4>
+							<p>picture not in Yearbook</p>
+						</li>						
 						<li>
 							<h4><span class="colorBlack">Baaske, Edmund</span></h4>
 							<div class="yrbThenNow">
@@ -5415,6 +5439,10 @@ wish list (not necessarily in order of importance):
 							<p>picture not in Yearbook</p>
 						</li>
 						<li>
+							<h4>Amelon (née Hebert), Mary Beth</h4>
+							<img src="images/classmates/key199.png" alt="Amelon (née Hebert), Mary Beth" title="Amelon (née Hebert), Mary Beth" width="198" height="285">
+						</li>
+						<li>
 							<h4>Heimbegner, Eugene</h4>
 							<img src="images/classmates/key202.png" alt="Heimbegner, Eugene" title="Heimbegner, Eugene" width="199" height="283">
 						</li>
@@ -5579,7 +5607,7 @@ wish list (not necessarily in order of importance):
 							<h4><span class="colorBlack">Hansen (née Lytle), Lori</span></h4>
 							<img src="images/classmates/key286.png" alt="Hansen (née Lytle), Lori" title="Hansen (née Lytle), Lori" width="152" height="192">
 							<p>No yearbook pictures for senior nor junior years; using sophmore picture.</p>
-							<p>Deceased.</p>
+							<p>Passed away 16 October 2021.</p>
 						</li>
 						<li>
 							<h4>Martinez, Arnold</h4>
@@ -5902,6 +5930,7 @@ wish list (not necessarily in order of importance):
 					</ul>
 
 					<p>Names are listed (as much as possible) as they appeared in the yearbook.  Women are alphabetized by maiden names.</p>
+					<p>All classmates who are deceased, or have given us any type of RSVP, currently have a picture in this section.</p>
 
 					<p>Please pardon our (geeky) dust for this work in progress!</p>
 				</div>
@@ -6327,7 +6356,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>30 May 2026 Saturday.</p>
+			<p>2 June 2026 Tuesday.</p>
 
 			<h3>Acknowledgements</h3>
 
