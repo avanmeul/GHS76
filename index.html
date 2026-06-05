@@ -1,10 +1,8 @@
 <!--
 release notes
-date:  3 June 2026 Wednesday.
-1) added now picture (Diana Cheatum)
-3) edits discovered via spreadsheet updates from 2021 alumni directory
-4) updated some reachable and married names in classmates table
-5) added obituary quote (Diana)
+date:  4 June 2026 Thursday.
+1) RSVP adjustements
+2) minor edits/improvements
 -->
 
 <!--
@@ -183,7 +181,7 @@ wish list (not necessarily in order of importance):
                         <td>dinner</td>
                         <td>dinner and possibly dancing</td>
                         <td>Golden Hotel</td>
-                        <td>estimated at $50 to $75 person</td>
+                        <td>$50 per person</td>
                     </tr>                
                     <tr>
                         <td>30 August 2026</td>
@@ -377,7 +375,7 @@ wish list (not necessarily in order of importance):
 
 					<p>Below is the XML used for the above table for XML-savvy stakeholders to copy/edit.</p>
 					<textarea id="idXmlRSVPs">
-<!--xml for rsvps; sorted by current names; attributes = {last, nee, first, middle, confirmation, method, guests}-->
+<!--xml for rsvps; sorted by current names; attributes = {last, nee, first, middle, confirmation, method, guests, comments}-->
 <rsvps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<rsvp>
 		<last>Aiken</last>
@@ -416,8 +414,8 @@ wish list (not necessarily in order of importance):
 		<last>Batista</last>
 		<first>Fábio</first>
 		<middle>Ferreira</middle>
-		<confirmation>yes</confirmation>
-		<guests>0</guests>
+		<confirmation>no</confirmation>
+		<comments>cost of flying is prohibitive</comments>
 		<method>Debbie</method>
 	</rsvp>	
 	<rsvp>
@@ -543,8 +541,6 @@ wish list (not necessarily in order of importance):
 		<last>Dunnewald</last>
 		<first>Pete</first>
 		<confirmation>yes</confirmation>
-		<guests>1</guests>
-		<comments>guest?</comments>
 		<method>André</method>            
 	</rsvp>
 	<rsvp>
@@ -1109,8 +1105,8 @@ wish list (not necessarily in order of importance):
                 <p>Sparse herein means that empty nodes are left out of the XML to make it smaller in size.</p>
 
                 <p>The key field was originally determined by sorting all classmates in Excel by last (maiden) + first + middle names, and then incrementing a one-based ordinal.</p>
-				<p>However, students were later reported to us that we didn't know about (i.e. students that started with us, but didn't graduate with us.</p>
-				<p>Hence, the key became a surrogate key; used to establish internal relationships within the program, but no represents alphabetical order.</p>
+				<p>However, students were later reported to us that we didn't know about (i.e. students that started with us, but didn't graduate with us), and other errors (i.e. spelling, name confusions, duplicate rows, etc.).</p>
+				<p>Hence, the key became a surrogate key; used to establish internal relationships within the program, but it no longer represents alphabetical order.</p>
 				<p>To solve that problem, a new field was created called "key sort"; which establishes alphabetic order (and therefore is subject to change).</p>
 				<p>This data can be imported into Excel and many other applications that consume XML.</p>
 
@@ -4092,7 +4088,7 @@ wish list (not necessarily in order of importance):
 		<last>Towle</last>
 		<newLast>Cheatum</newLast>
 		<first>Diana</first>
-		<middle>S.</middle>
+		<middle>T.</middle>
 		<reachable>0</reachable>
 	</classmate>
 	<classmate>
@@ -4683,8 +4679,8 @@ wish list (not necessarily in order of importance):
 					<p>Source: Robert Tubbs (via André).</p>
 				</li>
 				<li>
-					<h3>Cheatum (née Towle), Diana</h3>
-					<p>26 August 1958 - 21 June 2018.  Passed away at age 60 from breast cancer.</p>
+					<h3>Cheatum (née Towle), Diana T.</h3>
+					<p>26 August 1958 - 21 June 2018.  Passed away at age 59 from breast cancer.</p>
 					<p>Celebration of Life quote (courtesy of Julia):</p>
 					<q>
 						She flew up to Heaven on the wings of angels.  
@@ -4693,7 +4689,7 @@ wish list (not necessarily in order of importance):
 						And I know she's smiling saying:  
 						Don't worry 'bout me'.
 					</q>
-					<em>Alan Jackson</em>
+					<p>Excerpt from <a href="https://www.youtube.com/watch?v=zCvgXw-Bh04" target="_blank">Sissy's Song</a> by Alan Jackson</p>
 					<p>Source:  Julia LaCassa, Diana's younger sister (via André).</p>
 				</li>
 				<li>
@@ -5844,7 +5840,12 @@ wish list (not necessarily in order of importance):
 								<img src="images/classmates/key476.png" alt="van Meulebrouck, André" title="van Meulebrouck, André" width="165" height="200" class="yrbImg">
 								<img src="images/classmates/key476_now.png" alt="van Meulebrouck, André" title="van Meulebrouck, André" width="229" height="200" class="yrbImg">
 							</div>
-							<p>No senior picture; using junior picture.  Now picture is from 2010.  Website:  <a href="https://avanmeul.github.io/home/" target="_blank">Home page of André van Meulebrouck"</a></p>
+							<p>
+								No senior picture; using junior picture.  Now picture is from 2010.  
+								Website:  <a href="https://avanmeul.github.io/home/" target="_blank">Home page of André van Meulebrouck</a>.
+								Video of technical talk given at &lambda;-conference 2024 at Estes Park, Colorado:  
+								<a href="https://www.youtube.com/watch?v=1h2tOoElO88&t=303s"  target="_blank">A Lazy Scheme in Haskell</a>.
+							</p>
 						</li>
 						<li>
 							<h4>Vogel, Robert</h4>
@@ -6360,7 +6361,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>3 June 2026 Wednesday.</p>
+			<p>4 June 2026 Thursday.</p>
 
 			<h3>Acknowledgements</h3>
 
