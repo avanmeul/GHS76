@@ -190,4 +190,11 @@ function populateClassmates() {
     spnDeceased.textContent = totalDeceased;
     tdDeceased.textContent = totalDeceased;
 
+    function classmateContact(key) {
+        index = ((key - 1) % 4); 
+        const organizers = ['André', 'Kurt', 'Debbie', 'Kathleen'];
+        return organizers[index]; }
+
+    window.classmateContact = classmateContact;
+
  }
