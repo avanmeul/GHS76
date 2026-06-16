@@ -191,8 +191,8 @@ function populateClassmates() {
     tdDeceased.textContent = totalDeceased;
 
     function classmateContact(key) {
-        index = ((key - 1) % 4); 
         const organizers = ['André', 'Kurt', 'Debbie', 'Kathleen'];
+        index = (key - 1) % organizers.length; 
         return organizers[index]; }
 
     window.classmateContact = classmateContact;

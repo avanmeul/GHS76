@@ -1,10 +1,10 @@
 <!--
 release notes
-date:  14 June 2026 Sunday.
+date:  15 June 2026 Monday.
 1) added yearbook pictures
-2) updated some reachable flags
-3) added deceased
-4) added Javascript function for F12 use
+2) added RSVPs (Janet Heron, Christie Mossman)
+3) removed duplicate row from classmates table
+4) adjusted total classmates statistic
 -->
 
 <!--
@@ -74,9 +74,9 @@ wish list (not necessarily in order of importance):
                             <li><a href="#secContacts">Contacts</a></li>
                             <li><a href="#secAlumni">Alumni Resources</a></li>
                             <li><a href="#secDeceased">Deceased Classmates</a></li>
-                            <li><a href="#secStatistics">Statistics about our class</a>  (geeky?!?)</li>
+                            <li><a href="#secStatistics">Statistics about our class</a> (geeky?!?)</li>
 							<li><a href="#secPastReunions">Past Reunions</a></li>                      
-							<li><a href="#secYearbook">Yearbook</a></li>                      
+							<li><a href="#secYearbook">Yearbook</a></li>                 
 							<li><a href="#secMascot">Mascot</a></li>                      
                             <li><a href="#secMusic">Music</a></li>
                             <li><a href="#secWebsite">About this Website</a></li>
@@ -676,6 +676,13 @@ wish list (not necessarily in order of importance):
 		<method>Classmates.com</method>            
 	</rsvp>
 	<rsvp>
+		<last>Heron</last>
+		<nee>Cary</nee>
+		<first>Janet</first>
+		<confirmation>yes</confirmation>
+		<method>André</method>
+	</rsvp>	
+	<rsvp>
 		<last>Herr</last>
 		<first>Vincent</first>
 		<confirmation>yes</confirmation>
@@ -694,6 +701,14 @@ wish list (not necessarily in order of importance):
 		<first>Robert</first>
 		<confirmation>maybe</confirmation>
 		<method>Classmates.com</method>
+	</rsvp>
+	<rsvp>
+		<last>Houser</last>
+		<nee>Mossman</nee>
+		<first>Christie</first>
+		<confirmation>no</confirmation>
+		<comments>can't make it</comments>
+		<method>André</method>
 	</rsvp>
 	<rsvp>
 		<last>Hrouda</last>
@@ -1498,12 +1513,6 @@ wish list (not necessarily in order of importance):
 		<reachable>0</reachable>
 	</classmate>
 	<classmate>
-		<key>51</key>
-		<last>Brown</last>
-		<first>Marvin</first>
-		<middle>D.</middle>
-	</classmate>
-	<classmate>
 		<key>52</key>
 		<last>Brown</last>
 		<first>Rebecca</first>
@@ -1634,8 +1643,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>72</key>
 		<last>Cary</last>
+		<newLast>Heron</newLast>
 		<first>Janet</first>
 		<middle>F.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>73</key>
@@ -1661,7 +1672,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>76</key>
 		<last>Cechini</last>
-		<first>Cynthia</first>
+		<newLast>Paul</newLast>
+		<first>Cynthia Rose</first>
+		<middle>C.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>77</key>
@@ -2120,8 +2134,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>146</key>
 		<last>Francis</last>
+		<newLast>Sustrich</newLast>
 		<first>Darlene</first>
 		<middle>S.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>147</key>
@@ -4837,7 +4853,7 @@ wish list (not necessarily in order of importance):
                     <tr>
                         <td class="rightJustifiedText">2</td>
                         <td>number of people in our class</td>
-                        <td class="rightJustifiedText">517</td>
+                        <td class="rightJustifiedText">516</td>
                         <td>includes 4 people who started with our class but graduated elsewhere</td>
                         <td>the spreadsheet includes John Doe to reconcile with Classmates.com;
                             also students that started with our class but didn't finish with our class (either due to dropping out or finishing elsewhere)
@@ -5307,6 +5323,13 @@ wish list (not necessarily in order of importance):
 							</p>
 						</li>
 						<li>
+							<h4>Heron (née Cary), Janet</h4>
+							<div class="yrbThenNow">
+								<img src="images/classmates/key072.png" alt="Heron (née Cary), Janet" title="Heron (née Cary), Janet" width="200" height="287" class="yrbImg">
+								<img src="images/classmates/key072_now.png" alt="Heron (née Cary), Janet" title="Heron (née Cary), Janet" width="227" height="287" class="yrbImg">
+							</div>
+						</li>
+						<li>
 							<h4>Cashin, Rachel</h4>
 							<div class="yrbThenNow">
 								<img src="images/classmates/key073.png" alt="Cashin, Rachel" title="Cashin, Rachel" width="192" height="287" class="yrbImg">
@@ -5316,7 +5339,11 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>Catherman, Audrey</h4>
 							<img src="images/classmates/key075.png" alt="Catherman, Audrey" title="Catherman, Audrey" width="192" height="287">
-						</li>								
+						</li>
+						<li>
+							<h4>Paul (née Cechini), Cynthia</h4>
+							<img src="images/classmates/key076.png" alt="Paul (née Cechini), Cynthia" title="Paul (née Cechini), Cynthia" width="201" height="289">
+						</li>							
 						<li>
 							<h4><span class="colorBlack">Channon, Douglas</span></h4>
 							<p>deceased</p>
@@ -5471,6 +5498,10 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>Foster, Paul</h4>
 							<p>picture not in Yearbook</p>
+						</li>
+						<li>
+							<h4>Sustrich (née Francis), Darlene</h4>
+							<img src="images/classmates/key146.png" alt="Sustrich (née Francis), Darlene" title="Sustrich (née Francis), Darlene" width="196" height="282">
 						</li>
 						<li>
 							<h4>Fritz, William</h4>
@@ -6524,7 +6555,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>14 June 2026 Sunday.</p>
+			<p>15 June 2026 Monday.</p>
 
 			<h3>Acknowledgements</h3>
 
