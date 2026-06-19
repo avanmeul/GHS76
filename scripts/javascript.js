@@ -158,6 +158,10 @@ function populateClassmates() {
                 reachableClass = "responseYes";
                 reachText = "yes";
                 break;
+            case "-1":
+                reachableClass = "responseDead";
+                reachText = "deceased";       
+                break;
             default:
                 reachableClass = "responseNo";
                 reachText = "no";
@@ -190,7 +194,7 @@ function populateClassmates() {
     spnDeceased.textContent = totalDeceased;
     tdDeceased.textContent = totalDeceased;
 
-    function classmateContact(key) {
+    function classmateContact(key) { //to do:  curry in organizers
         const organizers = ['André', 'Kurt', 'Debbie', 'Kathleen'];
         index = (key - 1) % organizers.length; 
         return organizers[index]; }

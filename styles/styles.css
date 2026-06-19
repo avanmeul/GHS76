@@ -152,6 +152,12 @@ span {
     text-align: center;
 }
 
+.responseDead {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
 .rightJustifiedText {
     text-align: right;
 }

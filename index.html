@@ -1,8 +1,10 @@
 <!--
 release notes
-date:  16 June 2026 Tuesday.
-1) added yearbook pictures
-2) added RSVP (no)
+date:  18 June 2026 Thursday.
+1) added yearbook picture
+2) added RSVP
+3) classmates table now shows deceased w/ black in reachable column
+4) classmates XML now sparse for reachable element (default = no)
 -->
 
 <!--
@@ -766,6 +768,12 @@ wish list (not necessarily in order of importance):
 		<method>Debbie</method>            
 	</rsvp>
 	<rsvp>
+		<last>Marken</last>
+		<first>Van</first>
+		<confirmation>yes</confirmation>
+		<method>André</method>
+	</rsvp>
+	<rsvp>
 		<last>Moncrieff</last>
 		<first>Kathleen</first>
 		<confirmation>yes</confirmation>
@@ -1137,7 +1145,7 @@ wish list (not necessarily in order of importance):
 
             <p>The following is a table of all known classmates.</p>
             <p>If you aren't in this table, then we don't know about you.</p>
-            <p>If your entry in the "reachable?" column is "no", then we don't know how to contact you.</p>
+            <p>If your entry in the "reachable" column is "no", then we don't know how to contact you.</p>
             <p>You can do ctl-f in your browser to search for anyone you like, and the table (and/or XML) will scroll to the first hit.</p>
             <p></p>
 
@@ -1154,7 +1162,7 @@ wish list (not necessarily in order of importance):
                             <th>prefix</th>
                             <th>suffix</th>
                             <th>title</th>
-                            <th>reachable?</th>
+                            <th>reachable</th>
                             <th>comment</th>
                         </tr>
                     </thead>
@@ -1185,7 +1193,6 @@ wish list (not necessarily in order of importance):
 		<first>Jeffrey</first>
 		<middle>C.</middle>
 		<short>Jeff</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>2</key>
@@ -1198,7 +1205,6 @@ wish list (not necessarily in order of importance):
 		<last>Ake</last>
 		<first>Richard</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>4</key>
@@ -1206,7 +1212,7 @@ wish list (not necessarily in order of importance):
 		<newLast>Brodie</newLast>
 		<first>Reca</first>
 		<middle>M.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>5</key>
@@ -1248,7 +1254,7 @@ wish list (not necessarily in order of importance):
 		<last>Aragon</last>
 		<first>John</first>
 		<middle>P.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>12</key>
@@ -1260,14 +1266,13 @@ wish list (not necessarily in order of importance):
 		<last>Artemis</last>
 		<first>Stephen</first>
 		<middle>M.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>14</key>
 		<last>Baaske</last>
 		<first>Edmund</first>
 		<middle>U.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>15</key>
@@ -1281,7 +1286,6 @@ wish list (not necessarily in order of importance):
 		<last>Bakke</last>
 		<first>Richard</first>
 		<middle>R.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>17</key>
@@ -1310,7 +1314,6 @@ wish list (not necessarily in order of importance):
 		<first>Stephen</first>
 		<middle>T.</middle>
 		<short>Steve</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>21</key>
@@ -1366,7 +1369,7 @@ wish list (not necessarily in order of importance):
 		<middle>A.</middle>
 		<short>Debbie</short>
 		<prefix>Mrs.</prefix>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 		<comment>yearbook spells "Bensen"</comment>
 	</classmate>
 	<classmate>
@@ -1385,7 +1388,6 @@ wish list (not necessarily in order of importance):
 		<key>31</key>
 		<last>Bergquist</last>
 		<first>Roy</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>32</key>
@@ -1404,7 +1406,6 @@ wish list (not necessarily in order of importance):
 		<last>Bettinger</last>
 		<first>Thomas</first>
 		<middle>W.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>35</key>
@@ -1420,20 +1421,17 @@ wish list (not necessarily in order of importance):
 		<newLast>Blanckaert</newLast>
 		<first>Sara</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>37</key>
 		<last>Beveridge</last>
 		<first>Joy</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>38</key>
 		<last>Beyer</last>
 		<first>David</first>
 		<middle>M.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>39</key>
@@ -1446,7 +1444,6 @@ wish list (not necessarily in order of importance):
 		<newLast>Hewitson</newLast>
 		<first>Sheila</first>
 		<middle>M.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>41</key>
@@ -1458,14 +1455,14 @@ wish list (not necessarily in order of importance):
 		<key>519</key>
 		<last>Blevins</last>
 		<first>Lori</first>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>42</key>
 		<last>Boileau</last>
 		<first>Joan</first>
 		<middle>C.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>43</key>
@@ -1484,8 +1481,8 @@ wish list (not necessarily in order of importance):
 		<key>45</key>
 		<last>Boyer</last>
 		<first>Stephen</first>
-		<middle>C.</middle>
-		<reachable>0</reachable>
+		<middle>Craig</middle>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>46</key>
@@ -1515,7 +1512,7 @@ wish list (not necessarily in order of importance):
 		<last>Brown</last>
 		<first>Marvin</first>
 		<middle>Dale</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>52</key>
@@ -1540,8 +1537,8 @@ wish list (not necessarily in order of importance):
 		<key>55</key>
 		<last>Brunner</last>
 		<first>Kerry</first>
-		<middle>D.</middle>
-		<reachable>0</reachable>
+		<middle>Dean</middle>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>56</key>
@@ -1591,8 +1588,8 @@ wish list (not necessarily in order of importance):
 		<key>63</key>
 		<last>Byers</last>
 		<first>Brad</first>
-		<reachable>0</reachable>
-		<comment>deceased; started with us, finished at Evergreen</comment>
+		<comment>started with us, finished at Evergreen</comment>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>64</key>
@@ -1604,14 +1601,13 @@ wish list (not necessarily in order of importance):
 		<last>Carlson</last>
 		<newLast>Marine</newLast>
 		<first>Kirsten</first>
-		<reachable>0</reachable>		
+		<reachable>-1</reachable>	
 	</classmate>
 	<classmate>
 		<key>66</key>
 		<last>Carlson</last>
 		<first>Scott</first>
 		<middle>E.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>67</key>
@@ -1686,7 +1682,7 @@ wish list (not necessarily in order of importance):
 		<key>77</key>
 		<last>Channon</last>
 		<first>Douglas</first>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>78</key>
@@ -1728,13 +1724,12 @@ wish list (not necessarily in order of importance):
 		<key>84</key>
 		<last>Collins</last>
 		<first>Daniel</first>
-	</classmate>
+	</classmate>	
 	<classmate>
 		<key>85</key>
 		<last>Comer</last>
 		<first>Lori</first>
 		<middle>A.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>86</key>
@@ -1755,7 +1750,7 @@ wish list (not necessarily in order of importance):
 		<last>Cooley</last>
 		<first>James</first>
 		<suffix>Senior</suffix>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>89</key>
@@ -1784,7 +1779,6 @@ wish list (not necessarily in order of importance):
 		<key>92</key>
 		<last>Coughlin</last>
 		<first>Eileen</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>93</key>
@@ -1875,8 +1869,8 @@ wish list (not necessarily in order of importance):
 		<key>520</key>
 		<last>Denning</last>
 		<first>Sheridan</first>
-		<comment>deceased; started with us, didn't graduate with us</comment>
-		<reachable>0</reachable>
+		<comment>Started with us, didn't graduate with us.</comment>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>107</key>
@@ -1901,7 +1895,6 @@ wish list (not necessarily in order of importance):
 		<last>Dolloff</last>
 		<first>Meredith</first>
 		<short>Mimi</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>111</key>
@@ -1978,7 +1971,7 @@ wish list (not necessarily in order of importance):
 		<first>Frederic</first>
 		<middle>W.</middle>
 		<short>Rick</short>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>122</key>
@@ -2003,7 +1996,6 @@ wish list (not necessarily in order of importance):
 		<last>Eckelberg</last>
 		<first>Bart</first>
 		<middle>K.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>126</key>
@@ -2080,13 +2072,11 @@ wish list (not necessarily in order of importance):
 		<key>136</key>
 		<last>Fallert</last>
 		<first>Mitchell</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>137</key>
 		<last>Fankhanel</last>
 		<first>Thomas</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>138</key>
@@ -2115,8 +2105,7 @@ wish list (not necessarily in order of importance):
 		<key>142</key>
 		<last>Ferguson</last>
 		<first>Gary</first>
-		<middle>A.</middle>
-		<reachable>0</reachable>
+		<middle>A.</middle>		
 	</classmate>
 	<classmate>
 		<key>143</key>
@@ -2181,7 +2170,6 @@ wish list (not necessarily in order of importance):
 		<key>152</key>
 		<last>Furuli</last>
 		<first>Joe</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>153</key>
@@ -2309,7 +2297,6 @@ wish list (not necessarily in order of importance):
 		<last>Hachen</last>
 		<newLast>Koehn</newLast>
 		<first>Ardis</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>174</key>
@@ -2336,7 +2323,6 @@ wish list (not necessarily in order of importance):
 		<newLast>Polito</newLast>
 		<first>Jill</first>
 		<middle>F.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>178</key>
@@ -2458,7 +2444,7 @@ wish list (not necessarily in order of importance):
 		<first>Donald</first>
 		<middle>L.</middle>
 		<short>Don</short>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>197</key>
@@ -2549,7 +2535,7 @@ wish list (not necessarily in order of importance):
 		<last>Hessner</last>
 		<first>Eric</first>
 		<middle>Todd</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>211</key>
@@ -2582,7 +2568,6 @@ wish list (not necessarily in order of importance):
 		<last>Hill</last>
 		<first>Steve</first>
 		<middle>D.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>216</key>
@@ -2601,7 +2586,7 @@ wish list (not necessarily in order of importance):
 		<last>Holsinger</last>
 		<first>George</first>
 		<middle>Curtis</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>219</key>
@@ -2658,15 +2643,14 @@ wish list (not necessarily in order of importance):
 		<key>227</key>
 		<last>Hudson</last>
 		<first>Sharlene</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>228</key>
 		<last>Hughes</last>
 		<first>Steven</first>
-		<middle>R.</middle>
+		<middle>Ray</middle>
 		<short>Steve</short>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>		
 	</classmate>
 	<classmate>
 		<key>229</key>
@@ -2690,14 +2674,12 @@ wish list (not necessarily in order of importance):
 		<last>Huntley</last>
 		<first>James</first>
 		<middle>A.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>233</key>
 		<last>Huntley</last>
 		<first>Jon</first>
 		<middle>A.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>234</key>
@@ -2717,7 +2699,6 @@ wish list (not necessarily in order of importance):
 		<last>Hutchinson</last>
 		<first>Marcia</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>237</key>
@@ -2819,7 +2800,7 @@ wish list (not necessarily in order of importance):
 		<last>Kietzman</last>
 		<first>Wayne</first>
 		<middle>Joseph</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>		
 	</classmate>
 	<classmate>
 		<key>254</key>
@@ -2870,7 +2851,6 @@ wish list (not necessarily in order of importance):
 		<last>Koch</last>
 		<first>Loren</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>262</key>
@@ -2905,7 +2885,6 @@ wish list (not necessarily in order of importance):
 		<last>La Bate</last>
 		<first>Anthony</first>
 		<middle>N.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>268</key>
@@ -2936,7 +2915,7 @@ wish list (not necessarily in order of importance):
 		<key>270</key>
 		<last>Larned</last>
 		<first>Patricia</first>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>	
 	<classmate>
 		<key>273</key>
@@ -3009,20 +2988,19 @@ wish list (not necessarily in order of importance):
 		<last>Lund</last>
 		<first>Peter</first>
 		<middle>George</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>285</key>
 		<last>Lundgren</last>
 		<first>Robert</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>286</key>
 		<last>Lytle</last>
-		<first>Lori</first>
-		<reachable>0</reachable>
 		<newLast>Hansen</newLast>
+		<first>Lori</first>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>287</key>
@@ -3040,7 +3018,6 @@ wish list (not necessarily in order of importance):
 		<newLast>Van Cort</newLast>
 		<first>Lori</first>
 		<middle>A.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>290</key>
@@ -3048,7 +3025,6 @@ wish list (not necessarily in order of importance):
 		<newLast>Nemeth</newLast>
 		<first>Ann</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>291</key>
@@ -3066,14 +3042,13 @@ wish list (not necessarily in order of importance):
 		<last>Marken</last>
 		<first>Van</first>
 		<middle>R.</middle>
-		<short>Visor</short>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>294</key>
 		<last>Martinez</last>
 		<first>Marvin</first>
 		<middle>G.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>295</key>
@@ -3081,7 +3056,6 @@ wish list (not necessarily in order of importance):
 		<first>Murray</first>
 		<middle>Arnold</middle>
 		<short>Arnold</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>296</key>
@@ -3118,7 +3092,7 @@ wish list (not necessarily in order of importance):
 		<key>301</key>
 		<last>McDonald</last>
 		<first>Bradley</first>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>302</key>
@@ -3143,7 +3117,6 @@ wish list (not necessarily in order of importance):
 		<last>McPhilimy</last>
 		<newLast>Karasso</newLast>
 		<first>Cheryl</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>306</key>
@@ -3175,14 +3148,12 @@ wish list (not necessarily in order of importance):
 		<last>Merrill</last>
 		<first>Cherie</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>311</key>
 		<last>Michal</last>
 		<first>Rodney</first>
 		<middle>E.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>312</key>
@@ -3201,7 +3172,7 @@ wish list (not necessarily in order of importance):
 		<last>Miller</last>
 		<first>Dana</first>
 		<middle>E.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>315</key>
@@ -3220,7 +3191,7 @@ wish list (not necessarily in order of importance):
 		<last>Miskell</last>
 		<first>Bradley</first>
 		<middle>J.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>318</key>
@@ -3234,7 +3205,6 @@ wish list (not necessarily in order of importance):
 		<last>Monson</last>
 		<first>David</first>
 		<middle>P.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>320</key>
@@ -3295,9 +3265,9 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>329</key>
 		<last>Mossman</last>
+		<newLast>Houser</newLast>
 		<first>Christie</first>
 		<middle>A.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>330</key>
@@ -3341,7 +3311,6 @@ wish list (not necessarily in order of importance):
 		<newLast>Towle</newLast>
 		<first>Cynthia</first>
 		<short>Cindy</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>337</key>
@@ -3360,7 +3329,6 @@ wish list (not necessarily in order of importance):
 		<newLast>Martella</newLast>
 		<first>Elaine</first>
 		<middle>T.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>340</key>
@@ -3405,7 +3373,7 @@ wish list (not necessarily in order of importance):
 		<newLast>Reyna</newLast>
 		<first>Dana</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>347</key>
@@ -3416,7 +3384,6 @@ wish list (not necessarily in order of importance):
 		<key>348</key>
 		<last>Nicolosi</last>
 		<first>Daniel</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>349</key>
@@ -3428,7 +3395,7 @@ wish list (not necessarily in order of importance):
 		<last>Nordin</last>
 		<first>Leslie</first>
 		<middle>M.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>351</key>
@@ -3458,7 +3425,7 @@ wish list (not necessarily in order of importance):
 		<last>Orr</last>
 		<first>Scott</first>
 		<middle>W.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>356</key>
@@ -3501,7 +3468,7 @@ wish list (not necessarily in order of importance):
 		<last>Park</last>
 		<first>Stephen</first>
 		<short>Steve</short>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>363</key>
@@ -3552,7 +3519,7 @@ wish list (not necessarily in order of importance):
 		<last>Perella</last>
 		<first>Rocco</first>
 		<middle>R.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>371</key>
@@ -3565,7 +3532,6 @@ wish list (not necessarily in order of importance):
 		<last>Petersen</last>
 		<newLast>Burns</newLast>
 		<first>Elizabeth</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>373</key>
@@ -3695,7 +3661,6 @@ wish list (not necessarily in order of importance):
 		<key>392</key>
 		<last>Remetes</last>
 		<first>Christopher</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>393</key>
@@ -3719,7 +3684,6 @@ wish list (not necessarily in order of importance):
 		<last>Richardson</last>
 		<first>Bradford</first>
 		<short>Brad</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>397</key>
@@ -3860,9 +3824,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>419</key>
 		<last>Sherman</last>
+		<middle>Luke Patrick</middle>
 		<first>James</first>
 		<short>Jim</short>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>420</key>
@@ -3936,7 +3901,7 @@ wish list (not necessarily in order of importance):
 		<newLast>Twenhofel</newLast>
 		<first>Laurie</first>
 		<middle>A.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>431</key>
@@ -3947,11 +3912,11 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>432</key>
 		<last>Smyth</last>
+		<newLast>Hansen-Aran</newLast>
 		<first>Debra</first>
 		<middle>K.</middle>
 		<short>Debbie</short>
 		<reachable>1</reachable>
-		<newLast>Hansen-Aran</newLast>
 	</classmate>
 	<classmate>
 		<key>433</key>
@@ -4029,7 +3994,7 @@ wish list (not necessarily in order of importance):
 		<last>Stekr</last>
 		<first>David</first>
 		<middle>K.</middle>
-		<reachable>0</reachable>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>445</key>
@@ -4052,13 +4017,13 @@ wish list (not necessarily in order of importance):
 		<newLast>Hart</newLast>
 		<first>Karen</first>
 		<middle>L.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>448</key>
 		<last>Strobel</last>
 		<first>Kraig</first>
 		<middle>R.</middle>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>449</key>
@@ -4139,7 +4104,6 @@ wish list (not necessarily in order of importance):
 		<key>461</key>
 		<last>Thomas</last>
 		<first>Bradford</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>462</key>
@@ -4181,8 +4145,9 @@ wish list (not necessarily in order of importance):
 		<last>Towle</last>
 		<newLast>Cheatum</newLast>
 		<first>Diana</first>
-		<middle>T.</middle>
-		<reachable>0</reachable>
+		<middle>S.</middle>
+		<comment>latter sources say middle = T. =? Towle</comment>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>468</key>
@@ -4251,7 +4216,6 @@ wish list (not necessarily in order of importance):
 		<key>477</key>
 		<last>VanDamme</last>
 		<first>Brian</first>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>478</key>
@@ -4310,7 +4274,6 @@ wish list (not necessarily in order of importance):
 		<last>Wamboldt</last>
 		<first>Jerry</first>
 		<middle>W.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>488</key>
@@ -4325,7 +4288,6 @@ wish list (not necessarily in order of importance):
 		<last>Want</last>
 		<first>Robert</first>
 		<middle>E.</middle>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>490</key>
@@ -4506,7 +4468,6 @@ wish list (not necessarily in order of importance):
 		<first>Robert</first>
 		<middle>A.</middle>
 		<short>Bob</short>
-		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>518</key>
@@ -5788,6 +5749,10 @@ wish list (not necessarily in order of importance):
 							<p>Passed away 16 October 2021.</p>
 						</li>
 						<li>
+							<h4>Marken, Van</h4>
+							<img src="images/classmates/key293.png" alt="Marken, Van" title="Marken, Van" width="201" height="282">
+						</li>
+						<li>
 							<h4>Martinez, Arnold</h4>
 							<img src="images/classmates/key294.png" alt="Martinez, Arnold" title="Martinez, Arnold" width="188" height="274">
 						</li>
@@ -6571,7 +6536,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>16 June 2026 Tuesday.</p>
+			<p>18 June 2026 Thursday.</p>
 
 			<h3>Acknowledgements</h3>
 
