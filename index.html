@@ -1,15 +1,14 @@
 <!--
 release notes
-date:  18 June 2026 Thursday.
-1) added yearbook picture
-2) added RSVP
-3) classmates table now shows deceased w/ black in reachable column
-4) classmates XML now sparse for reachable element (default = no)
+date:  19 June 2026 Friday.
+1) added yearbook pictures
+2) added RSVP (no)
+3) reconciled classmates XML with spreadsheet
+4) added new classmate that didn't graduate with us
 -->
 
 <!--
 wish list (not necessarily in order of importance):
-0) add deceased column to classmates table and xml
 1) add sections "FAQ", "funny stories"
 2) figure out how to specify sorting function for custom sorts
 3) try reading xml from xml file
@@ -774,6 +773,13 @@ wish list (not necessarily in order of importance):
 		<method>André</method>
 	</rsvp>
 	<rsvp>
+		<last>Masker</last>
+		<first>Bruce</first>
+		<confirmation>no</confirmation>
+		<comments>not available on that date</comments>
+		<method>André</method>
+	</rsvp>
+	<rsvp>
 		<last>Moncrieff</last>
 		<first>Kathleen</first>
 		<confirmation>yes</confirmation>
@@ -1301,6 +1307,14 @@ wish list (not necessarily in order of importance):
 		<first>John</first>
 		<short>Charles</short>
 		<title>Ph.D.</title>
+	</classmate>
+	<classmate>
+		<key>195</key>
+		<last>Barkoff</last>
+		<newLast>Corbitt</newLast>
+		<first>Mona</first>
+		<comment>didn't finish with us</comment>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>19</key>
@@ -2147,6 +2161,7 @@ wish list (not necessarily in order of importance):
 		<first>Charles</first>
 		<middle>E.</middle>
 		<suffix>Jr.</suffix>
+		<reachable>-1</reachable>
 	</classmate>
 	<classmate>
 		<key>149</key>
@@ -2294,9 +2309,10 @@ wish list (not necessarily in order of importance):
 	</classmate>
 	<classmate>
 		<key>173</key>
-		<last>Hachen</last>
+		<last>Hatchen</last>
 		<newLast>Koehn</newLast>
 		<first>Ardis</first>
+		<middle>A.</middle>
 	</classmate>
 	<classmate>
 		<key>174</key>
@@ -2431,12 +2447,6 @@ wish list (not necessarily in order of importance):
 		<first>Steven</first>
 		<short>Steve</short>
 		<reachable>1</reachable>
-	</classmate>
-	<classmate>
-		<key>195</key>
-		<last>Hatchen</last>
-		<first>Ardis</first>
-		<middle>A.</middle>
 	</classmate>
 	<classmate>
 		<key>196</key>
@@ -2747,6 +2757,14 @@ wish list (not necessarily in order of importance):
 		<first>Andrew</first>
 		<middle>L.</middle>
 		<reachable>1</reachable>
+	</classmate>
+	<classmate>
+		<key>51</key>
+		<last>Johnson</last>
+		<first>David</first>
+		<middle>W.</middle>
+		<comment>didn't do senior year with us</comment>
+		<reachable>0</reachable>
 	</classmate>
 	<classmate>
 		<key>245</key>
@@ -3062,6 +3080,7 @@ wish list (not necessarily in order of importance):
 		<last>Masker</last>
 		<first>Bruce</first>
 		<middle>I.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>297</key>
@@ -3324,6 +3343,14 @@ wish list (not necessarily in order of importance):
 		<reachable>1</reachable>
 	</classmate>
 	<classmate>
+		<key>349</key>
+		<last>Neilson</last>
+		<first>Marvin</first>
+		<middle>Earl</middle>
+		<comment>Yearbooks and alumni directories spell as "Nielson"</comment>
+		<reachable>-1</reachable>
+	</classmate>	
+	<classmate>
 		<key>339</key>
 		<last>Nelson</last>
 		<newLast>Martella</newLast>
@@ -3386,11 +3413,6 @@ wish list (not necessarily in order of importance):
 		<first>Daniel</first>
 	</classmate>
 	<classmate>
-		<key>349</key>
-		<last>Nielson</last>
-		<first>Marvin</first>
-	</classmate>
-	<classmate>
 		<key>350</key>
 		<last>Nordin</last>
 		<first>Leslie</first>
@@ -3432,11 +3454,6 @@ wish list (not necessarily in order of importance):
 		<last>Osiecki</last>
 		<first>Larry</first>
 		<middle>S.</middle>
-	</classmate>
-	<classmate>
-		<key>357</key>
-		<last>Oslecki</last>
-		<first>Larry</first>
 	</classmate>
 	<classmate>
 		<key>358</key>
@@ -3849,16 +3866,10 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>423</key>
 		<last>Simpson</last>
-		<first>Elizabeth</first>
-		<middle>C.</middle>
-	</classmate>
-	<classmate>
-		<key>424</key>
-		<last>Simpson</last>
-		<first>Lisa</first>
-		<reachable>1</reachable>
-		<comment>Lisa = Elizabeth?</comment>
 		<newLast>Michalski</newLast>
+		<first>Elizabeth</first>
+		<middle>Carolyn</middle>
+		<short>Lisa</short>
 	</classmate>
 	<classmate>
 		<key>425</key>
@@ -4660,6 +4671,13 @@ wish list (not necessarily in order of importance):
 					<p>Source:  André</p>
 				</li>
 				<li>
+					<h3>Frederick, Charles E.</h3>
+					<p>Passed away in December of 2006 at age 49.
+						<a href="https://www.fastpeoplesearch.com/charles-frederick_id_G123907375105985696" target="_blank">Fast People Search:  Charles Frederick</a>.
+					</p>
+					<p>Source:  André</p>
+				</li>
+				<li>
 					<h3>Haynes, Donald L.</h3>
 					<p>August 1957 - January 2008.  
 						<a href="https://www.fastpeoplesearch.com/donald-haynes_id_G-1422939904950008055" target="_blank">Fast People Search:  Donald L. Haynes</a>.</p>
@@ -4722,6 +4740,13 @@ wish list (not necessarily in order of importance):
 					<h3>Miller, Dana E.</h3>
 					<p>Died of a heart attack on 2 April 2016.</p>
 					<p>Source:  Kathleen Moncrieff (via post on Classmates.com).</p>
+				</li>
+				<li>
+					<h3>Neilson, Marvin Earl</h3>
+					<p>Passed away in April 2004 at age 47.
+						<a href="https://www.fastpeoplesearch.com/marvin-neilsen_id_G-7010573336680611191" target="_blank">Fast People Search:  Marvin Neilson</a>.
+					</p>
+					<p>Source:  André.</p>
 				</li>
 				<li>
 					<h3>Reyna (née Niccoli), Dana Lynn</h3>
@@ -4821,8 +4846,8 @@ wish list (not necessarily in order of importance):
                     <tr>
                         <td class="rightJustifiedText">2</td>
                         <td>number of people in our class</td>
-                        <td class="rightJustifiedText">516</td>
-                        <td>includes 4 people who started with our class but graduated elsewhere</td>
+                        <td class="rightJustifiedText">517</td>
+                        <td>includes 5 people who started with our class but graduated elsewhere</td>
                         <td>the spreadsheet includes John Doe to reconcile with Classmates.com;
                             also students that started with our class but didn't finish with our class (either due to dropping out or finishing elsewhere)
                         </td>
@@ -5476,6 +5501,11 @@ wish list (not necessarily in order of importance):
 							<img src="images/classmates/key146.png" alt="Sustrich (née Francis), Darlene" title="Sustrich (née Francis), Darlene" width="196" height="282">
 						</li>
 						<li>
+							<h4><span class="colorBlack">Frederick, Charles</span></h4>
+							<img src="images/classmates/key147.png" alt="Frederick, Charles" title="Frederick, Charles" width="197" height="285">
+							<p>Passed away in December of 2006 at age 49.</p>
+						</li>
+						<li>
 							<h4>Fritz, William</h4>
 							<p>picture not in Yearbook</p>
 						</li>						
@@ -5680,6 +5710,11 @@ wish list (not necessarily in order of importance):
 							<p>Picture not in any yearbooks.</p>
 						</li>
 						<li>
+							<h4>Johnson, Dave</h4>
+							<img src="images/classmates/key051.png" alt="Johnson, Dave" title="Johnson, Dave" width="158" height="196">
+							<p>Using junior picture; didn't graduate with us.</p>
+						</li>
+						<li>
 							<h4>Johnson, James</h4>
 							<p>picture not in Yearbook</p>
 						</li>
@@ -5757,6 +5792,13 @@ wish list (not necessarily in order of importance):
 							<img src="images/classmates/key294.png" alt="Martinez, Arnold" title="Martinez, Arnold" width="188" height="274">
 						</li>
 						<li>
+							<h4>Masker, Bruce</h4>
+							<div class="yrbThenNow">
+								<img src="images/classmates/key296.png" alt="Masker, Bruce" title="Masker, Bruce" width="200" height="277" class="yrbImg">
+								<img src="images/classmates/key296_now.png" alt="Masker, Bruce (now)" title="Masker, Bruce (now)" width="206" height="277" class="yrbImg">
+							</div>
+						</li>
+						<li>
 							<h4>Wills (née Mathisen), Mary Beth</h4>
 							<img src="images/classmates/key298.png" alt="Wills (née Mathisen), Mary Beth" title="Wills (née Mathisen), Mary Beth" width="197" height="282">
 						</li>						
@@ -5775,7 +5817,6 @@ wish list (not necessarily in order of importance):
 								<img src="images/classmates/key310.png" alt="Hudson (mée Merrill), Cherie" title="Hudson (mée Merrill), Cherie" width="199" height="285" class="yrbImg">
 								<img src="images/classmates/key310_now.png" alt="Hudson (mée Merrill), Cherie (now)" title="Hudson (mée Merrill), Cherie (now)" width="279" height="285" class="yrbImg">
 							</div>
-
 						</li>
 						<li>
 							<h4><span class="colorBlack">Miller, Dana</span></h4>
@@ -5830,6 +5871,11 @@ wish list (not necessarily in order of importance):
 								<img src="images/classmates/key333_now.png" alt="Mueller, Bruce (now)" title="Mueller, Bruce (now)" width="207" height="288" class="yrbImg">
 							</div>									
 							
+						</li>
+						<li>
+							<h4><span class="colorBlack">Neilson, Marvin</span></h4>
+							<p>No pictures in any yearbooks.</p>
+							<p>Passed away in April 2024 at age 47.</p>
 						</li>
 						<li>
 							<h4><span class="colorBlack">Reyna (née Niccoli), Dana</span></h4>
@@ -6225,6 +6271,7 @@ wish list (not necessarily in order of importance):
 					Meadows
 					Everyone loves the sunshine
 					Edmund Fitzgerald (Gordon Lightfoot) in honor of 50 year anniversary
+					Shannon (=~ Channon)
 				-->
 
 				<table class="tblScrollable">
@@ -6536,7 +6583,7 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>18 June 2026 Thursday.</p>
+			<p>19 June 2026 Friday.</p>
 
 			<h3>Acknowledgements</h3>
 
