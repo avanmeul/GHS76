@@ -39,6 +39,11 @@ aside.asiMascot {
     justify-content: center;
 }
 
+.asiTalk {
+    float: none;
+    font-size: small;
+}
+
 .divYearbook {
     height: 400px;
     width: 625px;
