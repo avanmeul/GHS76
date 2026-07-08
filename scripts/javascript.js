@@ -201,4 +201,23 @@ function populateClassmates() {
 
     window.classmateContact = classmateContact;
 
+    //google search:  states ranked by proximity to colorado
+
+    function zone(state) {
+        return (
+            ['CO'].includes(state)
+            ? 0
+            : ['WY', 'NE', 'KS', 'OK', 'NM', 'UT', 'AZ'].includes(state)
+            ? 1
+            : ['NV', 'ID', 'MT', 'SD', 'TX'].includes(state)
+            ? 2
+            : ['ND', 'MN', 'IA', 'MO', 'AR', 'LA', 'OR', 'WA', 'CA'].includes(state)
+            ? 3
+            : ['AK', 'HI', 'ME', 'FL', 'MA', 'RI', 'CT', 'NJ', 'DE', 'MD', 'NH', 'NY', 'VA', 'NC', 'SC', 'GA', 'AE', 'IN', 'MS', 'WV'].includes(state)
+            ? 4
+            : -1);
+    }
+
+    window.zone = zone;
+
  }
