@@ -260,3 +260,19 @@ span {
     height:  650px;
     width: 95%;
 }
+
+.side-caption {
+  display: flex;
+  align-items: center; /* Vertically centers the caption relative to the image */
+  gap: 15px;           /* Adds clean spacing between the image and the text */
+  margin: 0;           /* Resets default browser figure margins if needed */
+}
+
+.side-caption img {
+  max-width: 100%;     /* Ensures the image scales down if space is tight */
+  height: auto;
+}
+
+.side-caption figcaption {
+  max-width: 200px;    /* Optional: Keeps the caption from stretching too wide */
+}
