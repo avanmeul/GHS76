@@ -9,7 +9,6 @@ wish list (not necessarily in order of importance):
 3) try reading xml from xml file
 4) sort by confirmation, RSVP method
 5) mention mod system and how our class was one of the last to have this
-6) reconcile reachable for RSVPs {yes, no, maybe} with spreadsheet, and make them -1 for deceased (to enable black coloring)
 -->
 
 <!DOCTYPE html>
@@ -470,6 +469,12 @@ wish list (not necessarily in order of importance):
 		<method>Classmates.com</method>            
 	</rsvp>
 	<rsvp>
+		<last>Bevan</last>
+		<first>Sara</first>
+		<confirmation>maybe</confirmation>
+		<method>André</method>
+	</rsvp>
+	<rsvp>
 		<last>Beymer</last>
 		<first>Kathy</first>
 		<nee>Grose</nee>
@@ -561,7 +566,7 @@ wish list (not necessarily in order of importance):
 		<last>Disney</last>
 		<first>Marvin</first>
 		<confirmation>maybe</confirmation>
-		<mehtod>André</mehtod>
+		<method>André</method>
 	</rsvp>
 	<rsvp>
 		<last>Doren</last>
@@ -708,7 +713,7 @@ wish list (not necessarily in order of importance):
 		<last>Hansen-Aran</last>
 		<first>Debbie</first>
 		<nee>Smyth</nee>
-		<confirmation>yes</confirmation>
+		<confirmation>no</confirmation>
 		<method>Classmates.com</method>            
 	</rsvp>     
 	<rsvp>
@@ -1189,9 +1194,16 @@ wish list (not necessarily in order of importance):
 	</rsvp>
 	<rsvp>
 		<last>Wheeler</last>
+		<nee>Sahinen</nee>
+		<first>Rose</first>
+		<confirmation>yes</confirmation>
+		<comments>wife of Wayne Wheeler</comments>
+		<method>Kurt</method>
+	</rsvp>
+	<rsvp>
+		<last>Wheeler</last>
 		<first>Wayne</first>
 		<confirmation>yes</confirmation>
-		<guests>1</guests>
 		<comments>wife Rose (née Sahinen)</comments>
 		<method>Kurt</method>            
 	</rsvp>
@@ -1207,8 +1219,8 @@ wish list (not necessarily in order of importance):
 		<last>Winter</last>
 		<nee>Hansen</nee>
 		<first>Karen</first>
-		<confirmation>maybe</confirmation>
-		<method>André</method>
+		<confirmation>no</confirmation>
+		<method>Debbie</method>
 	</rsvp>
 	<rsvp>
 		<last>Witulski</last>
@@ -1697,9 +1709,9 @@ wish list (not necessarily in order of importance):
 	<classmate>
 		<key>36</key>
 		<last>Bevan</last>
-		<newLast>Blanckaert</newLast>
 		<first>Sara</first>
 		<middle>L.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>37</key>
@@ -2719,6 +2731,7 @@ wish list (not necessarily in order of importance):
 		<last>Harvey</last>
 		<first>Gary</first>
 		<middle>L.</middle>
+		<reachable>1</reachable>
 	</classmate>
 	<classmate>
 		<key>194</key>
@@ -5567,7 +5580,8 @@ wish list (not necessarily in order of importance):
 						</li>						
 						<li>
 							<h4>Bevan, Sara</h4>
-							<p>picture not in Yearbook</p>
+							<img src="images/classmates/key036.png" alt="Bevan, Sara" title="Bevan, Sara" width="168" height="213">
+							<p>No senior picture, using junior picture.</p>
 						</li>
 						<li>
 							<h4>Beveridge, Joy</h4>
@@ -6003,6 +6017,10 @@ wish list (not necessarily in order of importance):
 						<li>
 							<h4>Harvey, Donald</h4>
 							<p>picture not in Yearbook</p>
+						</li>
+						<li>
+							<h4>Harvey, Gary</h4>
+							<img src="images/classmates/key193.png" alt="Harvey, Gary" title="Harvey, Gary" width="194" height="283">
 						</li>
 						<li>
 							<h4>Hasler, Steven</h4>
@@ -7155,21 +7173,23 @@ wish list (not necessarily in order of importance):
 			
 			<h3>Last update</h3>
 
-			<p>27 July 2026 Monday.</p>
+			<p>29 July 2026 Wednesday.</p>
 
 			<h4>Release Notes</h4>
 
 			<ol>
 				<li>Updated RSVPs in the <a href="#secRSVPs">RSVPs</a> section.</li>
 				<li>Updated classmates table (mostly reachability flags) in the <a href="#secAlumni">Alumni Resources</a> section.</li>
-				<li>Added pictures to (and fixed error in) the <a href="#secYearbook">Yearbook</a> section</li>
-				<li>Fixed error in <a href="#secDeceased">Deceased</a> section.</li>
-				<li>Added information about the 20-year reunion in the <a href="#secPastReunions">Past Reunions</a> section.</li>
+				<li>Added pictures to the <a href="#secYearbook">Yearbook</a> section</li>
 				<li>To do:  past reunion pictures:  who's in the pictures?
-					<p>Rob Zancanella sent marked up reunion pictures (noting who is in the pictures).</p>
-					<p>These will be made available in the future once we can figure out the best way to do that.</p>
-					<p>A spreadsheet (or worksheet) will be probably be added, 
-					and the marked up pictures will be placed in the pictures section of the GHS '76 shared drive.</p>
+					<p>Bob Zancanella sent marked up reunion pictures (noting who is in the pictures).</p>
+					<p>These are on the GHS '76 shared drive in the 
+						<a href="https://drive.google.com/drive/folders/18W-5vv-QAtr3809P9MR2AOyu9j_3Z75K?usp=drive_link" target="_blank">pictures</a> folder.</p>
+					<p>In the future, a spreadsheet (or worksheet) will be probably be added, 
+						and the marked up pictures will be placed in the pictures section of the GHS '76 shared drive, 
+						and/or be placed on the website.
+					</p>
+					<p>Inkscape (free app) will be used to make editing labels easier; they will be placed in a separate layer.</p>
 				</li>
 				<li>To do:  self-service RSVP spreadsheet.
 					<p>A spreadsheet (or similar) will probably be added soon to allow self-service RSVP edits/updates; 
